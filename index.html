@@ -3,100 +3,355 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Quiz Protetică Dentară</title>
+<title>Quiz Protetică</title>
 
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg,#667eea,#764ba2);
-  min-height:100vh;
-  padding:20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .container {
-  max-width:900px;
-  margin:auto;
-  background:#fff;
-  border-radius:16px;
-  overflow:hidden;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
 
 .header {
-  background:#667eea;
-  color:white;
-  padding:30px;
-  text-align:center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 35px 25px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .progress-container {
-  height:8px;
-  background:rgba(255,255,255,.3);
-  border-radius:10px;
-  margin-top:10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
-.progress-bar {
-  height:100%;
-  width:0%;
-  background:#4CAF50;
+.progress-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.question-dropdown {
+  padding: 12px 20px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 200px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.question-dropdown:hover {
+  background: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.5);
+}
+
+.question-dropdown:focus {
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.3);
+}
+
+.question-dropdown option {
+  background: #667eea;
+  color: #fff;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.question-dropdown option.answered {
+  background: #4CAF50;
+}
+
+.question-dropdown option.unanswered {
+  background: #667eea;
 }
 
 .content {
-  padding:30px;
+  padding: 40px;
+}
+
+#startScreen {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#startScreen p {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+#startScreen strong {
+  color: #667eea;
+}
+
+#totalQuestions {
+  color: #764ba2;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  padding: 25px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-left: 5px solid #667eea;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .option {
-  border:2px solid #ddd;
-  border-radius:8px;
-  padding:12px;
-  margin-bottom:10px;
-  cursor:pointer;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.option.correct { background:#e8f5e9; border-color:#4CAF50; }
-.option.incorrect { background:#ffebee; border-color:#f44336; }
-.option.missed { background:#fff3e0; border-color:#ff9800; }
+.option:hover {
+  background: #f8f9fa;
+  border-color: #667eea;
+  transform: translateX(8px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.option input[type="checkbox"] {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #667eea;
+}
+
+.option.correct {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+  border-color: #4CAF50;
+  transform: none;
+}
+
+.option.incorrect {
+  background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+  border-color: #f44336;
+  transform: none;
+}
+
+.option.missed {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border-color: #ff9800;
+  transform: none;
+}
 
 .buttons {
-  margin-top:20px;
-  display:flex;
-  gap:10px;
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
 }
 
 .btn {
-  flex:1;
-  padding:12px;
-  border:none;
-  border-radius:8px;
-  cursor:pointer;
-  font-weight:bold;
+  flex: 1;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
 }
 
 .btn-primary {
-  background:#667eea;
-  color:white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
 }
 
 .btn-secondary {
-  background:#eee;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #2c3e50;
 }
 
 .feedback {
-  margin-top:15px;
-  padding:15px;
-  border-radius:8px;
-  display:none;
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 12px;
+  display: none;
+  animation: slideIn 0.4s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  line-height: 1.7;
+  font-size: 15px;
 }
 
-.feedback.show { display:block; }
-.feedback.correct { background:#e8f5e9; }
-.feedback.incorrect { background:#ffebee; }
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feedback.show { display: block; }
+
+.feedback.correct {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+  border: 2px solid #4CAF50;
+  color: #1b5e20;
+}
+
+.feedback.incorrect {
+  background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+  border: 2px solid #f44336;
+  color: #b71c1c;
+}
 
 .results {
-  display:none;
-  text-align:center;
+  display: none;
+  text-align: center;
+  padding: 40px 20px;
 }
-.results.show { display:block; }
+
+.results.show { display: block; }
+
+.results h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+#scoreCircle {
+  font-size: 80px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 30px 0;
+  text-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.results p {
+  font-size: 20px;
+  color: #555;
+  margin: 15px 0;
+}
+
+.results p span {
+  font-weight: 700;
+  color: #667eea;
+}
+
+.results .btn {
+  max-width: 300px;
+  margin: 30px auto 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    border-radius: 16px;
+  }
+
+  .content {
+    padding: 25px;
+  }
+
+  .header h1 {
+    font-size: 26px;
+  }
+
+  .progress-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .question-dropdown {
+    min-width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .option {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+
+  #scoreCircle {
+    font-size: 64px;
+  }
+
+  .results h2 {
+    font-size: 24px;
+  }
+
+  .results p {
+    font-size: 18px;
+  }
+}
 </style>
 </head>
 
@@ -104,24 +359,21 @@ body {
 
 <div class="container">
   <div class="header">
-    <h1>Quiz Protetică Dentară</h1>
-    <p>Testează-ți cunoștințele</p>
+    <h1>🦷 Quiz Protetică Dentară</h1>
 
+    <!-- PROGRESS DROPDOWN -->
     <div class="progress-container">
-      <div class="progress-bar" id="progressBar"></div>
+      <span class="progress-label">Navighează:</span>
+      <select id="questionDropdown" class="question-dropdown" onchange="jumpToQuestion(this.value)" style="display: none;">
+      </select>
     </div>
-
-    <p id="remainingCounter" style="margin-top:10px;">
-      Întrebări rămase: 0
-    </p>
   </div>
 
   <div class="content">
 
     <!-- START -->
     <div id="startScreen">
-      <p><strong>Număr întrebări:</strong> <span id="totalQuestions">0</span></p>
-      <p><strong>Timp estimat:</strong> <span id="estimatedTime">0</span></p>
+      <p><strong>Număr întrebări:</strong> <span id="totalQuestions"></span></p>
       <br>
       <button class="btn btn-primary" onclick="startQuiz()">Începe Quiz-ul</button>
     </div>
@@ -131,36 +383,64 @@ body {
 
     <!-- RESULTS -->
     <div id="resultsScreen" class="results">
-      <h2>Rezultat final</h2>
+      <h2>🎉 Rezultat final</h2>
       <h1 id="scoreCircle">0%</h1>
-      <p>Corecte: <span id="correctAnswers"></span></p>
-      <p>Greșite: <span id="incorrectAnswers"></span></p>
-      <button class="btn btn-primary" onclick="restartQuiz()">Reîncepe</button>
+      <p>Răspunsuri corecte: <span id="correctAnswers"></span></p>
+      <p>Răspunsuri greșite: <span id="incorrectAnswers"></span></p>
+      <button class="btn btn-primary" onclick="restartQuiz()">Reîncepe Quiz-ul</button>
     </div>
 
   </div>
 </div>
 
-<!-- LOAD QUESTIONS -->
+<!-- QUESTIONS -->
 <script src="js/app.js"></script>
 
-<!-- QUIZ LOGIC -->
+<!-- LOGIC -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
   const quizData = window.QUIZ_QUESTIONS;
   let currentQuestion = 0;
   let score = 0;
-  let answered = Array(quizData.length).fill(false);
+  let userAnswers = new Array(quizData.length).fill(null);
 
   document.getElementById("totalQuestions").innerText = quizData.length;
-  document.getElementById("estimatedTime").innerText =
-    Math.ceil(quizData.length * 1.5) + " min";
+
+  function renderDropdown() {
+    const dropdown = document.getElementById("questionDropdown");
+    dropdown.innerHTML = "";
+
+    quizData.forEach((_, i) => {
+      const option = document.createElement("option");
+      option.value = i;
+      option.textContent = `Întrebarea ${i + 1}`;
+
+      if (userAnswers[i] !== null) {
+        option.className = "answered";
+        option.textContent += " ✓";
+      } else {
+        option.className = "unanswered";
+      }
+
+      if (i === currentQuestion) {
+        option.selected = true;
+      }
+
+      dropdown.appendChild(option);
+    });
+  }
+
+  window.jumpToQuestion = (index) => {
+    currentQuestion = parseInt(index);
+    renderQuestion();
+  };
 
   window.startQuiz = () => {
     document.getElementById("startScreen").style.display = "none";
+    document.getElementById("questionDropdown").style.display = "block";
+    renderDropdown();
     renderQuestion();
-    updateProgress();
   };
 
   function renderQuestion() {
@@ -180,10 +460,12 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="feedback" id="feedback"></div>
 
       <div class="buttons">
-        <button class="btn btn-secondary" onclick="skipQuestion()">Sari peste</button>
-        <button class="btn btn-primary" onclick="checkAnswer()">Verifică</button>
+        <button class="btn btn-secondary" onclick="prevQuestion()" ${currentQuestion===0?'disabled':''}>← Înapoi</button>
+        <button class="btn btn-primary" onclick="checkAnswer()">Verifică răspunsul</button>
       </div>
     `;
+
+    renderDropdown();
   }
 
   window.toggleOption = el => {
@@ -193,23 +475,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.checkAnswer = () => {
     const q = quizData[currentQuestion];
-    const selected = [...document.querySelectorAll("input:checked")]
-      .map(i => i.value);
+    const selected = [...document.querySelectorAll("input:checked")].map(i => i.value);
 
-    if (!selected.length) {
-      alert("Selectează cel puțin un răspuns.");
-      return;
-    }
+    userAnswers[currentQuestion] = selected.length ? selected : [];
 
-    const correct = [...q.answer_keys].sort();
-    const user = [...selected].sort();
+    const correct = q.answer_keys.sort();
+    const user = selected.sort();
 
     const isCorrect =
       correct.length === user.length &&
       correct.every(v => user.includes(v));
 
     if (isCorrect) score++;
-    answered[currentQuestion] = true;
 
     document.querySelectorAll(".option").forEach(opt => {
       const key = opt.querySelector("input").value;
@@ -226,16 +503,13 @@ document.addEventListener("DOMContentLoaded", () => {
     fb.innerHTML = q.rationale;
 
     document.querySelector(".buttons").innerHTML = `
+      <button class="btn btn-secondary" onclick="prevQuestion()">← Înapoi</button>
       <button class="btn btn-primary" onclick="nextQuestion()">
-        ${currentQuestion < quizData.length - 1 ? "Următoarea" : "Rezultate"}
+        ${currentQuestion < quizData.length - 1 ? "Următoarea →" : "Vezi rezultatele →"}
       </button>
     `;
 
-    updateProgress();
-  };
-
-  window.skipQuestion = () => {
-    nextQuestion();
+    renderDropdown();
   };
 
   window.nextQuestion = () => {
@@ -243,27 +517,23 @@ document.addEventListener("DOMContentLoaded", () => {
     currentQuestion < quizData.length ? renderQuestion() : showResults();
   };
 
-  function updateProgress() {
-    const solved = answered.filter(v => v).length;
-    const remaining = quizData.length - solved;
-
-    document.getElementById("progressBar").style.width =
-      (solved / quizData.length) * 100 + "%";
-
-    document.getElementById("remainingCounter").innerText =
-      "Întrebări rămase: " + remaining;
-  }
+  window.prevQuestion = () => {
+    if (currentQuestion > 0) {
+      currentQuestion--;
+      renderQuestion();
+    }
+  };
 
   function showResults() {
     document.getElementById("questionsContainer").innerHTML = "";
+    document.getElementById("questionDropdown").style.display = "none";
+    document.querySelector(".progress-label").style.display = "none";
     document.getElementById("resultsScreen").classList.add("show");
 
-    const percent = Math.round((score / quizData.length) * 100);
-
+    const percent = Math.round(score / quizData.length * 100);
     document.getElementById("scoreCircle").innerText = percent + "%";
     document.getElementById("correctAnswers").innerText = score;
-    document.getElementById("incorrectAnswers").innerText =
-      quizData.length - score;
+    document.getElementById("incorrectAnswers").innerText = quizData.length - score;
   }
 
   window.restartQuiz = () => location.reload();
