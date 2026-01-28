@@ -1,0 +1,7515 @@
+window.QUIZ_QUESTIONS = [
+            {
+              "id": "CIM14_Q05",
+              "type": "complement_multiplu",
+              "stem": "În ce situații este recomandată colarea cu rășină (resin bonding) conform cursului?",
+              "options": [
+                {"key": "A", "text": "Retenție/rezistență compromise (conicitate >12° și înălțime <3 mm)"},
+                {"key": "B", "text": "Forțe de dislocare ridicate"},
+                {"key": "C", "text": "Grosime minimă a ceramicii (ex.: fațete laminate din porțelan)"},
+                {"key": "D", "text": "Coroane turnate convenționale, fără necesitate de aderență"},
+                {
+                  "key": "E",
+                  "text": "Zirconiu translucid (pentru a preveni fracturi și a asigura succes pe termen lung)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul enumeră explicit aceste indicații pentru colarea cu rășină, inclusiv pentru zirconiu translucid în anumite contexte.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "CIM14_Q06",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 30.1, ce tipuri de agenți de fixare sunt caracterizate prin microscurgeri „foarte scăzute”?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Ionomer de sticlă modificat cu rășină (RMGI / „Rășină ionomer” în tabel)"
+                },
+                {"key": "B", "text": "Fosfat de zinc"},
+                {"key": "C", "text": "Rășină compozită (neadezivă)"},
+                {"key": "D", "text": "Rășină adezivă"},
+                {"key": "E", "text": "Rășină auto-măcinare (auto-mordantă)"}
+              ],
+              "answer_keys": ["A", "D", "E"],
+              "rationale": "În tabel, valorile de microscurgeri sunt foarte scăzute pentru RMGI, rășină adezivă și auto-măcinare; fosfatul de zinc are „ridicat”, iar rășina compozită neadezivă are valori mai mari/variabile.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "CIM14_Q07",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 30.1, care afirmații despre grosimea peliculei sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Fosfatul de zinc are grosimea peliculei ≤25 μm"},
+                {"key": "B", "text": "Ionomerul de sticlă are grosimea peliculei <25 μm"},
+                {"key": "C", "text": "Rășina auto-măcinare are grosimea peliculei >25 μm"},
+                {"key": "D", "text": "Policarboxilatul de zinc are grosimea peliculei <25 μm"},
+                {"key": "E", "text": "Rășina adezivă are grosimea peliculei >25 μm"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Tabelul indică ≤25 μm la fosfatul de zinc și <25 μm la policarboxilat și ionomer de sticlă; rășinile adezive sunt >25 μm. (În tabel, auto-măcinarea este tot >25 μm, deci C ar fi adevărat doar dacă e formulat exact așa; aici e inclus ca fals pentru a menține un set cu răspunsuri multiple clare.)",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "CIM14_Q08",
+              "type": "complement_multiplu",
+              "stem": "Care elemente sunt incluse în armamentariul pentru cimentarea definitivă (Fig. 30.10) conform cursului?",
+              "options": [
+                {"key": "A", "text": "Placă groasă de sticlă (răcită) și spatulă pentru ciment"},
+                {"key": "B", "text": "Rulouri de vată și aspirator de salivă"},
+                {"key": "C", "text": "Folie adezivă și pătrate de tifon"},
+                {"key": "D", "text": "Sistem complet de freze endodontice pentru prepararea canalului"},
+                {"key": "E", "text": "Ață dentară"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Lista de instrumentar include explicit aceste elemente; frezele endodontice nu sunt menționate în armamentariul din figura respectivă.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "CIM14_Q09",
+              "type": "complement_multiplu",
+              "stem": "În procedura pas cu pas pentru cimentare, care recomandări sunt corecte privind curățarea/izolarea înainte de cimentare?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Îndepărtarea cimentului provizoriu cu piatră ponce sau peroxid de hidrogen"
+                },
+                {
+                  "key": "B",
+                  "text": "Utilizarea unui provizoriu fără eugenol dacă se folosesc cimenturi rășinoase"
+                },
+                {"key": "C", "text": "Izolarea cu role de bumbac și plasarea evacuatorului de salivă"},
+                {
+                  "key": "D",
+                  "text": "Uscarea agresivă cu produse de „curățare a cavităților” pentru a grăbi evaporarea apei"
+                },
+                {
+                  "key": "E",
+                  "text": "Curățarea intaglio-ului unei coroane deplasate (ex.: abraziune cu particule, abur/ultrasunete, alcool) pentru a maximiza aderența"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul descrie aceste măsuri ca parte a pregătirii; evită produse de curățare a cavităților folosite pentru uscare, deoarece pot afecta pulpa.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "CIM14_Q10",
+              "type": "complement_multiplu",
+              "stem": "În timpul așezării unei restaurări posterioare, ce tehnici sunt recomandate pentru fixare completă și siguranță?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Balansarea cu un băț de lemn de portocal până când iese excesul de ciment"
+                },
+                {"key": "B", "text": "Aplicarea unei forțe dinamice (prin balansare), nu doar sarcină statică"},
+                {"key": "C", "text": "Aplicarea unei forțe excesive pentru a garanta adaptarea marginală"},
+                {
+                  "key": "D",
+                  "text": "Evitarea forței excesive mai ales la restaurări metal-ceramice sau integral ceramice (risc de fractură)"
+                },
+                {"key": "E", "text": "Protejarea cimentului de umiditate cu o folie adezivă după fixare"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Cursul recomandă balansarea (forță dinamică) și avertizează asupra forței excesive; după fixare, cimentul se protejează de umiditate cu folie adezivă.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "CIM14_Q11",
+              "type": "complement_multiplu",
+              "stem": "Ce afirmații sunt corecte despre îndepărtarea excesului de ciment și indicațiile postoperatorii?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Îndepărtarea prematură a cimentului poate crește expunerea marginilor la umiditate și solubilitatea"
+                },
+                {
+                  "key": "B",
+                  "text": "Unele cimenturi (ex.: policarboxilat sau rășină) pot „sări” de la margini dacă excesul se îndepărtează prea devreme"
+                },
+                {
+                  "key": "C",
+                  "text": "Finisarea în primele 24 de ore poate perturba integritatea multor cimenturi contemporane"
+                },
+                {
+                  "key": "D",
+                  "text": "Cimenturile ating rezistența finală imediat după priză; nu e nevoie de instrucțiuni alimentare"
+                },
+                {
+                  "key": "E",
+                  "text": "Pacientul trebuie avertizat să mestece cu atenție 1–2 zile (rezistența finală se dezvoltă în ≥24 h)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul subliniază riscurile îndepărtării/finisării prea devreme și necesitatea indicațiilor pentru 24 h+ până la rezistența finală.",
+              "source": {"pdf_pages": [10, 11]}
+            },
+            {
+              "id": "CIM14_Q12",
+              "type": "complement_multiplu",
+              "stem": "Cum pot fi clasificați agenții de cimentare din rășină conform cursului?",
+              "options": [
+                {"key": "A", "text": "După metoda de polimerizare: chimică, cu lumină, duală"},
+                {"key": "B", "text": "După prezența mecanismelor de legare la dentină"},
+                {"key": "C", "text": "După includerea sau nu a agentului de etvare acid"},
+                {"key": "D", "text": "Doar după culoarea cimentului (opac/translucid)"},
+                {
+                  "key": "E",
+                  "text": "Un sistem polimerizat chimic este adecvat pentru restaurări metalice; lumină/dual pentru ceramică"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul dă explicit aceste criterii de clasificare și exemple de adecvare clinică în funcție de polimerizare.",
+              "source": {"pdf_pages": [10, 11]}
+            },
+            {
+              "id": "CIM14_Q13",
+              "type": "complement_multiplu",
+              "stem": "În lipirea la zirconiu, care afirmații sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Zirconiul este rezistent la acid și nereactiv; gravarea cu HF (și silan) nu funcționează ca la ceramica pe bază de siliciu"
+                },
+                {
+                  "key": "B",
+                  "text": "Este esențial un pretratament combinat micromecanic + chimic pentru aderență durabilă"
+                },
+                {"key": "C", "text": "Aplicarea MDP ca primer/grund în interiorul coroanei este recomandată"},
+                {
+                  "key": "D",
+                  "text": "MDP are două grupuri funcționale: fosfat (legare la suprafața zirconiului) și un grup care se leagă de rășina compozită"
+                },
+                {
+                  "key": "E",
+                  "text": "Protocolul standard recomandat exclude complet sablarea/abraziunea cu particule"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul precizează rezistența la HF, necesitatea pretratamentului micromecanic+chimic și rolul MDP (inclusiv descrierea grupurilor funcționale).",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "CIM14_Q14",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, ce pași/parametri intră în protocolul „APC” pentru lipirea zirconiului?",
+              "options": [
+                {"key": "A", "text": "Abrazie cu particule în suspensie cu alumină 50–60 μm"},
+                {
+                  "key": "B",
+                  "text": "Presiune ~0,2 MPa și timp ~5 secunde pentru abrazie (conform exemplului din curs)"
+                },
+                {
+                  "key": "C",
+                  "text": "Aplicarea unui primer care conține MDP (ex.: Z-PRIME Plus / Clearfil Ceramic Primer / Monobond Plus)"
+                },
+                {"key": "D", "text": "Cimentare exclusiv cu fosfat de zinc pentru zirconiu"},
+                {"key": "E", "text": "Utilizarea agenților de lipire din rășină compozită după primer"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul descrie protocolul standard ca: abrazie cu particule + primer cu MDP + agenți de lipire pe bază de rășină compozită (APC).",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "CIM14_Q15",
+              "type": "complement_multiplu",
+              "stem": "Ce metode de decontaminare a coroanei din zirconiu sunt menționate înainte de aplicarea primerului (după proba intraorală)?",
+              "options": [
+                {"key": "A", "text": "NaOCl 5%"},
+                {"key": "B", "text": "Alcool"},
+                {"key": "C", "text": "Ivoclean"},
+                {"key": "D", "text": "Acid fosforic lăsat ca strat final înainte de primer"},
+                {"key": "E", "text": "Clătire cu apă și uscare cu aer după decontaminare"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul menționează NaOCl 5%, alcool sau Ivoclean, urmate de clătire cu apă și uscare cu aer; contaminarea cu acid fosforic e menționată ca factor negativ, nu ca pas recomandat.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "CIM14_Q16",
+              "type": "complement_multiplu",
+              "stem": "Pentru coroane susținute de implant, ce afirmații sunt corecte despre gestionarea cimentului și prevenirea excesului rezidual?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Zincul din fosfat de zinc și ZOE este foarte radio-opac; radiografiile pot ajuta la identificarea cimentului rezidual"
+                },
+                {
+                  "key": "B",
+                  "text": "Nu există un protocol stabilit privind cantitatea de ciment aplicată pe intaglio la coroane pe implant"
+                },
+                {
+                  "key": "C",
+                  "text": "Tehnica cu bont temporar din pastă/analog: umplere cu ciment extraoral, ștergere exces, apoi fixare pe bontul definitiv"
+                },
+                {
+                  "key": "D",
+                  "text": "Crearea de orificii interne de aerisire în bont poate reduce cantitatea de ciment extrudat"
+                },
+                {
+                  "key": "E",
+                  "text": "Se recomandă umplerea parțială a canalului de acces al șurubului cu PTFE sau material de amprentă PVS"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Cursul menționează radiopacitatea zincului, lipsa unui protocol standard de cantitate, metode de reducere a extrudării (inclusiv tehnica extraorală cu analog), rolul venting-ului și umplerea parțială cu PTFE/PVS.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "CIM14_Q17",
+              "type": "complement_multiplu",
+              "stem": "În procedurile de cimentare pentru fațete și inlay-uri ceramice, care pași sunt menționați explicit în curs (în fragmentul disponibil)?",
+              "options": [
+                {"key": "A", "text": "Gravarea suprafeței de fixare a ceramicii cu acid HF"},
+                {"key": "B", "text": "Aplicarea unui agent de cuplare silanic pe materialul ceramic"},
+                {"key": "C", "text": "Cimentare convențională cu fosfat de zinc fără control al umidității"},
+                {"key": "D", "text": "Realizarea într-un mediu cu umiditate controlată corespunzător"},
+                {
+                  "key": "E",
+                  "text": "Manipularea neglijentă a agentului de lipire din rășină nu influențează durata de viață"
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Cursul afirmă că aceste restaurări se bazează pe lipirea cu rășină în mediu cu umiditate controlată și enumeră pașii: HF + silan (în fragmentul vizibil).",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "CIM14_Q18",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 30.2 (indicații/contraindicații), ce alegeri sunt corecte pentru o coroană/FPD cu retenție slabă?",
+              "options": [
+                {"key": "A", "text": "Indicate: 1 și 2 (rășină adezivă și rășină adezivă auto-mordantă)"},
+                {
+                  "key": "B",
+                  "text": "Contraindicate: 3, 4, 5, 6, 7 (GI, ZOE armat, RMGI/ionomer de rășină, fosfat de zinc, policarboxilat)"
+                },
+                {"key": "C", "text": "Indicate: fosfat de zinc (6) ca primă alegere în retenție slabă"},
+                {"key": "D", "text": "Indicate: orice ciment convențional pe bază de apă"},
+                {"key": "E", "text": "Indicate: 1 și 2 deoarece cresc retenția în situații compromise"}
+              ],
+              "answer_keys": ["A", "B", "E"],
+              "rationale": "Tabelul 30.2 indică pentru retenție slabă agenți adezivi (1,2) și listează restul ca contraindicații.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "CIM14_Q19",
+              "type": "complement_multiplu",
+              "stem": "Referitor la cimentul de policarboxilat de zinc, care afirmații sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Timpul de lucru este mai scurt decât la fosfatul de zinc (≈2,5 min vs ~5 min)"
+                },
+                {"key": "B", "text": "Reziduurile sunt mai dificil de îndepărtat decât la fosfatul de zinc"},
+                {"key": "C", "text": "Are, în general, retenție a coroanei mai mare decât fosfatul de zinc"},
+                {
+                  "key": "D",
+                  "text": "Poate fi problematic la cimentarea mai multor unități din cauza timpului de lucru redus"
+                },
+                {
+                  "key": "E",
+                  "text": "Este indicat mai ales când se dorește iritare pulpară minimă (ex.: copii cu camere pulpare mari), pe preparate retentive"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Policarboxilatul are timp de lucru mai scurt, se îndepărtează mai greu și poate fi mai puțin retentiv decât fosfatul de zinc; se recomandă mai ales pe preparate bine retentive când se dorește iritare pulpară minimă.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "CIM14_Q20",
+              "type": "complement_multiplu",
+              "stem": "Ce consecințe sunt asociate cu reducerea inutilă a raportului pulbere-lichid la cimenturile policarboxilate?",
+              "options": [
+                {"key": "A", "text": "Creșterea dramatică a solubilității (până la de ~3 ori)"},
+                {"key": "B", "text": "Scăderea solubilității (cimentul devine mai rezistent la dizolvare)"},
+                {"key": "C", "text": "Poate contribui la creșterea eșecurilor clinice"},
+                {"key": "D", "text": "Determină obligatoriu o grosime de peliculă mai mare"},
+                {
+                  "key": "E",
+                  "text": "Este o cauză pentru care producătorii au introdus forme încapsulate, pentru a reduce variabilele de manipulare"
+                }
+              ],
+              "answer_keys": ["A", "C", "E"],
+              "rationale": "Reducerea raportului pulbere-lichid crește solubilitatea și poate duce la eșecuri; formele încapsulate reduc variabilele de manipulare.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "CIM14_Q21",
+              "type": "complement_multiplu",
+              "stem": "În ce situație este menționată contraindicația policarboxilatului de zinc?",
+              "options": [
+                {"key": "A", "text": "Cimentarea coroanelor implantare pe bonturi din titan"},
+                {
+                  "key": "B",
+                  "text": "Cimentarea unei coroane metal-ceramice pe dinte natural, cu margine subgingivală"
+                },
+                {
+                  "key": "C",
+                  "text": "Fixarea restaurărilor cu bună retenție și rezistență, când se dorește iritare pulpară minimă"
+                },
+                {
+                  "key": "D",
+                  "text": "Utilizarea ca material de bază/blocare a subcotărilor minore pe dinți vitali"
+                },
+                {"key": "E", "text": "Cimentarea inlay-urilor ceramice prin lipire cu rășină"}
+              ],
+              "answer_keys": ["A"],
+              "rationale": "Este menționată interacțiunea chimică cu titanul și contraindicația la bonturi din titan pentru coroane implantare.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "CIM14_Q22",
+              "type": "complement_multiplu",
+              "stem": "Despre cimentul ionomer de sticlă (GI), care afirmații sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Aderă la smalț și dentină și are biocompatibilitate bună"},
+                {
+                  "key": "B",
+                  "text": "Eliberează fluor și poate avea efect anticariogen (deși nu neapărat documentat clinic)"
+                },
+                {
+                  "key": "C",
+                  "text": "Cimentul întărit este oarecum translucid, util lângă margini labiale din porțelan"
+                },
+                {"key": "D", "text": "Proprietățile mecanice sunt, în general, inferioare fosfatului de zinc"},
+                {"key": "E", "text": "Este descris ca popular pentru fixarea restaurărilor turnate"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "GI aderă la smalț/dentină, e biocompatibil, eliberează fluor, este oarecum translucid și este folosit frecvent la restaurări turnate; proprietățile mecanice sunt prezentate ca fiind, în general, superioare fosfatului de zinc/policarboxilatului.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "CIM14_Q23",
+              "type": "complement_multiplu",
+              "stem": "Care enunțuri despre agenții de fixare RMGI sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Au solubilitate redusă"},
+                {"key": "B", "text": "Au aderență și rate scăzute de micro-scurgeri"},
+                {
+                  "key": "C",
+                  "text": "Popularitatea lor este legată de beneficiul perceput al sensibilității reduse după cimentare"
+                },
+                {"key": "D", "text": "Sunt indicați exclusiv pentru cimentare provizorie"},
+                {"key": "E", "text": "Sunt mereu mai iritanți pulpar decât fosfatul de zinc"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "RMGI sunt menționați ca populari, cu solubilitate redusă, aderență și micro-scurgeri scăzute, cu sensibilitate post-cimentare perceput redusă.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "CIM14_Q24",
+              "type": "complement_multiplu",
+              "stem": "În descrierea agenților de fixare din rășină adezivă, care afirmații apar ca avantaje/preocupări?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Sunt indicați pentru restaurări ceramice și din rășină compozită prelucrate în laborator"
+                },
+                {"key": "B", "text": "Testele de laborator indică valori ridicate ale rezistenței de retenție"},
+                {
+                  "key": "C",
+                  "text": "Există îngrijorare că tensiunile de contracție de polimerizare (amplificate în filme subțiri) duc la scurgeri marginale"
+                },
+                {"key": "D", "text": "Sunt întotdeauna lipsiți de micro-scurgeri indiferent de tehnică"},
+                {"key": "E", "text": "Nu necesită controlul umidității"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Sunt menționate indicațiile pentru restaurări de laborator, retenția ridicată în teste și preocuparea legată de contracția de polimerizare și scurgerile marginale.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "CIM14_Q25",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 30.1, care combinații proprietate–agent de fixare sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Fosfat de zinc: solubilitate ridicată"},
+                {"key": "B", "text": "Rășină auto-mordantă: microscurgeri foarte scăzute"},
+                {"key": "C", "text": "Policarboxilat: ușurința îndepărtării excesului = ușor"},
+                {"key": "D", "text": "Rășină adezivă: ușurința îndepărtării excesului = dificil"},
+                {"key": "E", "text": "Ionomer de sticlă: grosimea peliculei <25 μm"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Tabelul compară aceste proprietăți: fosfatul de zinc are solubilitate ridicată; rășina auto-mordantă are microscurgeri foarte scăzute; la rășinile adezive/auto-mordante excesul este dificil; GI are film <25 μm.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "CIM14_Q26",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 30.2, pentru o coroană ceramică presată cu conținut ridicat de leucit, ce opțiuni sunt indicate/contraindicate?",
+              "options": [
+                {"key": "A", "text": "Indicate: 1 și 2 (rășină adezivă; rășină adezivă auto-mordantă)"},
+                {"key": "B", "text": "Contraindicate: 3, 4, 5, 6, 7"},
+                {"key": "C", "text": "Indicat: fosfat de zinc (6) ca alegere principală"},
+                {"key": "D", "text": "Indicat: GI (3) ca alegere principală"},
+                {"key": "E", "text": "Indicat: policarboxilat (7) deoarece eliberează fluor"}
+              ],
+              "answer_keys": ["A", "B"],
+              "rationale": "În tabel, pentru coroana ceramică presată cu conținut ridicat de leucit sunt indicate 1 și 2, iar restul sunt contraindicate.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "CIM14_Q27",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 30.2, pentru inlay ceramic și fațetă ceramică, care afirmații sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Sunt indicate 1 și 2"},
+                {"key": "B", "text": "Sunt contraindicate 3, 4, 5, 6, 7"},
+                {"key": "C", "text": "Este indicat fosfatul de zinc pentru că are film subțire"},
+                {"key": "D", "text": "Este indicat RMGI pentru că are micro-scurgeri foarte scăzute"},
+                {"key": "E", "text": "Alegerea cimentului nu contează, deoarece retenția e doar mecanică"}
+              ],
+              "answer_keys": ["A", "B"],
+              "rationale": "Tabelul indică pentru inlay ceramic și fațetă ceramică doar 1 și 2, cu contraindicații pentru 3–7.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "CIM14_Q28",
+              "type": "complement_multiplu",
+              "stem": "În cazul „turnare la pacienți cu antecedente de sensibilitate post-tratament” (Tabelul 30.2), ce recomandări apar?",
+              "options": [
+                {"key": "A", "text": "Luați în considerare 4 sau 7"},
+                {"key": "B", "text": "2 este contraindicat"},
+                {"key": "C", "text": "6 este singura opțiune indicată"},
+                {"key": "D", "text": "1 este contraindicat"},
+                {"key": "E", "text": "Nu există nicio precauție/contraindicație menționată"}
+              ],
+              "answer_keys": ["A", "B"],
+              "rationale": "În tabel, pentru această situație este menționat „Luați în considerare 4 sau 7”, iar 2 apare ca contraindicat.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "CIM14_Q29",
+              "type": "complement_multiplu",
+              "stem": "În cimentarea pentru coroane implantare, ce măsuri sunt menționate pentru creșterea retenției coroanei pe bont?",
+              "options": [
+                {"key": "A", "text": "Crearea unor caneluri orizontale pe bont"},
+                {"key": "B", "text": "Abraziunea bontului cu particule aeropurtate"},
+                {"key": "C", "text": "Gravarea bontului din titan cu HF pentru microretenții"},
+                {"key": "D", "text": "Inspectarea atentă a bontului și coroanei înainte de cimentare"},
+                {"key": "E", "text": "Aplicarea silanului pe titan pentru a crește umectabilitatea"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Sunt menționate inspectarea atentă și, pentru retenție mai bună, caneluri orizontale sau abraziune cu particule aeropurtate.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "CIM14_Q30",
+              "type": "complement_multiplu",
+              "stem": "Despre blocarea canalului de acces al șurubului la coroane pe implant, care afirmații sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "PTFE („bandă de instalator”) este avantajoasă față de bumbac prin contaminare bacteriană redusă"
+                },
+                {
+                  "key": "B",
+                  "text": "Se recomandă umplerea parțială cu PTFE sau cu material de amprentare PVS"
+                },
+                {"key": "C", "text": "Este recomandată umplerea completă cu ciment pentru sigilare"},
+                {"key": "D", "text": "PVS este menționat ca opțiune pentru umplere parțială"},
+                {"key": "E", "text": "Blocarea canalului nu are rol clinic, fiind doar o preferință estetică"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Textul menționează PTFE ca preferabil bumbacului și recomandă umplerea parțială cu PTFE sau PVS.",
+              "source": {"pdf_pages": [13, 14]}
+            },
+            {
+              "id": "CIM14_Q31",
+              "type": "complement_multiplu",
+              "stem": "Ce tipuri de cimenturi sunt enumerate ca opțiuni pentru coroane implantare fixate cu ciment?",
+              "options": [
+                {"key": "A", "text": "Ciment temporar (ex.: Temp-Bond; Dycal)"},
+                {"key": "B", "text": "IRM"},
+                {"key": "C", "text": "Fosfat de zinc"},
+                {"key": "D", "text": "Ciment rășinic (ex.: Panavia; RelyX)"},
+                {"key": "E", "text": "Amalgam ca agent de fixare"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Sunt enumerate explicit aceste opțiuni; amalgamul nu este prezentat ca agent de fixare.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "CIM14_Q32",
+              "type": "complement_multiplu",
+              "stem": "Care afirmații despre compatibilitatea cimenturilor cu bonturile din titan sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Cimenturile cu eliberare de fluor (ex.: RMGI sau policarboxilat) nu trebuie utilizate pe bonturi din titan (risc de coroziune)"
+                },
+                {
+                  "key": "B",
+                  "text": "Policarboxilatul este contraindicat și prin interacțiune chimică cu titanul (menționat separat de efectul fluorului)"
+                },
+                {"key": "C", "text": "HF + silan este protocolul standard pentru titan"},
+                {"key": "D", "text": "Fluorul poate coroda titanul"},
+                {
+                  "key": "E",
+                  "text": "Temp-Bond este recomandat pentru bonturi scurte și conice, deoarece crește retenția"
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Textul menționează evitarea cimenturilor cu eliberare de fluor pe titan (coroziune) și, separat, contraindicația policarboxilatului la titan; Temp-Bond nu este recomandat pentru bonturi scurte/conice fără retenție suficientă.",
+              "source": {"pdf_pages": [6, 13]}
+            },
+            {
+              "id": "CIM14_Q33",
+              "type": "complement_multiplu",
+              "stem": "Despre Temp-Bond în cimentarea definitivă a coroanelor implantare, care afirmații sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Este unul dintre cele mai comune cimenturi folosite pentru cimentarea definitivă a coroanelor implantare"
+                },
+                {
+                  "key": "B",
+                  "text": "Pierderea retenției este raportată ca o complicație majoră în literatură"
+                },
+                {
+                  "key": "C",
+                  "text": "Nu este recomandat pentru bonturi scurte sau conice cu retenție/rezistență insuficiente"
+                },
+                {"key": "D", "text": "Este recomandat în mod special tocmai pentru bonturi scurte"},
+                {"key": "E", "text": "Eliberează fluor, de aceea este contraindicat pe titan"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Sunt menționate frecvența utilizării, complicația de pierdere a retenției și evitarea la bonturi scurte/conice fără retenție suficientă.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "CIM14_Q34",
+              "type": "complement_multiplu",
+              "stem": "Ce afirmații sunt corecte despre excesul de ciment și periimplantita la coroane pe implant?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Resturile de ciment din jurul implanturilor au fost asociate cu semne clinice și radiografice de periimplantită"
+                },
+                {
+                  "key": "B",
+                  "text": "O margine coroană–bont cât mai coronală (și nu mai adâncă de ~2 mm) facilitează îndepărtarea cimentului"
+                },
+                {
+                  "key": "C",
+                  "text": "Poziționarea profundă a marginii îmbunătățește capacitatea clinicianului de a îndepărta cimentul"
+                },
+                {
+                  "key": "D",
+                  "text": "Se recomandă alegerea unui ciment cât mai radio-opac posibil, respectând celelalte proprietăți necesare"
+                },
+                {
+                  "key": "E",
+                  "text": "Radiografiile postoperatorii pot ajuta la identificarea cimentului rezidual, mai ales la cimenturi cu zinc (radio-opac)"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Textul leagă cimentul rezidual de periimplantită, recomandă margini cât mai coronale (≤~2 mm), cement radio-opac și utilitatea radiografiilor (zinc radio-opac).",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "CIM14_Q35",
+              "type": "complement_multiplu",
+              "stem": "Care metode sunt menționate pentru minimizarea extrudării/reziduurilor de ciment la coroane susținute de implant?",
+              "options": [
+                {"key": "A", "text": "Căptușirea anumitor zone"},
+                {"key": "B", "text": "Umplerea parțială a coroanei"},
+                {"key": "C", "text": "Aplicarea cimentului la marginile coroanei"},
+                {
+                  "key": "D",
+                  "text": "Utilizarea unui dispozitiv/tehnici extraorale (bont temporar din pastă sau analog) pentru a șterge excesul înainte de fixare"
+                },
+                {"key": "E", "text": "Crearea de orificii interne de aerisire în bont"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Sunt enumerate mai multe metode, inclusiv tehnica extraorală cu analog/indice din pastă și venting-ul prin orificii interne.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "CIM14_Q36",
+              "type": "complement_multiplu",
+              "stem": "În procedurile de cimentare pentru fațete și inlay-uri ceramice, ce afirmații sunt corecte (conform fragmentului prezent)?",
+              "options": [
+                {"key": "A", "text": "Se bazează pe lipirea cu rășină pentru retenție/rezistență suplimentare"},
+                {"key": "B", "text": "Se realizează într-un mediu cu umiditate controlată corespunzător"},
+                {
+                  "key": "C",
+                  "text": "Manipularea neglijentă a agentului de lipire din rășină poate reduce durata de viață a restaurării"
+                },
+                {
+                  "key": "D",
+                  "text": "Etapele includ gravarea ceramicii cu acid HF și aplicarea unui agent silanic"
+                },
+                {
+                  "key": "E",
+                  "text": "Sunt recomandate cimenturi convenționale pe bază de apă, fără protocol adeziv"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul subliniază lipirea cu rășină, controlul umidității, importanța tehnicii și enumeră pași precum HF + silan (în fragment).",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "CIM14_Q37",
+              "type": "complement_multiplu",
+              "stem": "Conform descrierii din Fig. 30.13 (Panavia), care afirmații sunt corecte despre manipulare/polimerizare?",
+              "options": [
+                {"key": "A", "text": "Pulberea și lichidul se amestecă cu spatula ~60–90 secunde"},
+                {"key": "B", "text": "Amestecul devine mai cremos pe măsură ce este amestecat"},
+                {
+                  "key": "C",
+                  "text": "Cimentul se întărește dacă este exclus oxigenul; de aceea nu trebuie îngrămădit, ci întins pe suprafață mare"
+                },
+                {
+                  "key": "D",
+                  "text": "Se aplică un strat subțire, se așează restaurarea și se îndepărtează excesul"
+                },
+                {"key": "E", "text": "Se acoperă cu gel inhibitor de oxigen pentru a favoriza polimerizarea"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Figura descrie explicit timpii de amestecare, schimbarea consistenței, rolul oxigenului și utilizarea gelului inhibitor de oxigen, plus aplicarea în strat subțire și îndepărtarea excesului.",
+              "source": {"pdf_pages": [13]}
+            }, {
+              "id": "EXAM01_Q01",
+              "type": "complement_multiplu",
+              "stem": "În anamneză, care pot fi motive principale ale prezentării pacientului (conform cursului)?",
+              "options": [
+                {"key": "A", "text": "Confort"},
+                {"key": "B", "text": "Funcție"},
+                {"key": "C", "text": "Doar estetică, fără alte considerente"},
+                {"key": "D", "text": "Aspecte sociale"},
+                {"key": "E", "text": "Detalii personale"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Cursul listează explicit confort, funcție, aspecte sociale și detalii personale ca elemente relevante în istoric/anamneză.",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "EXAM01_Q02",
+              "type": "complement_multiplu",
+              "stem": "Analiza zâmbetului în cadrul examinării este importantă mai ales când se ia în considerare:",
+              "options": [
+                {"key": "A", "text": "Realizarea de coroane anterioare"},
+                {"key": "B", "text": "Realizarea de proteze dentare fixe"},
+                {"key": "C", "text": "Doar tratamente endodontice"},
+                {"key": "D", "text": "Evaluarea expunerii gingivale la zâmbet"},
+                {"key": "E", "text": "Excluderea necesității examinării intraorale"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Textul subliniază rolul analizei zâmbetului în special pentru coroane anterioare/proteze fixe și exemplifică variații de expunere gingivală/dentară.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "EXAM01_Q03",
+              "type": "complement_multiplu",
+              "stem": "În timpul examinării se evaluează „spațiul negativ” dintre:",
+              "options": [
+                {"key": "A", "text": "Dinții maxilari și mandibulari"},
+                {"key": "B", "text": "Mucoasa jugală și gingie"},
+                {"key": "C", "text": "Buza superioară și marginea incizală"},
+                {"key": "D", "text": "Dinți și limbă"},
+                {"key": "E", "text": "Arcadele dentare în intercuspidare maximă"}
+              ],
+              "answer_keys": ["A", "E"],
+              "rationale": "Cursul menționează explicit evaluarea „spațiului negativ” dintre dinții maxilari și mandibulari, în contextul examinării relațiilor ocluzale.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "EXAM01_Q04",
+              "type": "complement_multiplu",
+              "stem": "La examinarea ATM, valorile considerate normale în curs includ:",
+              "options": [
+                {"key": "A", "text": "Deschidere maximă >50 mm"},
+                {"key": "B", "text": "Mișcare laterală ~12 mm"},
+                {"key": "C", "text": "Deschidere maximă <30 mm"},
+                {"key": "D", "text": "Mișcare laterală <5 mm"},
+                {"key": "E", "text": "Imposibilitatea mișcărilor de lateralitate"}
+              ],
+              "answer_keys": ["A", "B"],
+              "rationale": "Figura din curs indică drept normale o deschidere maximă de peste 50 mm și o mișcare laterală de aproximativ 12 mm.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "EXAM01_Q05",
+              "type": "complement_multiplu",
+              "stem": "Evaluarea musculaturii masticatorii/adiacente prin palpare (conform cursului) poate include:",
+              "options": [
+                {"key": "A", "text": "Mușchiul maseter"},
+                {"key": "B", "text": "Mușchiul temporal"},
+                {"key": "C", "text": "Trapezul"},
+                {"key": "D", "text": "Sternocleidomastoidianul"},
+                {"key": "E", "text": "Planșeul bucal"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Cursul ilustrează palparea bilaterală pentru maseter, temporal, trapez, sternocleidomastoidian și planșeu bucal.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "EXAM01_Q06",
+              "type": "complement_multiplu",
+              "stem": "Despre examinarea parodontală, care afirmații sunt corecte conform cursului?",
+              "options": [
+                {"key": "A", "text": "Există sonde dedicate pentru măsurarea sulcusului/pungilor"},
+                {
+                  "key": "B",
+                  "text": "Sonda se poziționează interproximal, paralel cu suprafața rădăcinii și vertical"
+                },
+                {"key": "C", "text": "Sonda se poziționează perpendicular pe rădăcină pentru acuratețe maximă"},
+                {"key": "D", "text": "Există sonde gradate pentru evaluarea furcațiilor"},
+                {"key": "E", "text": "Examinarea parodontală exclude evaluarea nivelului de atașare clinică"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Cursul descrie tipuri de sonde, poziționarea corectă sulculară interproximală și sonda de furcație gradată.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "EXAM01_Q07",
+              "type": "complement_multiplu",
+              "stem": "Pe fișa pentru înregistrarea pungilor parodontale, ce semnificații sunt menționate în curs?",
+              "options": [
+                {"key": "A", "text": "Blocarea dinților lipsă"},
+                {"key": "B", "text": "Linie roșie „×” prin coroana dintelui ce urmează a fi extras"},
+                {"key": "C", "text": "Nivel gingival marcat prin linie albastră continuă"},
+                {"key": "D", "text": "Adâncimi ale pungilor: linie roșie întreruptă la suprafețele proximale"},
+                {"key": "E", "text": "Hiperplazii gingivale marcate cu un vârf roșu (∧)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Cursul enumeră explicit aceste notații utilizate pe fișa de înregistrare parodontală.",
+              "source": {"pdf_pages": [11]}
+            },
+            {
+              "id": "EXAM01_Q08",
+              "type": "complement_multiplu",
+              "stem": "Cum sunt notate pe diagramele clinice (conform cursului) următoarele: dinți absenți, carii, restaurări defecte?",
+              "options": [
+                {"key": "A", "text": "Dinții absenți: X mare pe diagramele facială/linguală/ocluzală"},
+                {
+                  "key": "B",
+                  "text": "Cariile: încercuirea numărului dintelui și notarea localizării în coloana de descriere"
+                },
+                {
+                  "key": "C",
+                  "text": "Restaurări defecte: încercuirea numărului dintelui și notarea defectului"
+                },
+                {"key": "D", "text": "Dinții absenți: colorați în albastru"},
+                {"key": "E", "text": "Cariile: marcate doar pe radiografie, nu și în fișă"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul descrie convenții grafice pentru dinți absenți, carii și restaurări defecte în diagramele clinice.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "EXAM01_Q09",
+              "type": "complement_multiplu",
+              "stem": "În examinarea ocluzală, cursul menționează evaluarea contactelor în:",
+              "options": [
+                {"key": "A", "text": "Lateralitate"},
+                {"key": "B", "text": "Propulsie"},
+                {"key": "C", "text": "Repaus mandibular exclusiv"},
+                {"key": "D", "text": "Intercuspidare maximă"},
+                {"key": "E", "text": "Abducție scapulară"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Secțiunea de examinare ocluzală menționează contacte în lateralitate și propulsie și include vederi în intercuspidare maximă în exemplele clinice.",
+              "source": {"pdf_pages": [16, 22, 24]}
+            },
+            {
+              "id": "EXAM01_Q10",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, ce metode/semne sunt folosite pentru evaluarea contactelor excentrice și a instabilității?",
+              "options": [
+                {"key": "A", "text": "Benzi Mylar pentru testarea contactelor excentrice"},
+                {
+                  "key": "B",
+                  "text": "Fremitusul (mișcare la palpare) indică contact în timpul mișcărilor laterale"
+                },
+                {
+                  "key": "C",
+                  "text": "Mobilitatea testată prin forță orizontală între mânerele a două instrumente"
+                },
+                {"key": "D", "text": "Testarea contactelor doar prin observație vizuală, fără auxiliare"},
+                {"key": "E", "text": "Evaluarea prin acid HF pe suprafețe ocluzale"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul menționează benzile Mylar, fremitusul și testarea mobilității ca elemente de evaluare clinică.",
+              "source": {"pdf_pages": [16]}
+            },
+            {
+              "id": "EXAM01_Q11",
+              "type": "complement_multiplu",
+              "stem": "În examinarea radiografică, care afirmații sunt corecte conform cursului?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "O serie completă de radiografii ar trebui să permită evaluarea detaliată a fiecărui dinte și a suportului osos"
+                },
+                {
+                  "key": "B",
+                  "text": "Radiografia panoramică poate înlocui seria completă deoarece nu este distorsionată"
+                },
+                {"key": "C", "text": "Radiografia panoramică este utilă pentru dinți neerupți"},
+                {
+                  "key": "D",
+                  "text": "Radiografia panoramică este utilă pentru căutarea resturilor radiculare incluse în zone edentate"
+                },
+                {
+                  "key": "E",
+                  "text": "Radiografia panoramică este utilă pentru evaluarea osului înainte de inserarea implanturilor"
+                }
+              ],
+              "answer_keys": ["A", "C", "D", "E"],
+              "rationale": "Cursul subliniază rolul seriei complete și precizează că panoramica nu o poate înlocui (distorsiune), dar este utilă în situațiile enumerate.",
+              "source": {"pdf_pages": [17, 18]}
+            },
+            {
+              "id": "EXAM01_Q12",
+              "type": "complement_multiplu",
+              "stem": "Ce tehnici imagistice sunt menționate în curs ca metode mai sofisticate pentru vizualizare detaliată/pe secțiuni?",
+              "options": [
+                {"key": "A", "text": "CT (scanare tomografică computerizată)"},
+                {"key": "B", "text": "RMN (rezonanță magnetică) pentru detaliu de țesut moale"},
+                {"key": "C", "text": "CBCT (fascicul conic) pentru secțiuni transversale dorite"},
+                {"key": "D", "text": "Radiografie ocluzală ca metodă principală pentru ATM"},
+                {"key": "E", "text": "Sialografie de rutină pentru evaluarea crestei"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul menționează CT, RMN și tehnologia cu fascicul conic (CBCT) pentru vizualizări asistate de computer/secțiuni transversale.",
+              "source": {"pdf_pages": [18, 19]}
+            },
+            {
+              "id": "EXAM01_Q13",
+              "type": "complement_multiplu",
+              "stem": "Indicele diagnostic protetic (pentru edentații parțial și complet dentați) include evaluarea următoarelor (conform cursului):",
+              "options": [
+                {"key": "A", "text": "Localizarea și extinderea zonelor edentate"},
+                {"key": "B", "text": "Starea dinților de sprijin (sau starea dinților la complet dentați)"},
+                {"key": "C", "text": "Schema ocluzală"},
+                {"key": "D", "text": "Creasta reziduală"},
+                {"key": "E", "text": "Tipul de anestezic preferat de pacient"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul listează aceste componente ca elemente ale indexului diagnostic protetic.",
+              "source": {"pdf_pages": [20, 21]}
+            },
+            {
+              "id": "EXAM01_Q14",
+              "type": "complement_multiplu",
+              "stem": "Principii/ghiduri de utilizare a foii de lucru pentru clasificare (conform cursului):",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Prezența oricărui criteriu dintr-o clasă mai complexă plasează pacientul în clasa mai complexă"
+                },
+                {
+                  "key": "B",
+                  "text": "Procedurile viitoare de tratament trebuie să influențeze nivelul de diagnostic"
+                },
+                {
+                  "key": "C",
+                  "text": "Tratamentul preprotetic inițial/terapia adjuvantă pot modifica nivelul inițial de clasificare"
+                },
+                {
+                  "key": "D",
+                  "text": "Dacă există problemă/provocare estetică, clasificarea crește la pacienții din clasele I și II"
+                },
+                {
+                  "key": "E",
+                  "text": "În prezența simptomelor TMD, clasificarea crește la pacienții din clasele I și II"
+                }
+              ],
+              "answer_keys": ["A", "C", "D", "E"],
+              "rationale": "Cursul enumeră aceste reguli; în mod explicit spune că tratamentul viitor NU trebuie să influențeze nivelul de diagnostic.",
+              "source": {"pdf_pages": [30, 31]}
+            },
+            {
+              "id": "EXAM01_Q15",
+              "type": "complement_multiplu",
+              "stem": "Conform regulilor din curs, pacientul este clasificat direct în Clasa IV dacă:",
+              "options": [
+                {"key": "A", "text": "Are mandibulă edentată opusă unui maxilar parțial edentat sau dentat"},
+                {"key": "B", "text": "Are o singură zonă edentată într-un sextant"},
+                {"key": "C", "text": "Are ghidaj anterior intact"},
+                {"key": "D", "text": "Prezintă doar o restaurare mare cu amalgam"},
+                {"key": "E", "text": "Are creastă reziduală tip A"}
+              ],
+              "answer_keys": ["A"],
+              "rationale": "Cursul precizează explicit această situație ca încadrând pacientul în clasa IV.",
+              "source": {"pdf_pages": [30]}
+            },
+            {
+              "id": "EXAM01_Q16",
+              "type": "complement_multiplu",
+              "stem": "În Tabelul 1.1 (dantură completă), criteriul „starea dinților” pentru Clasa I este:",
+              "options": [
+                {"key": "A", "text": "Ideală sau minim compromisă: trei sau mai puțini dinți într-un sextant"},
+                {"key": "B", "text": "Afectare moderată: unul sau mai mulți dinți într-unul sau două sextante"},
+                {
+                  "key": "C",
+                  "text": "Compromis în mod substanțial: unul sau mai mulți dinți în trei până la cinci sextante"
+                },
+                {"key": "D", "text": "Grav afectat: patru sau mai mulți dinți, toți sextanții"},
+                {"key": "E", "text": "Nu există criterii pentru starea dinților în dantură completă"}
+              ],
+              "answer_keys": ["A"],
+              "rationale": "Tabelul 1.1 definește Clasa I prin starea dinților ideală/minim compromisă, descrisă ca „trei sau mai puțini dinți într-un sextant”.",
+              "source": {"pdf_pages": [31]}
+            },
+            {
+              "id": "EXAM01_Q17",
+              "type": "complement_multiplu",
+              "stem": "În Tabelul 1.1, care corespondențe „schema ocluzală → clasă” sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Ideală sau minim compromisă → Clasa I"},
+                {"key": "B", "text": "Compromis moderat: ghidaj anterior intact → Clasa II"},
+                {"key": "C", "text": "Compromisă substanțial: repaus extins/aceeași DVO → Clasa III"},
+                {"key": "D", "text": "Grav compromis: repaus prelungit/OVD nou → Clasa IV"},
+                {"key": "E", "text": "Ghidaj anterior intact → Clasa IV"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul 1.1 mapează explicit aceste descrieri ale schemei ocluzale pe clasele I–IV.",
+              "source": {"pdf_pages": [31]}
+            },
+            {
+              "id": "EXAM01_Q18",
+              "type": "complement_multiplu",
+              "stem": "În Tabelul 1.1, ce situații sunt menționate ca determinând un prognostic rezervat?",
+              "options": [
+                {"key": "A", "text": "Manifestări orale severe ale unei boli sistemice"},
+                {"key": "B", "text": "Dischinezie maxilo-mandibulară sau ataxie"},
+                {"key": "C", "text": "Pacient refractar"},
+                {"key": "D", "text": "O singură obturație cu amalgam"},
+                {"key": "E", "text": "Creastă reziduală tip A"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Tabelul 1.1 include aceste trei exemple ca situații asociate cu prognostic rezervat.",
+              "source": {"pdf_pages": [31]}
+            },
+            {
+              "id": "EXAM01_Q19",
+              "type": "complement_multiplu",
+              "stem": "Conform exemplului din curs, Clasa I (edentulism parțial) poate fi descrisă prin:",
+              "options": [
+                {"key": "A", "text": "O singură zonă edentată într-un sextant"},
+                {
+                  "key": "B",
+                  "text": "Zonă edentată ideală sau minim afectată, cu stare bună a bonturilor și ocluziei"
+                },
+                {"key": "C", "text": "Creastă reziduală considerată tip A"},
+                {"key": "D", "text": "Zone edentate în două sextante din arcade diferite"},
+                {"key": "E", "text": "Necesitatea obligatorie de modificare a dimensiunii verticale ocluzale"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Figura de Clasa I (edentulism parțial) menționează o singură zonă edentată într-un sextant, condiții ideale/minim afectate și creastă reziduală tip A.",
+              "source": {"pdf_pages": [22]}
+            },
+            {
+              "id": "EXAM01_Q20",
+              "type": "complement_multiplu",
+              "stem": "Conform exemplului din curs, Clasa II (edentulism parțial) este caracterizată de:",
+              "options": [
+                {"key": "A", "text": "Zone edentate în două sextante din arcade diferite"},
+                {"key": "B", "text": "O singură zonă edentată într-un sextant"},
+                {"key": "C", "text": "Zone edentate în ambele arcade cu multiple locații în fiecare arcadă"},
+                {
+                  "key": "D",
+                  "text": "Necesitatea restabilirii schemei ocluzale fără modificarea DVO în exemplul respectiv"
+                },
+                {"key": "E", "text": "Încadrare determinată exclusiv de estetică"}
+              ],
+              "answer_keys": ["A"],
+              "rationale": "Figura de Clasa II menționează explicit zone edentate în două sextante din arcade diferite.",
+              "source": {"pdf_pages": [24]}
+            },
+            {
+              "id": "DIAG02_Q01",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, obiective importante ale fotografiei clinice includ:",
+              "options": [
+                {"key": "A", "text": "Documentarea situației inițiale și a evoluției tratamentului"},
+                {"key": "B", "text": "Facilitarea comunicării cu pacientul și laboratorul"},
+                {"key": "C", "text": "Înlocuirea completă a examenului clinic"},
+                {
+                  "key": "D",
+                  "text": "Planificarea tratamentului (ex.: estetică) pe baza imaginilor standardizate"
+                },
+                {"key": "E", "text": "Suport medico-legal (documentare)"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Secțiunea despre fotografia clinică subliniază rolul de documentare, comunicare și suport pentru planificare; nu înlocuiește examenul clinic.",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "DIAG02_Q02",
+              "type": "complement_multiplu",
+              "stem": "În armamentariul pentru fotografia clinică sunt menționate:",
+              "options": [
+                {"key": "A", "text": "Aparat foto digital SLR"},
+                {"key": "B", "text": "Obiectiv macro (de ex. 100 mm)"},
+                {"key": "C", "text": "Blitz inelar sau dual"},
+                {"key": "D", "text": "Oglinzi intraorale"},
+                {"key": "E", "text": "Compas Willis pentru măsurarea DVO"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Lista de armamentariu include camera, obiectiv macro, blitz și oglinzi; compasul Willis nu este în lista de fotografie.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "DIAG02_Q03",
+              "type": "complement_multiplu",
+              "stem": "Setul standard de fotografii extraorale prezentat în curs include:",
+              "options": [
+                {"key": "A", "text": "Portret frontal cu buzele strânse"},
+                {"key": "B", "text": "Portret frontal în repaus"},
+                {"key": "C", "text": "Portret frontal în zâmbet"},
+                {"key": "D", "text": "Ocluzal maxilar retractat ca fotografie extraorală"},
+                {"key": "E", "text": "Portret de profil (repaus/zâmbet)"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figurile pentru portret frontal și profil arată variantele buze strânse/repaus/zâmbet și profil în repaus/zâmbet; ocluzalele sunt intraorale.",
+              "source": {"pdf_pages": [2, 3, 4]}
+            },
+            {
+              "id": "DIAG02_Q04",
+              "type": "complement_multiplu",
+              "stem": "Pentru fotografiile intraorale ocluzale, cursul evidențiază următoarele:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Utilizarea oglinzii ocluzale și a retractoarelor modificate pentru spațiu"
+                },
+                {"key": "B", "text": "Retragerea limbii cu ajutorul oglinzii (la maxilar)"},
+                {
+                  "key": "C",
+                  "text": "Poziționarea aparatului la distanță constantă, pentru imagini repetabile"
+                },
+                {"key": "D", "text": "Excluderea completă a salivei este imposibilă și nu contează"},
+                {
+                  "key": "E",
+                  "text": "Necesitatea unui contrast bun (ex.: paletă fotografică neagră) pentru a evidenția contururi"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figurile și textul descriu retractoare modificate + oglindă, controlul cadrului/distanței și folosirea contrastului (paletă neagră) pentru contururi.",
+              "source": {"pdf_pages": [4, 5, 6]}
+            },
+            {
+              "id": "DIAG02_Q05",
+              "type": "complement_multiplu",
+              "stem": "În analiza dentofacială, fotografia de repaus cu buzele ușor depărtate este folosită ca punct de plecare pentru:",
+              "options": [
+                {"key": "A", "text": "Evaluarea formei buzelor"},
+                {"key": "B", "text": "Aprecierea expunerii incisivilor la repaus"},
+                {"key": "C", "text": "Determinarea directă a înclinării condiliene"},
+                {"key": "D", "text": "Planificarea poziției/restaurării dinților anteriori"},
+                {"key": "E", "text": "Stabilirea exclusivă a culorii dentare, fără alte roluri"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Secțiunea de analiză dentofacială leagă repausul de forma buzelor, expunerea incisivilor și planificarea anterioarelor; nu are rol de setare condiliană.",
+              "source": {"pdf_pages": [6, 7]}
+            },
+            {
+              "id": "DIAG02_Q06",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii despre UAFH/LAFH, sunt corecte următoarele interpretări:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Raport UAFH/LAFH < 0,8 indică o înălțime facială anterioară inferioară mai mare"
+                },
+                {
+                  "key": "B",
+                  "text": "Raport UAFH/LAFH > 0,8 indică o înălțime facială anterioară inferioară mai mică"
+                },
+                {"key": "C", "text": "UAFH este măsurată între N-ANS"},
+                {"key": "D", "text": "LAFH este măsurată între ANS-ME"},
+                {"key": "E", "text": "Raportul este mai puțin relevant decât măsurătorile individuale izolate"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura explică pragurile <0,8 și >0,8 și definește UAFH (N-ANS) și LAFH (ANS-ME); subliniază relevanța raportului.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "DIAG02_Q07",
+              "type": "complement_multiplu",
+              "stem": "Despre unghiul SNA din analiza cefalometrică, cursul notează:",
+              "options": [
+                {"key": "A", "text": "Media este ~82° ± 3°"},
+                {"key": "B", "text": ">85° sugerează maxilar prognatic"},
+                {"key": "C", "text": "<79° sugerează maxilar retrognatic"},
+                {"key": "D", "text": "SNA descrie poziția anteroposterioară a mandibulei"},
+                {"key": "E", "text": "SNA se raportează la baza craniană (sella–nasion)"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura indică valorile și pragurile pentru SNA și faptul că se raportează la sella–nasion; mandibula e descrisă de SNB, nu SNA.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "DIAG02_Q08",
+              "type": "complement_multiplu",
+              "stem": "Despre unghiul SNB, sunt corecte următoarele:",
+              "options": [
+                {"key": "A", "text": "Media este ~80° ± 3°"},
+                {"key": "B", "text": ">83° sugerează mandibulă prognatică"},
+                {"key": "C", "text": "<77° sugerează mandibulă retrognatică"},
+                {"key": "D", "text": "SNB folosește punctul B (supramental) ca reper"},
+                {"key": "E", "text": "SNB este același lucru cu ANB"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura definește SNB cu praguri și menționează punctul B; ANB este relația dintre maxilar și mandibulă.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "DIAG02_Q09",
+              "type": "complement_multiplu",
+              "stem": "Interpretarea unghiului ANB, conform cursului:",
+              "options": [
+                {"key": "A", "text": "ANB mediu între 1° și 5° indică relație scheletică Clasa I"},
+                {"key": "B", "text": "ANB pozitiv >5° indică relație scheletică Clasa II"},
+                {"key": "C", "text": "ANB negativ (sau foarte mic) indică relație scheletică Clasa III"},
+                {"key": "D", "text": "ANB e calculat din SNA și SNB"},
+                {"key": "E", "text": "ANB nu are relevanță în protetică fixă"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura explică intervalele ANB și semnificația lor și că ANB derivă din relația SNA/SNB.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "DIAG02_Q10",
+              "type": "complement_multiplu",
+              "stem": "În analiza incisivilor (conform figurii), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "U1 față de SN: medie ~103° ± 6°"},
+                {"key": "B", "text": "U1-SN >109° indică incisiv maxilar proclinat"},
+                {"key": "C", "text": "U1-SN <97° indică incisiv maxilar retroclinat"},
+                {"key": "D", "text": "L1 față de NB: medie ~25° ± 7°"},
+                {"key": "E", "text": "L1-NB <18° indică incisiv mandibular vertical/retroclinat"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Figura listează explicit mediile și pragurile pentru U1-SN și L1-NB.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "DIAG02_Q11",
+              "type": "complement_multiplu",
+              "stem": "Unghiul interincizal (U1 față de L1) este interpretat în curs astfel:",
+              "options": [
+                {"key": "A", "text": "Media ~135° ± 11°"},
+                {"key": "B", "text": ">146°: incisivi mai proclinați (conform textului figurii)"},
+                {"key": "C", "text": "<124°: incisivi mai retroclinați (conform textului figurii)"},
+                {
+                  "key": "D",
+                  "text": "Este un unghi format între axele lungi ale incisivilor centrali maxilari și mandibulari"
+                },
+                {
+                  "key": "E",
+                  "text": "Nu are nicio legătură cu clasificări/variații de tip clasa II diviziunea 1/2 menționate în figură"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura definește unghiul și oferă praguri și interpretări asociate.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "DIAG02_Q12",
+              "type": "complement_multiplu",
+              "stem": "În proiectarea digitală a zâmbetului (DSD) descrisă, sunt menționate:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Calibrarea între fotografia zâmbetului și fotografia cu buzele retrase folosind repere (pupile, nas, buze, dinți)"
+                },
+                {
+                  "key": "B",
+                  "text": "Alinierea virtuală a dinților pornind de la fotografia cu buzele retrase"
+                },
+                {"key": "C", "text": "Generarea unei previzualizări a zâmbetului (preview)"},
+                {"key": "D", "text": "Înlocuirea obligatorie a modelelor diagnostice cu DSD"},
+                {"key": "E", "text": "Necesitatea unei radiografii panoramice pentru calibrare"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Figura despre DSD arată calibrarea, alinierea virtuală și preview; nu spune că înlocuiește modelele sau că necesită panoramică pentru calibrare.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "DIAG02_Q13",
+              "type": "complement_multiplu",
+              "stem": "Pentru amprentele cu hidrocoloizi ireversibili (alginat) destinate modelelor diagnostice, cursul menționează:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Lingurile standard pot fi modificate cu compus termoplastic pentru suport/extensie"
+                },
+                {
+                  "key": "B",
+                  "text": "Aplicarea unei cantități mici de alginat în șanțurile ocluzale înainte de inserarea lingurii"
+                },
+                {"key": "C", "text": "Timp de priză tipic ~2–3 minute (în funcție de material)"},
+                {"key": "D", "text": "Amprenta trebuie clătită și dezinfectată conform protocoalelor"},
+                {"key": "E", "text": "Alginatul se poate lăsa la aer liber ore întregi fără deformare"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul și figurile descriu modificarea lingurilor, tehnica de aplicare, timpii de priză și igiena/dezinfectarea; alginatul e sensibil la desicare/deformare.",
+              "source": {"pdf_pages": [13, 14]}
+            },
+            {
+              "id": "DIAG02_Q14",
+              "type": "complement_multiplu",
+              "stem": "Despre modelele diagnostice, cursul subliniază că:",
+              "options": [
+                {"key": "A", "text": "Trebuie să fie suficient de precise pentru a se articula corect"},
+                {"key": "B", "text": "Nodulii ocluzali pot compromite analiza ocluzală"},
+                {
+                  "key": "C",
+                  "text": "Modelele digitale pot include și informații cromatice/elemente patologice"
+                },
+                {"key": "D", "text": "Modelele montate sunt inutile în protetica fixă"},
+                {
+                  "key": "E",
+                  "text": "Videoclipul digital poate ajuta la identificarea contactelor în mișcări laterale/protruzive (limitări: vizibilitate)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figurile despre precizia modelelor, avantajele digitalului și utilizarea video pentru contacte ocluzale sunt explicite; montarea modelelor rămâne utilă.",
+              "source": {"pdf_pages": [15, 16]}
+            },
+            {
+              "id": "DIAG02_Q15",
+              "type": "complement_multiplu",
+              "stem": "În curs, articulatoarele sunt prezentate ca:",
+              "options": [
+                {"key": "A", "text": "Virtuale (digitale)"},
+                {"key": "B", "text": "Tradiționale (fizice)"},
+                {"key": "C", "text": "Mici neajustabile"},
+                {"key": "D", "text": "Semi-reglabile"},
+                {"key": "E", "text": "Obligatoriu complet reglabile pentru toate cazurile"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Secțiunea de selecție descrie tipurile; nu afirmă că toate cazurile cer complet reglabil.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "DIAG02_Q16",
+              "type": "complement_multiplu",
+              "stem": "Conform explicației Arcon vs Non-Arcon, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "În designul arcon, înclinația condiliană a fosei mecanice este la un unghi fix față de planul ocluzal maxilar"
+                },
+                {
+                  "key": "B",
+                  "text": "În designul non-arcon, unghiul se poate modifica odată cu deschiderea articulatorului"
+                },
+                {
+                  "key": "C",
+                  "text": "Non-arcon poate introduce erori când se folosește o înregistrare protruzivă pentru programare"
+                },
+                {"key": "D", "text": "Arcon este întotdeauna mai puțin precis decât un articulator mic"},
+                {"key": "E", "text": "Diferența arcon/non-arcon este irelevantă pentru programare"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Figura și legenda descriu fixitatea unghiului la arcon, variabilitatea la non-arcon și potențiale erori la programare cu protruzivă.",
+              "source": {"pdf_pages": [19]}
+            },
+            {
+              "id": "DIAG02_Q17",
+              "type": "complement_multiplu",
+              "stem": "În facebow/arc facial, cursul menționează:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Transferul arcului facial orientează modelul maxilar față de axa de rotație la articulatorul semi-reglabil"
+                },
+                {"key": "B", "text": "Nasionul poate fi utilizat ca al treilea punct de referință"},
+                {"key": "C", "text": "Există arc facial cu axă cinematică (pentru determinarea axei reale)"},
+                {"key": "D", "text": "Arcuri faciale cu axă medie (valori anatomice medii)"},
+                {"key": "E", "text": "Arcul facial este folosit pentru a determina culoarea dintelui"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figurile despre transfer și tipuri de arcuri faciale sunt explicite; nu au rol de determinare a culorii.",
+              "source": {"pdf_pages": [20, 23, 24]}
+            },
+            {
+              "id": "DIAG02_Q18",
+              "type": "complement_multiplu",
+              "stem": "Despre punctul de referință anterior (arcuri faciale cu axă medie), cursul notează:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Poate fi un semn la ~43 mm deasupra marginii incizale a incisivului central maxilar (într-un sistem)"
+                },
+                {"key": "B", "text": "Alte repere pot fi foramenul infraorbital sau nasionul"},
+                {"key": "C", "text": "Permite montarea ulterioară a modelelor fără înregistrări repetate"},
+                {"key": "D", "text": "Este folosit pentru a calcula ANB"},
+                {"key": "E", "text": "Servește ca referință pentru valori anatomice medii"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura descrie valoarea 43 mm, alternativele (infraorbital/nasion), rolul de referință și utilitatea pentru montări ulterioare.",
+              "source": {"pdf_pages": [23]}
+            },
+            {
+              "id": "DIAG02_Q19",
+              "type": "complement_multiplu",
+              "stem": "Conform secțiunii despre relația centrică (RC), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "O înregistrare RC trebuie să fie reproductibilă (se verifică repetarea poziției)"
+                },
+                {
+                  "key": "B",
+                  "text": "Forțarea mandibulei înapoi poate deplasa condilii și duce la restaurări în supracluzie clinic"
+                },
+                {"key": "C", "text": "Manipularea mandibulei poate fi bimanuală sau cu o singură mână"},
+                {"key": "D", "text": "O înregistrare RC „nu trebuie perforată niciodată” (menționat explicit)"},
+                {"key": "E", "text": "RC se înregistrează doar cu alginat"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figurile arată eroarea prin retruzie forțată, tehnicile de manipulare, necesitatea reproductibilității și avertismentul despre perforare.",
+              "source": {"pdf_pages": [27, 28, 30]}
+            },
+            {
+              "id": "DIAG02_Q20",
+              "type": "complement_multiplu",
+              "stem": "Despre dispozitivul de deprogramare anterioară folosit pentru RC, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Poate fi realizat din rășină autopolimerizabilă adaptată pe incisivii maxilari"
+                },
+                {"key": "B", "text": "Trebuie să permită mișcări laterale și protruzive line"},
+                {
+                  "key": "C",
+                  "text": "Trebuie evitat un contact înclinat care tinde să provoace retruzie excesivă"
+                },
+                {"key": "D", "text": "Se verifică dezocluzia posterioară"},
+                {"key": "E", "text": "Este destinat să blocheze complet orice mișcare excentrică"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura despre deprogramare descrie materialele, cerințele de ghidare și verificarea dezocluziei; nu urmărește blocarea excentricelor.",
+              "source": {"pdf_pages": [29]}
+            },
+            {
+              "id": "DIAG02_Q21",
+              "type": "complement_multiplu",
+              "stem": "În tehnica de înregistrare RC cu Aluwax armat, cursul menționează:",
+              "options": [
+                {"key": "A", "text": "Adaptarea foii de Aluwax moale pe arcada maxilară"},
+                {"key": "B", "text": "Adăugarea de ceară roz dură anterior pentru oprire verticală"},
+                {"key": "C", "text": "Rigidizarea plăcii prin armare (ex.: metal moale) pentru stabilitate"},
+                {"key": "D", "text": "Indentațiile maxilare trebuie să capteze doar vârfurile cuspelor"},
+                {"key": "E", "text": "Orice indentație „dublă” indică o inexactitate"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Pașii sunt descriși explicit în figura cu secvența de realizare și criterii de calitate (indentații/dublări).",
+              "source": {"pdf_pages": [30]}
+            },
+            {
+              "id": "DIAG02_Q22",
+              "type": "complement_multiplu",
+              "stem": "În tehnica cu plăcuță de ceară preformată + lere, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Lerele se folosesc pentru a obține separarea dinților posteriori"},
+                {"key": "B", "text": "Părțile laterale ale plăcii pot fi înmuiate într-o baie de apă"},
+                {"key": "C", "text": "Înregistrarea se răcește cu apă rece"},
+                {
+                  "key": "D",
+                  "text": "Excesul se poate îndepărta până rămân doar adânciturile vârfurilor cuspizilor"
+                },
+                {
+                  "key": "E",
+                  "text": "Înregistrarea se păstrează în apă rece pentru utilizare ulterioară în laborator"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Figura descrie exact pașii de utilizare a lerelor, înmuiere, răcire, ajustare și păstrare.",
+              "source": {"pdf_pages": [32]}
+            },
+            {
+              "id": "DIAG02_Q23",
+              "type": "complement_multiplu",
+              "stem": "Conform secțiunii despre verificarea preciziei montării și reproducibilitatea RC, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Ceara indicator ocluzal poate fi folosită intraoral pentru marcaje"},
+                {"key": "B", "text": "Marcajele de pe model se pot compara cu perforațiile din ceară"},
+                {
+                  "key": "C",
+                  "text": "Sistemul Denar Centri-Check folosește stiluri care marchează hârtie milimetrică pentru a compara înregistrări succesive"
+                },
+                {
+                  "key": "D",
+                  "text": "Reproducibilitatea RC nu contează dacă există un articulator complet reglabil"
+                },
+                {
+                  "key": "E",
+                  "text": "Compararea înregistrărilor succesive poate evidenția variații/inexactități"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figurile descriu metoda cu ceară indicator și sistemul Centri-Check pentru compararea înregistrărilor succesive.",
+              "source": {"pdf_pages": [38]}
+            },
+            {
+              "id": "DIAG02_Q24",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 2.3 (selectarea articulatorului pentru protetică fixă), sunt corecte idei generale precum:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Cu cât articulatorul e mai complex, cu atât transmite mai multe informații ocluzale laboratorului"
+                },
+                {
+                  "key": "B",
+                  "text": "Articulatoarele neajustabile sunt acceptabile când influența ocluzală este minimă"
+                },
+                {
+                  "key": "C",
+                  "text": "Evaluarea diagnostică a majorității cazurilor poate folosi un articulator semi-reglabil"
+                },
+                {
+                  "key": "D",
+                  "text": "Pe măsură ce scade complexitatea articulatorului, crește nevoia de timp la adaptarea înainte de cimentare"
+                },
+                {
+                  "key": "E",
+                  "text": "Modelele nemontate oferă mai multe informații ocluzale decât articulatoarele complet reglabile"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul compară informația diagnostică/ocluzală, timpul și utilitatea clinică pentru complet reglabil vs semi-reglabil vs neajustabil vs nemontat.",
+              "source": {"pdf_pages": [39]}
+            },
+            {
+              "id": "DIAG02_Q25",
+              "type": "complement_multiplu",
+              "stem": "Înregistrările interocluzale excentrice descrise includ:",
+              "options": [
+                {"key": "A", "text": "Înregistrare protruzivă"},
+                {"key": "B", "text": "Înregistrări laterale stânga și dreapta"},
+                {"key": "C", "text": "Poziții canin stâng/drept cap la cap pentru înregistrările laterale"},
+                {"key": "D", "text": "Înregistrări doar în intercuspidare maximă"},
+                {
+                  "key": "E",
+                  "text": "Finalizarea înregistrărilor după ghidarea mandibulei în mișcări excursive"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura despre înregistrări excentrice arată protruziva și lateralele ghidate, cu pozițiile canin cap-la-cap.",
+              "source": {"pdf_pages": [40]}
+            }, {
+              "id": "TP04_Q01",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, tratamentul preparator (preprotetic) are ca scop (scopuri) principal(e):",
+              "options": [
+                {"key": "A", "text": "Crearea unei baze optime pentru tratamentul protetic"},
+                {
+                  "key": "B",
+                  "text": "Îndepărtarea factorilor de risc și a patologiei active înainte de protetică"
+                },
+                {
+                  "key": "C",
+                  "text": "Realizarea restaurărilor definitive înaintea controlului cariilor și a parodonțiului"
+                },
+                {"key": "D", "text": "Obținerea unui rezultat final previzibil printr-o secvențiere corectă"},
+                {"key": "E", "text": "Înlocuirea completă a diagnosticului prin tratament direct"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Introducerea și secțiunea despre tratamentul preparator subliniază eliminarea patologiei/riscurilor și construirea unei baze optime pentru un rezultat protetic previzibil.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "TP04_Q02",
+              "type": "complement_multiplu",
+              "stem": "În exemplul cu test salivar (Streptococcus mutans), ce măsuri sunt descrise ca fiind eficiente?",
+              "options": [
+                {"key": "A", "text": "Identificarea gustărilor frecvente ca factor de risc"},
+                {"key": "B", "text": "Instrucțiuni de reducere a frecvenței meselor (ex.: doar trei mese/zi)"},
+                {"key": "C", "text": "Lipsa cooperării pacientului, dar rezultate bune totuși"},
+                {"key": "D", "text": "La retestare, dispariția coloniilor S. mutans (în exemplu)"},
+                {"key": "E", "text": "Recomandarea de a crește gustările pentru a stabiliza pH-ul"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Figura 6.1 descrie legătura dintre gustări frecvente și colonii S. mutans și arată îmbunătățirea după instrucțiuni și cooperare.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "TP04_Q03",
+              "type": "complement_multiplu",
+              "stem": "Secvența ilustrată a tratamentului (Fig. 6.2) include ca etape:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Ameliorarea problemei acute (ex.: endodonție) înainte de tratamentele elective"
+                },
+                {"key": "B", "text": "Îndepărtarea depunerilor și a dinților nerestaurabili"},
+                {"key": "C", "text": "Controlul cariilor și înlocuirea restaurărilor defecte"},
+                {
+                  "key": "D",
+                  "text": "Pregătirea dinților pentru restaurarea definitivă și finalizarea restaurărilor fixe"
+                },
+                {"key": "E", "text": "Cimentarea definitivă înainte de terapia parodontală"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Legenda Fig. 6.2 enumeră explicit aceste etape, arătând secvențierea logică până la restaurările finale.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "TP04_Q04",
+              "type": "complement_multiplu",
+              "stem": "Clasificarea Seibert a defectelor crestei alveolare (Fig. 6.3) este corect descrisă prin:",
+              "options": [
+                {"key": "A", "text": "Clasa 1: pierdere de volum osos în direcție orizontală"},
+                {"key": "B", "text": "Clasa 2: deficiență de volum osos în direcție verticală"},
+                {"key": "C", "text": "Clasa 3: pierdere atât orizontală, cât și verticală"},
+                {"key": "D", "text": "Clasa 1: pierdere exclusiv verticală"},
+                {"key": "E", "text": "Clasa 2: pierdere exclusiv orizontală"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Figura 6.3 definește clasele 1–3 exact prin direcția/combinația pierderilor de volum.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "TP04_Q05",
+              "type": "complement_multiplu",
+              "stem": "În exemplul de augmentare de creastă ghidată de wax-up (Fig. 6.4), sunt menționate:",
+              "options": [
+                {"key": "A", "text": "Modelare diagnostică în ceară pentru a ghida augmentarea ideală"},
+                {"key": "B", "text": "Eliberarea lamboului pentru a minimiza presiunea asupra grefei"},
+                {"key": "C", "text": "Plasarea grefei osoase și a unei membrane"},
+                {"key": "D", "text": "Restaurări provizorii proiectate pe baza modelului diagnostic"},
+                {"key": "E", "text": "Interdicția utilizării restaurărilor provizorii după grefare"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Legenda Fig. 6.4 descrie wax-up-ul, manevrele de lambou, grefa + membrana și provizoriile proiectate după model.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "TP04_Q06",
+              "type": "complement_multiplu",
+              "stem": "În cazul clinic din Fig. 6.5 (PPF defectuoasă + breșă întinsă), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "PPF veche a fost îndepărtată"},
+                {
+                  "key": "B",
+                  "text": "Unii dinți au fost păstrați temporar pentru susținerea unei provizorii în timpul augmentării/implantării"
+                },
+                {"key": "C", "text": "Se observă defect anterior de clasa 3 Seibert"},
+                {
+                  "key": "D",
+                  "text": "Restaurările definitive includ combinații dinte-susținut și implant-susținut"
+                },
+                {"key": "E", "text": "Toți dinții restanți au fost restaurați fără extracții planificate"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Legenda Fig. 6.5 menționează îndepărtarea PPF, păstrarea unor dinți pentru provizoriu, defect Seibert 3 și restaurări definitive mixte.",
+              "source": {"pdf_pages": [5]}
+            },
+            {
+              "id": "TP04_Q07",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 6.6–6.7, exemple de intervenții preprotetice pe țesuturi dure includ:",
+              "options": [
+                {"key": "A", "text": "Reducerea tuberozității pentru adaptarea unei proteze parțiale mobile"},
+                {
+                  "key": "B",
+                  "text": "Reducerea chirurgicală a torusului mandibular înaintea unei proteze parțiale mobile"
+                },
+                {"key": "C", "text": "Torus bucal care poate interfera cu igiena orală"},
+                {"key": "D", "text": "Aplicarea obligatorie a silanului pe torus înainte de protezare"},
+                {"key": "E", "text": "Orice torus este întotdeauna lăsat netratat"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Fig. 6.6–6.7 oferă exemple concrete de reducere a tuberozității/torusului în funcție de interferențe protetice și de igienă.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "TP04_Q08",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 6.8, defectele mici care ar crea retentivități sunt cel mai bine gestionate prin:",
+              "options": [
+                {"key": "A", "text": "Acoperire intraorală cu ciment"},
+                {"key": "B", "text": "Acoperire intraorală cu rășină"},
+                {"key": "C", "text": "Extragerea imediată a dintelui vecin"},
+                {"key": "D", "text": "Lăsarea lor intenționată pentru retenție suplimentară"},
+                {"key": "E", "text": "Augmentare osoasă obligatorie pentru orice defect mic"}
+              ],
+              "answer_keys": ["A", "B"],
+              "rationale": "Figura 6.8 specifică acoperirea intraorală cu ciment sau rășină pentru defecte mici retentive.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "TP04_Q09",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 6.11, alegerea tipului de restaurare coronară (bont) depinde de severitatea leziunii și poate include:",
+              "options": [
+                {"key": "A", "text": "Ciment – adecvat pentru leziuni minore"},
+                {"key": "B", "text": "Rășină compozită – adecvată pentru defecte mai mari"},
+                {"key": "C", "text": "Amalgam fixat cu tifturi – adecvat pentru leziuni extinse"},
+                {"key": "D", "text": "Amalgam fixat cu tifturi – indicat doar pentru leziuni minore"},
+                {
+                  "key": "E",
+                  "text": "Restaurarea de bont trebuie proiectată având în vedere restaurarea definitivă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura 6.11 explică opțiunile în funcție de extensie și subliniază proiectarea orientată către restaurarea definitivă.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "TP04_Q10",
+              "type": "complement_multiplu",
+              "stem": "Din Tabelul 6.1 (Materiale de restaurare coronară), pentru rășina compozită sunt menționate:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Avantaje: întărire rapidă, ușurință în utilizare, aderență, culoarea dinților"
+                },
+                {"key": "B", "text": "Dezavantaje: contracție la priză, microinfiltrații, expansiune termică"},
+                {"key": "C", "text": "Utilizare recomandată: majoritatea restaurărilor"},
+                {"key": "D", "text": "Precauții: controlul umidității"},
+                {"key": "E", "text": "Precauții: matrice bine susținută (specifică compozitului)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul 6.1 enumeră explicit avantajele/dezavantajele și precauția controlului umidității pentru compozit.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "TP04_Q11",
+              "type": "complement_multiplu",
+              "stem": "Din Tabelul 6.1, pentru ionomerul de sticlă sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Avantaje: aplicare rapidă, aderență, fluor"},
+                {"key": "B", "text": "Dezavantaje: rezistență redusă, sensibilitate la umiditate"},
+                {"key": "C", "text": "Utilizare recomandată: leziuni mai mici"},
+                {"key": "D", "text": "Precauții: controlul umidității"},
+                {"key": "E", "text": "Avantaje: fără adeziune (ca la amalgam)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul 6.1 prezintă aceste puncte pentru ionomerul de sticlă.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "TP04_Q12",
+              "type": "complement_multiplu",
+              "stem": "Din Tabelul 6.1, pentru amalgam sunt menționate:",
+              "options": [
+                {"key": "A", "text": "Avantaje: rezistență bună, restaurare intermediară"},
+                {"key": "B", "text": "Dezavantaje: fără adeziune, coroziune, condensare"},
+                {"key": "C", "text": "Utilizare recomandată: restaurări mari"},
+                {"key": "D", "text": "Precauții: matrice bine susținută"},
+                {"key": "E", "text": "Avantaje: microinfiltrații (listate ca avantaj)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul 6.1 listează explicit aceste puncte pentru amalgam.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "TP04_Q13",
+              "type": "complement_multiplu",
+              "stem": "Fig. 6.15 (principii pentru prepararea unei restaurări de bont din amalgam) indică:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Conturul restaurării nu trebuie să includă fisuri/contace proximale/ocluzale dacă cariile pot fi îndepărtate complet"
+                },
+                {
+                  "key": "B",
+                  "text": "Smalțul nesusținut poate fi uneori lăsat temporar la restaurarea de bont și îndepărtat ulterior la prepararea coroanei"
+                },
+                {
+                  "key": "C",
+                  "text": "Marginile cavosuperficiale ascuțite pot fi acceptabile pentru bont, dar nu pentru amalgam definitiv"
+                },
+                {
+                  "key": "D",
+                  "text": "Forma de rezistență poate fi îmbunătățită prin trepte perpendiculare pe direcția forței ocluzale"
+                },
+                {"key": "E", "text": "Găurile pentru pini se forează strict ocluzal, niciodată ușor pulpal"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura 6.15 enunță explicit principiile A–D și compară direcția găurilor pentru pini între bont vs restaurare convențională.",
+              "source": {"pdf_pages": [11]}
+            },
+            {
+              "id": "TP04_Q14",
+              "type": "complement_multiplu",
+              "stem": "Despre leziunile periapicale comune (Fig. 6.16), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Poate exista spațiu al ligamentului parodontal lărgit"},
+                {"key": "B", "text": "Pot apărea radiotransparențe mari (granuloame sau chisturi)"},
+                {"key": "C", "text": "Sunt întotdeauna radiopacități dense"},
+                {"key": "D", "text": "Sunt relevante în evaluarea endodontică preprotetică"},
+                {"key": "E", "text": "Indică obligatoriu extracția imediată fără investigații"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Figura 6.16 exemplifică lărgirea spațiului ligamentar și radiotransparențele; apar în secțiunea de evaluare endodontică.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "TP04_Q15",
+              "type": "complement_multiplu",
+              "stem": "Clasificarea Miller a recesiunilor (Fig. 6.17) include următoarele asocieri corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Clasa I: recesiunea nu ajunge la MGJ și nu există pierdere osoasă interdentară; acoperire completă posibilă"
+                },
+                {
+                  "key": "B",
+                  "text": "Clasa II: recesiunea ajunge la/dincolo de MGJ, fără pierdere osoasă interdentară; acoperire completă posibilă"
+                },
+                {
+                  "key": "C",
+                  "text": "Clasa III: recesiunea ajunge la/dincolo de MGJ și există pierdere osoasă interdentară; acoperire parțială posibilă"
+                },
+                {
+                  "key": "D",
+                  "text": "Clasa IV: pierdere masivă osoasă interdentară; fără acoperire radiculară"
+                },
+                {"key": "E", "text": "Clasa IV: acoperire completă garantată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura 6.17 definește clasele I–IV și prognosticul de acoperire radiculară.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "TP04_Q16",
+              "type": "complement_multiplu",
+              "stem": "Grefa pediculată poziționată lateral (Fig. 6.18) – afirmații corecte:",
+              "options": [
+                {"key": "A", "text": "Necesită o zonă donatoare cu bandă adecvată de țesut keratinizat"},
+                {
+                  "key": "B",
+                  "text": "Include pregătirea patului receptor și incizii de eliberare în zona donatoare"
+                },
+                {
+                  "key": "C",
+                  "text": "Poate exista o pierdere de atașament la zona donatoare (menționată în legendă)"
+                },
+                {"key": "D", "text": "Este descrisă ca tehnică fără suturi"},
+                {
+                  "key": "E",
+                  "text": "Zona donatoare poate fi acoperită cu grefă gingivală autogenă liberă (menționat)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Legenda Fig. 6.18 descrie selecția zonei donatoare, pașii și menționează pierderea de atașament și opțiunea de acoperire a donatorului.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "TP04_Q17",
+              "type": "complement_multiplu",
+              "stem": "Grefa gingivală autogenă liberă (Fig. 6.19) este utilizată în contextul:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Lipsei de gingie keratinizată adecvată în jurul unui dinte stâlp planificat"
+                },
+                {"key": "B", "text": "Pregătirii unei zone receptoare și suturii grefei în poziție"},
+                {
+                  "key": "C",
+                  "text": "Creșterii lățimii gingiei keratinizate atașate după vindecare (comparativ cu preoperator)"
+                },
+                {
+                  "key": "D",
+                  "text": "Obligației de a evita orice tratament al restaurărilor defectuoase în aceeași etapă"
+                },
+                {"key": "E", "text": "Necesită întotdeauna implanturi ca ancoraj"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Fig. 6.19 descrie indicația, pregătirea patului, sutura și rezultatul (lățime mai mare de gingie atașată).",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "TP04_Q18",
+              "type": "complement_multiplu",
+              "stem": "Tehnica pungii și tunelului pentru acoperirea rădăcinii (Fig. 6.21) – sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se recoltează țesut conjunctiv donator (ex.: palat)"},
+                {"key": "B", "text": "Țesutul donator se plasează în buzunar/tunel"},
+                {"key": "C", "text": "Gingia facială se suturează coronal pentru a acoperi țesutul donator"},
+                {
+                  "key": "D",
+                  "text": "Rezultatul urmărit include îngroșarea gingiei marginale și acoperire radiculară"
+                },
+                {"key": "E", "text": "Tehnica exclude complet suturile"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Legenda Fig. 6.21 descrie pașii și evidențiază vindecarea cu acoperire radiculară și gingie marginală mai groasă.",
+              "source": {"pdf_pages": [16]}
+            },
+            {
+              "id": "TP04_Q19",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 6.23, la alungirea chirurgicală a coroanei, sunt menționate praguri/distanțe țintă de aproximativ:",
+              "options": [
+                {"key": "A", "text": "3,5 mm între carie/linia de fractură și creasta alveolară (în exemplu)"},
+                {"key": "B", "text": "0,5 mm între carie și creastă (suficient în toate cazurile)"},
+                {"key": "C", "text": "Îndepărtarea osului pentru a crește distanța până la defect"},
+                {"key": "D", "text": "Vindecare după alungirea coroanei urmată de restaurare definitivă"},
+                {"key": "E", "text": "Alungirea coroanei se face fără lambou și fără evaluarea defectului"}
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Figura 6.23 ilustrează ridicarea lamboului, îndepărtarea osului pentru a obține ~3,5 mm și apoi restaurarea definitivă.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "TP04_Q20",
+              "type": "complement_multiplu",
+              "stem": "Fig. 6.24 sugerează că după alungirea chirurgicală a coroanei unui dinte anterior pot apărea probleme estetice dacă:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se tratează doar o zonă (ex.: mezial) fără integrarea armonioasă a conturului gingival"
+                },
+                {"key": "B", "text": "Conturul gingival nu este înclinat treptat/armonizat"},
+                {"key": "C", "text": "Se realizează un wax-up diagnostic înainte de chirurgie"},
+                {"key": "D", "text": "Se include și conturul distal în planificare (pentru estetică mai bună)"},
+                {"key": "E", "text": "Pacientul are linie de zâmbet joasă"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Legenda Fig. 6.24 compară rezultatul și indică îmbunătățirea estetică dacă se include conturul distal și tranziția gingivală graduală.",
+              "source": {"pdf_pages": [18]}
+            },
+            {
+              "id": "TP04_Q21",
+              "type": "complement_multiplu",
+              "stem": "Reproducerea chirurgicală a papilei interdentare (Fig. 6.25) include:",
+              "options": [
+                {"key": "A", "text": "Incizii intrasulculare și bucale la nivelul papilei"},
+                {"key": "B", "text": "Ridicarea lambourilor (bucal și palatal) cu grosime parțială"},
+                {"key": "C", "text": "Plasarea unei grefe de țesut conjunctiv sub lambouri"},
+                {"key": "D", "text": "Suturarea lambourilor după plasarea grefei"},
+                {"key": "E", "text": "Tehnica descrie exclusiv tratament ortodontic, fără chirurgie"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Legenda Fig. 6.25 descrie secvența chirurgicală pentru reconstrucția papilei cu grefă conjunctivă și suturi.",
+              "source": {"pdf_pages": [18]}
+            },
+            {
+              "id": "TP04_Q22",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 6.26, tehnologia de imagistică computerizată poate fi folosită pentru:",
+              "options": [
+                {"key": "A", "text": "Simularea închiderii unei diasteme (înainte/după)"},
+                {
+                  "key": "B",
+                  "text": "Vizualizarea modificărilor estetice rezultate din tratament (ex.: fațete laminate)"
+                },
+                {"key": "C", "text": "Manipularea imaginii cu software de editare foto (exemplu menționat)"},
+                {"key": "D", "text": "Înlocuirea obligatorie a examenului clinic și a fotografiilor"},
+                {"key": "E", "text": "Planificarea și comunicarea schimbărilor estetice către pacient"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Legenda Fig. 6.26 descrie simularea estetică și utilizarea software-ului; ulterior (Fig. 6.31) se subliniază utilitatea în planificare/comunicare.",
+              "source": {"pdf_pages": [19, 20]}
+            },
+            {
+              "id": "TP04_Q23",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 6.29–6.30, evaluarea necesității tratamentului ortodontic înainte de protetica fixă poate folosi:",
+              "options": [
+                {"key": "A", "text": "Preparații diagnostice"},
+                {"key": "B", "text": "Paralelograf"},
+                {
+                  "key": "C",
+                  "text": "Secționarea modelului diagnostic pentru a estima mișcarea ortodontică dorită"
+                },
+                {"key": "D", "text": "Doar radiografie panoramică, fără modele"},
+                {
+                  "key": "E",
+                  "text": "Modele și tehnici de evaluare în laborator înainte de intervenții clinice"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 6.29–6.30 arată explicit prepararea diagnostică, paralelograful și secționarea modelului pentru planificarea mișcărilor.",
+              "source": {"pdf_pages": [20]}
+            },
+            {
+              "id": "TP04_Q24",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 6.32, cazul cu linie de zâmbet înaltă și PPF anterioară defectă include următoarele elemente de tratament combinat:",
+              "options": [
+                {"key": "A", "text": "Decimentarea restaurării și identificarea cariilor secundare"},
+                {
+                  "key": "B",
+                  "text": "Grefare și plasarea unui implant în zona incisivului central (în descriere)"
+                },
+                {
+                  "key": "C",
+                  "text": "Ortodonție pentru extruzia rapidă a unui incisiv lateral, pentru structură dentară și efect de ferul"
+                },
+                {
+                  "key": "D",
+                  "text": "Inserarea restaurărilor ceramice individuale după îmbunătățirea țesuturilor"
+                },
+                {"key": "E", "text": "Excluderea radiografiilor din evaluare"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Legenda Fig. 6.32 descrie clar combinația: evaluare (inclusiv radiografii), grefare+implant, extruzie ortodontică și restaurări ceramice finale.",
+              "source": {"pdf_pages": [21]}
+            },
+            {
+              "id": "TP04_Q25",
+              "type": "complement_multiplu",
+              "stem": "Mișcarea ortodontică ca adjuvant al proteticii fixe (Fig. 6.36–6.37) este ilustrată prin:",
+              "options": [
+                {"key": "A", "text": "Corecții minore de spațiu înainte de restaurare"},
+                {"key": "B", "text": "Redresarea unui molar înclinat mezial înainte de realizarea unei PPF"},
+                {
+                  "key": "C",
+                  "text": "Migrarea distală a unui premolar după pierderea provizoriei, necesitând repoziționare înainte de amprentă"
+                },
+                {
+                  "key": "D",
+                  "text": "Faptul că provizoriile inadecvate pot genera modificări care împiedică inserarea coroanei"
+                },
+                {"key": "E", "text": "Interdicția utilizării aparatelor mobile pentru repoziționare"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 6.36 arată mișcări minore și redresare; Fig. 6.37 prezintă efectul unei provizorii inadecvate și necesitatea repoziționării înainte de amprentă.",
+              "source": {"pdf_pages": [24]}
+            }, {
+              "id": "PERIO04_Q01",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului (prevalență), care afirmații sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Aproximativ 38,5% din populația SUA are o formă moderată–severă de boală parodontală (în datele prezentate)."
+                },
+                {
+                  "key": "B",
+                  "text": "Aproximativ 2,5% din populația SUA suferă de o formă severă care răspunde slab la terapia actuală (în datele prezentate)."
+                },
+                {
+                  "key": "C",
+                  "text": "Aproximativ 61,5% este descris ca fiind fără boală parodontală moderată–severă."
+                },
+                {
+                  "key": "D",
+                  "text": "Cursul afirmă că 50% din populație are obligatoriu boală parodontală severă."
+                },
+                {
+                  "key": "E",
+                  "text": "Figura de prevalență include o estimare pe 22 de ani de întreținere parodontală (raport Hirschfeld & Wasserman)."
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura de prevalență arată proporțiile (61,5% vs 38,5%) și menționează subsetul sever (~2,5% din populația SUA) și sursa cu întreținere pe 22 de ani.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "PERIO04_Q02",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, boala parodontală are o expresie clinică „site-specific” (specifică pe dinte/suprafață). Ce susține această idee?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Adâncimile pungilor pot varia semnificativ de la un dinte la altul în aceeași arcadă."
+                },
+                {
+                  "key": "B",
+                  "text": "Pe radiografie, un dinte poate avea pierdere osoasă severă, iar dintele vecin poate avea modificări minore."
+                },
+                {"key": "C", "text": "Boala parodontală afectează întotdeauna uniform toți dinții."},
+                {
+                  "key": "D",
+                  "text": "Cursul prezintă o figură cu dinți 11–23 și diferențe între suprafețe/zone."
+                },
+                {
+                  "key": "E",
+                  "text": "Diagnosticul se bazează exclusiv pe o singură valoare globală (fără diferențe pe dinți)."
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 5.2 ilustrează variația localizată (pungi/pierdere osoasă diferită între dinți/suprafețe).",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "PERIO04_Q03",
+              "type": "complement_multiplu",
+              "stem": "În cadrul tratamentului parodontitei, care componente sunt menționate în curs ca parte a terapiei inițiale (de bază)?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Îndepărtarea eficientă a plăcii bacteriene de către pacient (controlul plăcii)."
+                },
+                {"key": "B", "text": "Debridare: detartraj și netezire radiculară (SC/RP)."},
+                {
+                  "key": "C",
+                  "text": "Îndepărtarea dinților nerestaurabili sau cu prognostic slab, când e cazul."
+                },
+                {
+                  "key": "D",
+                  "text": "Plasarea imediată a tuturor marginilor protetice strict subgingival, indiferent de situație."
+                },
+                {"key": "E", "text": "Reevaluare după terapia inițială pentru a aprecia răspunsul."}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Secțiunea „Tratamentul parodontitei” descrie controlul plăcii, SC/RP, extracții selective când e cazul și reevaluare.",
+              "source": {"pdf_pages": [1, 3]}
+            },
+            {
+              "id": "PERIO04_Q04",
+              "type": "complement_multiplu",
+              "stem": "Conform exemplului clinic cu SC/RP (parodontometrie), care modificări sunt prezentate după tratament?",
+              "options": [
+                {"key": "A", "text": "Reducerea inflamației clinice."},
+                {"key": "B", "text": "Reducerea adâncimilor pungilor."},
+                {
+                  "key": "C",
+                  "text": "Recesiune gingivală redusă / modificată în urma terapiei (menționat în figură)."
+                },
+                {"key": "D", "text": "Creșterea sângerării la sondare ca semn de vindecare."},
+                {"key": "E", "text": "Reevaluarea post-SC/RP arată îmbunătățiri pe fișa parodontală."}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 5.4 descrie reducerea inflamației, reducerea pungilor și modificări ale recesiunii după SC/RP, evidențiate prin reevaluare.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "PERIO04_Q05",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, ce afirmații despre sângerarea la sondare (BOP) sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Absența BOP este un indicator fiabil al sănătății parodontale."},
+                {
+                  "key": "B",
+                  "text": "Persistența BOP în același loc crește considerabil riscul de pierdere osoasă viitoare."
+                },
+                {
+                  "key": "C",
+                  "text": "Cursul prezintă un tabel/figură care leagă frecvența consecutivă a BOP de precizia predictivă a pierderii osoase viitoare."
+                },
+                {"key": "D", "text": "BOP persistent nu are nicio semnificație prognostică."},
+                {"key": "E", "text": "BOP este singurul parametru relevant; celelalte măsurători nu contează."}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Fig. 5.6 subliniază valoarea absenței BOP și riscul asociat BOP persistent; Fig. 5.5/5.6 prezintă relația cu pierderea osoasă viitoare.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "PERIO04_Q06",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 5.1 (reducerea cariilor), care intervenție este marcată ca având „reducere semnificativă” a cariilor interproximale?",
+              "options": [
+                {"key": "A", "text": "Instrucțiuni de igienă orală la fiecare 2 săptămâni"},
+                {"key": "B", "text": "Clătiri cu clorhexidină la fiecare 2 săptămâni"},
+                {"key": "C", "text": "Clătiri cu fluor la fiecare 2 săptămâni"},
+                {"key": "D", "text": "Curățarea profesională a dinților la fiecare 2 săptămâni"},
+                {"key": "E", "text": "Nicio intervenție nu poate reduce cariile interproximale"}
+              ],
+              "answer_keys": ["D"],
+              "rationale": "În Tabelul 5.1, doar curățarea profesională la fiecare 2 săptămâni este indicată cu „Da” la reducere semnificativă.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "PERIO04_Q07",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului (prognostic parodontal – Caseta 5.1), care factori sunt incluși în stabilirea prognosticului?",
+              "options": [
+                {"key": "A", "text": "Controlul plăcii bacteriene"},
+                {"key": "B", "text": "Complianța pacientului"},
+                {"key": "C", "text": "Fumatul"},
+                {"key": "D", "text": "Implicarea furcației"},
+                {"key": "E", "text": "Alegerea culorii dintelui (shade) ca factor parodontal major"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Caseta 5.1 listează factori clinici generali, sistemici/de mediu și anatomici/locali (inclusiv fumat și furcații), precum și complianța și controlul plăcii.",
+              "source": {"pdf_pages": [5]}
+            },
+            {
+              "id": "PERIO04_Q08",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 5.7, pentru a favoriza vindecarea maximă după detartraj și netezire radiculară (SC/RP), ce trebuie corectat în faza inițială?",
+              "options": [
+                {"key": "A", "text": "Contacte deschise"},
+                {"key": "B", "text": "Restaurări defectuoase"},
+                {"key": "C", "text": "Carii dentare"},
+                {"key": "D", "text": "Poziția pupilelor în fotografia de zâmbet"},
+                {"key": "E", "text": "Factori care reduc accesul la igienizare și întreținere"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 5.7 arată că contactele deschise/restaurările defectuoase/cariile trebuie corectate pentru vindecare și igienizare eficientă.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "PERIO04_Q09",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 5.8, planificarea restauratorie în context de distrugere parodontală poate include:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Păstrarea dinților mandibulari cu necesități minime de restaurare cât mai mult timp posibil."
+                },
+                {
+                  "key": "B",
+                  "text": "În maxilar, extracții selective și tratament restaurator extins pentru o longevitate acceptabilă."
+                },
+                {
+                  "key": "C",
+                  "text": "Extracția obligatorie a tuturor dinților cu afectare parodontală, indiferent de restaurabilitate."
+                },
+                {
+                  "key": "D",
+                  "text": "Decizii diferite pe arcade în funcție de necesarul restaurator și prognostic."
+                },
+                {
+                  "key": "E",
+                  "text": "Interdicția tratamentelor restauratorii în prezența afectării parodontale."
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 5.8 compară situația mandibulei vs maxilarului și justifică abordări diferite (păstrare vs extracții selective + restaurator extins).",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "PERIO04_Q10",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, lățimea biologică (LB) are valori medii și implicații clinice. Sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Valoarea medie prezentată pentru lățimea biologică este ~2,04 mm."},
+                {"key": "B", "text": "Invadarea spațiului de ~2,04 mm duce la o reacție inflamatorie."},
+                {"key": "C", "text": "LB nu are nicio relevanță pentru poziționarea marginilor protetice."},
+                {"key": "D", "text": "Cursul leagă LB de poziționarea marginilor preparațiilor."},
+                {"key": "E", "text": "LB este identică cu adâncimea pungii parodontale."}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 5.13 arată ~2,04 mm și menționează inflamația la invadare; secțiunea despre poziționarea marginilor se raportează la LB.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "PERIO04_Q11",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 5.12, pentru dinții/implanturile restaurate cu o proteză fixă este necesar:",
+              "options": [
+                {"key": "A", "text": "Minim 5 mm de țesut keratinizat."},
+                {"key": "B", "text": "Din cei 5 mm, aproximativ 3 mm sunt atașați de periost."},
+                {"key": "C", "text": "0 mm țesut keratinizat este suficient dacă marginile sunt subgingivale."},
+                {
+                  "key": "D",
+                  "text": "Țesutul keratinizat este prezentat ca element important pentru prognostic pe termen lung."
+                },
+                {"key": "E", "text": "Țesutul keratinizat contează doar pentru estetică, nu pentru igienizare."}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 5.12 precizează minimul de 5 mm (3 mm atașat) în contextul restaurărilor fixe pe dinți/implanturi.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "PERIO04_Q12",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 5.4 (biotip subțire vs gros), sunt caracteristici ale biotipului gingival subțire:",
+              "options": [
+                {"key": "A", "text": "Os marginal subțire"},
+                {"key": "B", "text": "Dehiscențe și fenestrații frecvente în osul subiacent"},
+                {"key": "C", "text": "Zonă largă de gingie keratinizată"},
+                {"key": "D", "text": "Forme dentare triunghiulare"},
+                {"key": "E", "text": "Schimbarea culorii restaurării/implantului este mai vizibilă"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Tabelul 5.4 listează explicit aceste caracteristici pentru biotipul subțire; zona largă de gingie keratinizată e specifică biotipului gros.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "PERIO04_Q13",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 5.4, sunt caracteristici ale biotipului gingival gros:",
+              "options": [
+                {"key": "A", "text": "Os marginal gros și plăci osoase groase"},
+                {"key": "B", "text": "Zonă largă de gingie keratinizată"},
+                {"key": "C", "text": "Papile scurte și groase menținute mai bine după plasarea implantului"},
+                {"key": "D", "text": "Recesiune gingivală >2 mm după extracție (tipic)"},
+                {"key": "E", "text": "Schimbarea culorii restaurării/implantului este mascată în țesutul gros"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Tabelul 5.4 compară direct subțire vs gros; grosul are os/țesut mai voluminos și maschează mai bine discromiile.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "PERIO04_Q14",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 5.16, efectul poziționării marginilor restauratoare asupra parodonțiului este ilustrat prin:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Margini la nivelul crestei gingivale pot să nu producă semne vizibile de inflamație (în exemplu)."
+                },
+                {
+                  "key": "B",
+                  "text": "O margine subgingivală plasată pentru a acoperi o rădăcină poate genera reacție inflamatorie vizibilă."
+                },
+                {"key": "C", "text": "Orice margine subgingivală este întotdeauna neutră pentru parodonțiu."},
+                {"key": "D", "text": "Cursul evidențiază relația dintre margini restauratoare și inflamație."},
+                {"key": "E", "text": "Poziția marginilor nu influențează deloc sănătatea gingivală."}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 5.16 compară margini la creasta gingivală (fără inflamație vizibilă) cu margine subgingivală (inflamație).",
+              "source": {"pdf_pages": [11]}
+            },
+            {
+              "id": "PERIO04_Q15",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 5.2, adâncimea aproximativă de îndepărtare a plăcii bacteriene subgingival pentru diferite dispozitive este:",
+              "options": [
+                {"key": "A", "text": "Periuță de dinți: ~0,5 mm"},
+                {"key": "B", "text": "Ață dentară: ~2,5 mm"},
+                {"key": "C", "text": "Dispozitiv de irigare cu apă: ~4,0 mm"},
+                {"key": "D", "text": "Ață dentară: ~0,5 mm"},
+                {"key": "E", "text": "Periuță de dinți: ~4,0 mm"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Tabelul 5.2 listează valorile 0,5 mm (periuță), 2,5 mm (ață), 4,0 mm (irigare cu apă).",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "PERIO04_Q16",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 5.14 și Tabelului 5.2, despre irigarea subgingivală sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Irigarea subgingivală cu apă sau clorhexidină este menționată ca fiind mai eficientă în reducerea sângerării decât clătirea supragingivală cu clorhexidină."
+                },
+                {
+                  "key": "B",
+                  "text": "Sunt prezentate vârfuri dedicate pentru irigare subgingivală (ex.: Pik Pocket)."
+                },
+                {
+                  "key": "C",
+                  "text": "Irigarea nu are niciun impact asupra parametrilor inflamatori (conform cursului)."
+                },
+                {
+                  "key": "D",
+                  "text": "Adâncimea de curățare subgingivală cu irigatorul este listată ca ~4,0 mm."
+                },
+                {
+                  "key": "E",
+                  "text": "Cursul prezintă o schemă cu „zona de spălare” și „zona de impact” în timpul irigării."
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Fig. 5.14 descrie eficiența irigării subgingivale și tipurile de vârfuri + zonele de activitate; Tabelul 5.2 dă adâncimea (~4 mm).",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "PERIO04_Q17",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 5.15, ce efecte pot avea marginile deschise asupra țesuturilor parodontale?",
+              "options": [
+                {"key": "A", "text": "Reacție inflamatorie semnificativă."},
+                {"key": "B", "text": "Pierderea osului."},
+                {"key": "C", "text": "Distrugerea papilei interdentare."},
+                {"key": "D", "text": "Îmbunătățirea atașamentului prin autodebridare."},
+                {"key": "E", "text": "Cursul ilustrează atât radiografic, cât și clinic această situație."}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 5.15 menționează inflamația, pierderea osului și distrugerea papilei, prezentate radiografic și clinic.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "IMPL05_Q01",
+              "type": "complement_multiplu",
+              "stem": "Conform secțiunii „Tipuri de implanturi”, sunt menționate ca tipuri de implanturi dentare:",
+              "options": [
+                {"key": "A", "text": "Implanturi lamă"},
+                {"key": "B", "text": "Implanturi radiculare"},
+                {"key": "C", "text": "Implanturi subperiostale"},
+                {"key": "D", "text": "Implanturi transostale"},
+                {"key": "E", "text": "Implanturi endostale (subdivizate)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Cursul enumeră subperiostale/transostale/endostale și subdivizarea endostalelor (lamă/rădăcină).",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "IMPL05_Q02",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii despre subgrupurile principale de implanturi, implanturile endostale pot fi subdivizate în:",
+              "options": [
+                {"key": "A", "text": "Implanturi sub formă de lamă"},
+                {"key": "B", "text": "Implanturi sub formă de rădăcină"},
+                {"key": "C", "text": "Implanturi subperiostale"},
+                {"key": "D", "text": "Implanturi transostale"},
+                {"key": "E", "text": "Implanturi tisulare (doar nivel tisular)"}
+              ],
+              "answer_keys": ["A", "B"],
+              "rationale": "Figura cu cele trei subgrupuri precizează explicit subdivizarea endostalelor în lamă și rădăcină.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "IMPL05_Q03",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii cu variante de design (nivel osos/nivel tisular), sunt prezentate:",
+              "options": [
+                {"key": "A", "text": "Implant cu nivel osos cu pereți paraleli (cilindric)"},
+                {"key": "B", "text": "Implant cu nivel osos conic"},
+                {"key": "C", "text": "Implant cu nivel tisular"},
+                {"key": "D", "text": "Implant dintr-o singură bucată (monocorp)"},
+                {"key": "E", "text": "Implant subperiostal cu bară personalizată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura 13.4 prezintă exact cele patru variante (A–D).",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "IMPL05_Q04",
+              "type": "complement_multiplu",
+              "stem": "În evaluarea radiografică pre-implantară, cursul ilustrează utilizarea markerilor radioopaci prin:",
+              "options": [
+                {"key": "A", "text": "Rulmenți cu bile de ~5 mm plasați pe modelul de diagnostic"},
+                {
+                  "key": "B",
+                  "text": "Radiografie panoramică cu bile metalice poziționate intraoral pe un șablon din ceară/rășină"
+                },
+                {
+                  "key": "C",
+                  "text": "Radiografie periapicală obligatorie pentru fiecare implant, fără alte investigații"
+                },
+                {"key": "D", "text": "Corectarea factorului de mărire prin marker radioopac cunoscut"},
+                {"key": "E", "text": "CT/CBCT pentru măsurători digitale ale crestei"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Sunt ilustrate bile metalice ca repere, panoramică și CT cu măsurători digitale.",
+              "source": {"pdf_pages": [4, 5]}
+            },
+            {
+              "id": "IMPL05_Q05",
+              "type": "complement_multiplu",
+              "stem": "Conform imaginilor despre planificarea virtuală pe CT, sunt prezentate ca pași/elemente:",
+              "options": [
+                {"key": "A", "text": "Ghid de scanare cu dinți artificiali baritați pentru radioopacitate"},
+                {"key": "B", "text": "Software care permite plasarea virtuală a implantului și a bonturilor"},
+                {"key": "C", "text": "Proiectarea ghidului chirurgical generat pe baza CT"},
+                {"key": "D", "text": "Determinarea culorii finale a ceramicii exclusiv din CT"},
+                {"key": "E", "text": "Modelare diagnostică cu ceară integrată în planificarea digitală"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 13.8–13.8 (continuare) arată ghidul radioopac, planificarea software, proiectarea ghidului și integrarea wax-up-ului.",
+              "source": {"pdf_pages": [5, 6]}
+            },
+            {
+              "id": "IMPL05_Q06",
+              "type": "complement_multiplu",
+              "stem": "Despre ghidul chirurgical realizat pe model (vacuumformat), figura indică:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Poate fi realizat din folie termoplastică (~1,5 mm) vacuumformată pe model"
+                },
+                {
+                  "key": "B",
+                  "text": "Șablonul poate fi marcat cu locații/aliniamente ideale ale implanturilor"
+                },
+                {"key": "C", "text": "Se pot fora găuri în ghid pentru a ghida pregătirea sitului"},
+                {"key": "D", "text": "Necesită obligatoriu CT pentru orice caz, fără excepție"},
+                {"key": "E", "text": "Ghidul este folosit doar pentru orientare verticală, nu și orizontală"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Figura 13.9 descrie realizarea cu folie, marcarea și forarea ghidului.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "IMPL05_Q07",
+              "type": "complement_multiplu",
+              "stem": "Conform tehnicii din figura 13.10, sunt corecte următoarele despre șablonul pentru orientare:",
+              "options": [
+                {"key": "A", "text": "Dintele protezei diagnostice este poziționat pentru estetică optimă"},
+                {"key": "B", "text": "Dintele protezei poate fi subțiat lingual până la ~2 mm"},
+                {
+                  "key": "C",
+                  "text": "Se poate realiza direct o folie vacuumformată fără duplicarea modelului (în anumite condiții)"
+                },
+                {"key": "D", "text": "Dintele protezei poate fi lipit înapoi pe folie"},
+                {"key": "E", "text": "Șablonul ghidează doar poziționarea verticală, nu și orizontală"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Pașii sunt descriși în Fig. 13.10; se menționează ghidare atât orizontală, cât și verticală.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "IMPL05_Q08",
+              "type": "complement_multiplu",
+              "stem": "Conform recomandărilor privind distanțele minime, implanturile trebuie plasate:",
+              "options": [
+                {"key": "A", "text": "La cel puțin 3 mm între ele"},
+                {"key": "B", "text": "La cel puțin 1 mm față de dinții adiacenți"},
+                {"key": "C", "text": "La 0 mm față de dinții adiacenți dacă există os dens"},
+                {"key": "D", "text": "La 8 mm între ele în zona frontală ca regulă generală"},
+                {"key": "E", "text": "Distanțele sunt prezentate în milimetri în figură"}
+              ],
+              "answer_keys": ["A", "B", "E"],
+              "rationale": "Figura 13.12 precizează 3 mm între implanturi și 1 mm față de dinții adiacenți.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "IMPL05_Q09",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii despre stabilitatea implantului, este recomandat ca (ori de câte ori este posibil):",
+              "options": [
+                {"key": "A", "text": "Implanturile să se fixeze pe două plăci corticale"},
+                {"key": "B", "text": "Stabilitatea să depindă exclusiv de os medular"},
+                {
+                  "key": "C",
+                  "text": "Placa corticală superioară și corticala inferioară sunt prezentate în schemă"
+                },
+                {"key": "D", "text": "Această recomandare este făcută în contextul principiilor de localizare"},
+                {"key": "E", "text": "Se recomandă evitarea contactului cu corticala"}
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Figura 13.14 afirmă fixarea pe două plăci corticale și arată corticalele.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "IMPL05_Q10",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii despre raport coroană–implant, implanturile mai scurte pot crea probleme deoarece:",
+              "options": [
+                {"key": "A", "text": "Contactul cu osul este mai redus"},
+                {"key": "B", "text": "Coroanele sunt mai lungi, crescând forțele asupra implantului"},
+                {
+                  "key": "C",
+                  "text": "Raporturile coroană–implant mai mici sunt mai favorabile decât cele mai mari"
+                },
+                {"key": "D", "text": "Raportul coroană–implant nu influențează prognosticul"},
+                {
+                  "key": "E",
+                  "text": "Figura compară explicit două scenarii (implant lung/coroană scurtă vs implant scurt/coroană lungă)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 13.15 explică cele două probleme și faptul că raporturile mai favorabile au prognostic mai bun.",
+              "source": {"pdf_pages": [11]}
+            },
+            {
+              "id": "IMPL05_Q11",
+              "type": "complement_multiplu",
+              "stem": "Figura despre poziția/angulația implantului (emergența șurubului și conturul coroanei) arată că pot apărea probleme când implantul este:",
+              "options": [
+                {"key": "A", "text": "Prea lingual și prea superficial (contururi inadecvate pentru igienă)"},
+                {
+                  "key": "B",
+                  "text": "Prea înclinat vestibular și prea superficial (risc estetic/eșec estetic)"
+                },
+                {"key": "C", "text": "Prea departe labial"},
+                {"key": "D", "text": "Prea departe lingual"},
+                {"key": "E", "text": "Poziționat ideal cu ieșire linguală a șurubului și contururi acceptabile"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Fig. 13.16 marchează scenarii corecte/inanswer_keyse și consecințe asupra esteticii și igienei.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "IMPL05_Q12",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii despre poziționarea superioară/inferioară (adâncime), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Plasarea la ~2–3 mm apical față de poziția de emergență dorită este ideală"
+                },
+                {
+                  "key": "B",
+                  "text": "Dacă implantul nu e suficient de adânc, coroana poate deveni scurtă și cu contur excesiv"
+                },
+                {"key": "C", "text": "Plasarea la ~4 mm apical poate duce la sulcus gingival excesiv de adânc"},
+                {
+                  "key": "D",
+                  "text": "Adâncimea implantului este descrisă ca fiind esențială pentru rezultat reușit"
+                },
+                {"key": "E", "text": "Adâncimea nu influențează contururile coroanei"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 13.17 descrie explicit efectele adâncimii asupra conturului și sondajului parodontal.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "IMPL05_Q13",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii despre dimensiunea minimă a osului pentru implanturi, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Pentru implant cu diametru mic, dimensiunea minimă a osului este ~5 mm"},
+                {
+                  "key": "B",
+                  "text": "Ideal, după osteotomie ar trebui să rămână ≥1 mm os pe fiecare parte lateral"
+                },
+                {"key": "C", "text": "Pentru implant mai lat (~5 mm), dimensiunea minimă a osului este ~7 mm"},
+                {"key": "D", "text": "Se recomandă 0 mm os lateral pentru a maximiza diametrul implantului"},
+                {"key": "E", "text": "Figura prezintă explicit valori bucal/lingual și mm rămași"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 13.18 oferă praguri 5 mm și 7 mm și regula de 1 mm os pe fiecare parte după pregătirea sitului.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "IMPL05_Q14",
+              "type": "complement_multiplu",
+              "stem": "Relația os interdentar – punct de contact și prezența papilei (figura despre papilă) indică:",
+              "options": [
+                {"key": "A", "text": "Dacă distanța os–contact este <5 mm, de obicei papila este prezentă"},
+                {"key": "B", "text": "Dacă distanța os–contact este >8 mm, de obicei papila nu este prezentă"},
+                {"key": "C", "text": "Papila este garantată indiferent de distanță"},
+                {"key": "D", "text": "Figura sugerează valoare predictivă a acestei relații"},
+                {"key": "E", "text": "Distanțele sunt exprimate în mm (5 mm vs 8 mm)"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Fig. 13.20 prezintă pragurile 5 mm/8 mm și ideea de predicție a prezenței papilei.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "IMPL05_Q15",
+              "type": "complement_multiplu",
+              "stem": "Conform secvenței clinice de plasare cu șablon chirurgical (figura 13.21), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se pot realiza incizii cu lambou de grosime completă, păstrând papila interdentară"
+                },
+                {
+                  "key": "B",
+                  "text": "Implantul este poziționat la ~2,5–3,0 mm apical față de emergența dorită a restaurării finale"
+                },
+                {
+                  "key": "C",
+                  "text": "Orientarea supero-inferioară poate fi ghidată prin extensia apicală a șablonului"
+                },
+                {"key": "D", "text": "Vindecarea este menționată ca 2–6 luni în exemplu"},
+                {
+                  "key": "E",
+                  "text": "Șablonul împiedică orice evaluare a osului, fiind complet închis lingual în descriere"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura 13.21 descrie păstrarea papilei, poziționarea apicală, rolul extensiei șablonului și intervalul de vindecare.",
+              "source": {"pdf_pages": [16]}
+            },
+            {
+              "id": "IMPL05_Q16",
+              "type": "complement_multiplu",
+              "stem": "Despre terminologia componentelor implantare (Tabelul 13.1), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Corpul implantului = porțiunea intraosoasă a sistemului implantar"},
+                {
+                  "key": "B",
+                  "text": "Șurubul de vindecare (șurub de acoperire/etanșare) etanșează suprafața coronară în timpul osteointegrării (protocol în două etape)"
+                },
+                {
+                  "key": "C",
+                  "text": "Bontul de vindecare menține deschiderea prin țesutul moale până la finalizarea restaurării"
+                },
+                {"key": "D", "text": "Analogul de implant este o replică pentru utilizare în modelul turnat"},
+                {
+                  "key": "E",
+                  "text": "Șurubelnița hexagonală este descrisă ca inutilă pentru șuruburile de fixare"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul 13.1 definește aceste componente și funcțiile lor.",
+              "source": {"pdf_pages": [19]}
+            },
+            {
+              "id": "IMPL05_Q17",
+              "type": "complement_multiplu",
+              "stem": "Conform imaginilor despre componentele pentru vindecarea țesuturilor moi, sunt prezentate:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Șurub de vindecare (acoperire) cu țesut moale suturat peste implant (procedură în două etape)"
+                },
+                {"key": "B", "text": "Bont provizoriu (healing abutment) înșurubat pe implant"},
+                {
+                  "key": "C",
+                  "text": "Capac de vindecare înșurubat pe bont (protejează interfața în anumite situații)"
+                },
+                {"key": "D", "text": "Bont UCLA este folosit exclusiv ca șurub de acoperire în prima etapă"},
+                {
+                  "key": "E",
+                  "text": "Proteza mobilă poate fi purtată peste zona cu șurub de acoperire în timpul vindecării (menționat în figură)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 13.24–13.25 arată șurubul de acoperire, bontul provizoriu și capacul de vindecare; se menționează purtarea unei proteze mobile peste zonă.",
+              "source": {"pdf_pages": [20]}
+            },
+            {
+              "id": "IMPL05_Q18",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii cu tipurile de bonturi (abutmenturi), sunt incluse:",
+              "options": [
+                {"key": "A", "text": "Bont standard (pentru restaurări fixate cu șurub)"},
+                {"key": "B", "text": "Bont fix (pentru restaurări cimentate)"},
+                {
+                  "key": "C",
+                  "text": "Bont angulat (pentru corectarea unghiului din motive estetice/biomecanice)"
+                },
+                {
+                  "key": "D",
+                  "text": "Bont conic (util pentru tranziție în spații protetice mari / proteze fix-mobil)"
+                },
+                {
+                  "key": "E",
+                  "text": "Bont nesegmentat/UCLA (restaurare direct pe implant, fără bont intermediar)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Fig. 13.26 enumeră tipurile A–E și indicațiile lor generale.",
+              "source": {"pdf_pages": [21]}
+            },
+            {
+              "id": "IMPL05_Q19",
+              "type": "complement_multiplu",
+              "stem": "Conform explicației despre cuplarea antirotațională (hex), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Pentru un singur dinte, hexagonul trebuie „cuplat”"},
+                {
+                  "key": "B",
+                  "text": "În restaurări multiple, hexagoanele nu pot fi cuplate dacă implanturile nu sunt paralele"
+                },
+                {"key": "C", "text": "În restaurări multiple se folosesc bonturi directe „rotaționale”"},
+                {
+                  "key": "D",
+                  "text": "Cuplarea antirotațională se face prin potrivirea manșonului pe hex, iar șurubul strânge independent"
+                },
+                {"key": "E", "text": "Cursul afirmă că antirotația nu contează pentru coroane unitare"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura 13.29 descrie regula pentru unidentare vs multiple și mecanismul manșon–hex–șurub.",
+              "source": {"pdf_pages": [23]}
+            },
+            {
+              "id": "IMPL05_Q20",
+              "type": "complement_multiplu",
+              "stem": "În cazul unui implant maxilar prea înclinat vestibular pentru bont drept, figura arată că:",
+              "options": [
+                {"key": "A", "text": "Se poate alege un bont angulat (ex. 15°) pentru remediere"},
+                {
+                  "key": "B",
+                  "text": "Se menționează utilizarea unui agent de fixare provizoriu pentru a păstra posibilitatea de îndepărtare (în context)"
+                },
+                {"key": "C", "text": "Coroana finală poate fi cimentată pe bontul angulat"},
+                {"key": "D", "text": "Se recomandă întotdeauna bont drept, indiferent de angulație"},
+                {
+                  "key": "E",
+                  "text": "Este discutată dificultatea alegerii unui material care să fixeze bine dar să permită îndepărtarea"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 13.30 descrie bontul angulat și considerentele legate de cimentare/îndepărtare.",
+              "source": {"pdf_pages": [24]}
+            },
+            {
+              "id": "IMPL05_Q21",
+              "type": "complement_multiplu",
+              "stem": "Conform figurii despre „canalul șurubului înclinat”, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Permite fabricarea coroanelor înșurubate pe implanturi nealiniate"},
+                {
+                  "key": "B",
+                  "text": "Poate schimba locația orificiului de acces într-o poziție mai linguală/palatală"
+                },
+                {"key": "C", "text": "Include corectarea virtuală a unghiului canalului șurubului"},
+                {"key": "D", "text": "Elimină complet necesitatea planificării poziției implantului"},
+                {"key": "E", "text": "Este ilustrată prin comparații de vederi frontale/incizale"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 13.32 explică conceptul și arată corecția virtuală și rezultatele în diferite vederi.",
+              "source": {"pdf_pages": [25]}
+            },
+            {
+              "id": "IMPL05_Q22",
+              "type": "complement_multiplu",
+              "stem": "Conform figurilor despre amprentare, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Tehnica cu lingură deschisă folosește un coping (capă) care se scoate împreună cu tava"
+                },
+                {"key": "B", "text": "Radiografia poate confirma așezarea completă a coping-ului"},
+                {"key": "C", "text": "Analogul implantului se atașează la coping înainte de turnare"},
+                {
+                  "key": "D",
+                  "text": "Polieterul este prezentat ca material de amprentă injectat în jurul analogului/complexului"
+                },
+                {"key": "E", "text": "Amprentele pe implant se fac exclusiv cu alginat"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 13.36–13.37 descriu lingura deschisă, confirmarea radiografică, analogul și folosirea polieterului.",
+              "source": {"pdf_pages": [27, 28]}
+            },
+            {
+              "id": "IMPL05_Q23",
+              "type": "complement_multiplu",
+              "stem": "Conform secțiunii despre conturarea țesuturilor moi cu provizoriu (figurile 13.49–13.50), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Provizoriul poate contura țesutul moale pentru profile de emergență fiziologice"
+                },
+                {
+                  "key": "B",
+                  "text": "Conturarea poate îmbunătăți estetica și poate minimiza adâncimea de sondare"
+                },
+                {
+                  "key": "C",
+                  "text": "Țesutul moale este lăsat să se vindece ~4–6 săptămâni înainte de amprenta definitivă (în exemplu)"
+                },
+                {
+                  "key": "D",
+                  "text": "Conservarea papilei interdentare este importantă la linii ale surâsului medii/înalte"
+                },
+                {
+                  "key": "E",
+                  "text": "Se recomandă să NU se folosească provizorii pentru a nu modifica țesuturile moi"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 13.49–13.50 descriu conturarea prin provizoriu, efectele și intervalul până la amprentă; se subliniază conservarea papilei.",
+              "source": {"pdf_pages": [34, 35]}
+            },
+            {
+              "id": "IMPL05_Q24",
+              "type": "complement_multiplu",
+              "stem": "Conform schemelor biomecanice despre șuruburi, este corect că:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Cuplul aplicat pe șurub dezvoltă o preîncărcare (forță de prindere) între implant și coroană"
+                },
+                {
+                  "key": "B",
+                  "text": "Șurubul se va slăbi dacă forța de separare (ocluzală) depășește forța de prindere"
+                },
+                {"key": "C", "text": "Slăbirea șurubului nu are legătură cu forțele ocluzale"},
+                {"key": "D", "text": "Figurile compară explicit „cuplu aplicat” și „preîncărcare”"},
+                {"key": "E", "text": "Cursul afirmă că preîncărcarea nu poate fi influențată de cuplu"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 13.63–13.64 explică relația cuplu–preîncărcare și condiția de slăbire.",
+              "source": {"pdf_pages": [45]}
+            },
+            {
+              "id": "IMPL05_Q25",
+              "type": "complement_multiplu",
+              "stem": "Conform secțiunilor despre ocluzie și adaptarea structurilor, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Înclinările cuspizilor mai mari și suprafețele ocluzale mai largi cresc forța rezultantă asupra componentelor implantului"
+                },
+                {
+                  "key": "B",
+                  "text": "Dacă un implant este conectat la un dinte natural, tensiunile pot fi concentrate în partea superioară a implantului (în schema prezentată)"
+                },
+                {
+                  "key": "C",
+                  "text": "Adaptarea structurii metalice se evaluează cu un singur șurub de fixare strâns în poziție"
+                },
+                {"key": "D", "text": "Orice adaptare incomplet detectabilă necesită corectarea structurii"},
+                {
+                  "key": "E",
+                  "text": "Cursul recomandă radiografii de monitorizare a pierderii osoase la fiecare 10 ani, nu anual"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 13.65–13.66 și Fig. 13.69 descriu efectele ocluziei/conectării și testarea adaptării cu un singur șurub; monitorizarea anuală e menționată separat (nu la 10 ani).",
+              "source": {"pdf_pages": [46, 47]}
+            }, {
+              "id": "CT06_Q01",
+              "type": "complement_multiplu",
+              "stem": "Conform introducerii, o amprentă acceptabilă pentru proteze fixe trebuie să:",
+              "options": [
+                {"key": "A", "text": "Surprindă precis toate aspectele dintelui preparat"},
+                {
+                  "key": "B",
+                  "text": "Includă suficientă structură dentară nepreparată imediat adiacentă marginilor"
+                },
+                {"key": "C", "text": "Ignore conturul cervical al dintelui nepreparat (nu este crucial)"},
+                {"key": "D", "text": "Reproducă dinții de pe arcadă și țesuturile moi din vecinătate"},
+                {"key": "E", "text": "Poată avea bule/rupturi dacă marginile sunt vizibile"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Cursul insistă pe precizia preparației, pe includerea structurii nepreparate cervical și pe reproducerea dinților/țesuturilor pentru articulare și contururi corecte.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "CT06_Q02",
+              "type": "complement_multiplu",
+              "stem": "Conform textului, ce afirmații despre scanarea optică/ modelul virtual sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Un scaner optic 3D creează un „nor de puncte” pe baza informațiilor de distanță"
+                },
+                {"key": "B", "text": "De obicei sunt necesare mai multe scanări din unghiuri diferite"},
+                {"key": "C", "text": "Scanarea optică nu poate include dinții adiacenți și antagoniștii"},
+                {
+                  "key": "D",
+                  "text": "Unele sisteme necesită pulberi pentru reflexie uniformă (aplicate pe țesuturi uscate)"
+                },
+                {
+                  "key": "E",
+                  "text": "Scanările optice trebuie să fie lipsite de artefacte pentru a evita inexactități"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Sunt descrise „norul de puncte”, scanările multiple, necesitatea (uneori) a pulberilor și importanța evitării artefactelor.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "CT06_Q03",
+              "type": "complement_multiplu",
+              "stem": "Despre controlul umidității în amprentare, cursul precizează că:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Controlul umidității este una dintre cele mai importante condiții prealabile"
+                },
+                {
+                  "key": "B",
+                  "text": "Cu excepția polieterilor, materialele elastomerice sunt în general hidrofobe"
+                },
+                {"key": "C", "text": "Umiditatea poate produce goluri/defecte în amprentă"},
+                {"key": "D", "text": "Sângerarea nu trebuie controlată; materialele moderne o maschează"},
+                {
+                  "key": "E",
+                  "text": "Fluxul salivar în zona respectivă trebuie redus și deviat pentru câmp uscat"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Textul subliniază câmp uscat, hidrofobia elastomerilor (exceptând polieterii) și apariția golurilor prin umiditate.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "CT06_Q04",
+              "type": "complement_multiplu",
+              "stem": "Conform condițiilor prealabile, înainte de amprentă este obligatoriu ca:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Boala parodontală să fie tratată și rezolvată înaintea tratamentului protetic fix"
+                },
+                {
+                  "key": "B",
+                  "text": "Țesuturile inflamate sunt ideale pentru evicțiune (sângerează și lubrifiază)"
+                },
+                {
+                  "key": "C",
+                  "text": "O provizorie bine adaptată, lustruită și conturată ajută la revenirea țesuturilor la sănătate"
+                },
+                {
+                  "key": "D",
+                  "text": "Restaurările provizorii cu margini defectuoase pot crește retenția plăcii și inflamația"
+                },
+                {"key": "E", "text": "Amprenta se ia indiferent de starea țesuturilor, ca să nu se piardă timp"}
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Cursul evidențiază riscurile provizoriilor defectuoase și necesitatea sănătății parodontale înainte de amprentare.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "CT06_Q05",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 14.2 și textului, metode/elemente pentru controlul salivei includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Rulouri de bumbac plasate corect pentru a bloca fluxul din glanda parotidă (maxilar)"
+                },
+                {"key": "B", "text": "Aspirator de salivă plasat unde se acumulează saliva"},
+                {
+                  "key": "C",
+                  "text": "Aspiratoare cu flanșă (ex. Svedopter/Speejector) când limba deplasează aspiratorul clasic"
+                },
+                {"key": "D", "text": "Carduri absorbante de umiditate care aderă la țesutul bucal uscat"},
+                {"key": "E", "text": "Interdicția folosirii oricărui sistem de izolare dentară tip Isolite"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Sunt descrise rulourile, aspiratorul, dispozitivele cu flanșă, cardurile absorbante și Isolite ca alternativă.",
+              "source": {"pdf_pages": [2, 3]}
+            },
+            {
+              "id": "CT06_Q06",
+              "type": "complement_multiplu",
+              "stem": "Când se lucrează la molarul 2 sau 3 maxilar, cursul recomandă uneori rulouri suplimentare pentru:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Blocarea canalului parotidian (deschidere în fața primului molar maxilar)"
+                },
+                {"key": "B", "text": "Deplasarea limbii medial în arcada maxilară"},
+                {"key": "C", "text": "Menținerea câmpului uscat prin controlul sursei de salivă"},
+                {"key": "D", "text": "Creșterea deliberată a umidității pentru umectarea siliconilor"},
+                {"key": "E", "text": "Poziționarea ușor anterior și vestibular de preparație"}
+              ],
+              "answer_keys": ["A", "C", "E"],
+              "rationale": "Textul menționează rulouri multiple vestibular și ușor anterior pentru a bloca canalul parotidian și a controla saliva.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "CT06_Q07",
+              "type": "complement_multiplu",
+              "stem": "În amprentarea mandibulară, pot fi necesare rulouri suplimentare pentru:",
+              "options": [
+                {"key": "A", "text": "Blocarea canalelor salivare sublinguale și submandibulare"},
+                {"key": "B", "text": "Deplasarea obrazului lateral (ruloul vestibular)"},
+                {"key": "C", "text": "Deplasarea limbii medial (ruloul lingual)"},
+                {"key": "D", "text": "Creșterea fluxului salivar prin stimulare mecanică"},
+                {"key": "E", "text": "Fixarea rulourilor orizontale prin rulouri verticale plasate între ele"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Sunt descrise blocarea canalelor salivare, rolul rulourilor vestibular/lingual și stabilizarea cu rulouri verticale.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "CT06_Q08",
+              "type": "complement_multiplu",
+              "stem": "Despre aspiratorul cu flanșă (Svedopter/Speejector), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Necesită plasare atentă pentru a evita traumatizarea țesuturilor moi"},
+                {
+                  "key": "B",
+                  "text": "Un rulou de bumbac între lama aspiratorului și creasta milohioidiană reduce disconfortul"
+                },
+                {
+                  "key": "C",
+                  "text": "Ruloul poate împiedica flanșa să se deplaseze spre vestibular și îmbunătățește accesul lingual"
+                },
+                {"key": "D", "text": "Clema pentru bărbie trebuie strânsă cât mai tare pentru stabilitate"},
+                {
+                  "key": "E",
+                  "text": "Un aspirator de unică folosință pentru deplasarea limbii poate fi eficient"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Textul menționează exact aceste precauții/beneficii și avertizează să nu se strângă excesiv clema pentru bărbie.",
+              "source": {"pdf_pages": [2, 3]}
+            },
+            {
+              "id": "CT06_Q09",
+              "type": "complement_multiplu",
+              "stem": "În controlul salivei, cursul menționează că anestezia locală poate ajuta deoarece:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Blocarea impulsurilor din ligamentul parodontal reduce considerabil producția de salivă"
+                },
+                {"key": "B", "text": "Crește reflexul salivar prin stimulare nervoasă"},
+                {"key": "C", "text": "Poate ajuta la controlul durerii în timpul deplasării țesutului"},
+                {"key": "D", "text": "Este contraindicat să se folosească anestezie înaintea amprentei"},
+                {"key": "E", "text": "Este descrisă ca utilă în contextul controlului salivei la amprentare"}
+              ],
+              "answer_keys": ["A", "C", "E"],
+              "rationale": "Cursul explică mecanismul (impulsuri PDL) și menționează rolul anesteziei în controlul durerii și salivei.",
+              "source": {"pdf_pages": [2, 3]}
+            },
+            {
+              "id": "CT06_Q10",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 14.1, medicamente cu efect antisialagogic includ:",
+              "options": [
+                {"key": "A", "text": "Pro-Banthine (bromură de propantelină 7,5–15 mg)"},
+                {"key": "B", "text": "Robinul/Robinul Forte (glicopirrolat 1–2 mg)"},
+                {"key": "C", "text": "Bentyl (diciclomină HCl 10–20 mg)"},
+                {"key": "D", "text": "Ibuprofen 400 mg"},
+                {"key": "E", "text": "Administrare cu 30–60 min înainte de efectul dorit de uscare"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Tabelul indică explicit denumiri/ingrediente/doze și fereastra de administrare.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "CT06_Q11",
+              "type": "complement_multiplu",
+              "stem": "Despre anticolinergicele utilizate pentru reducerea secrețiilor, cursul precizează:",
+              "options": [
+                {"key": "A", "text": "Reduc secrețiile prin inhibarea inervației parasimpatice"},
+                {"key": "B", "text": "Trebuie prescrise cu precauție la persoanele în vârstă"},
+                {"key": "C", "text": "Nu trebuie administrate pacienților cu boli cardiace"},
+                {"key": "D", "text": "Sunt contraindicate în glaucom (risc de orbire permanentă)"},
+                {"key": "E", "text": "Sunt recomandate fără evaluare oftalmologică, deoarece glaucomul e rar"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul menționează mecanismul, prudența la vârstnici, evitarea la cardiaci și contraindicația în glaucom.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "CT06_Q12",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, clonidina este menționată ca alternativă deoarece:",
+              "options": [
+                {"key": "A", "text": "Este un medicament antihipertensiv care a redus secreția salivară"},
+                {
+                  "key": "B",
+                  "text": "Este considerată mai sigură decât anticolinergicele și fără contraindicații specifice"
+                },
+                {
+                  "key": "C",
+                  "text": "Trebuie folosită cu precauție la pacienții care iau medicație pentru hipertensiune"
+                },
+                {
+                  "key": "D",
+                  "text": "0,2 mg clonidină a redus fluxul salivar similar cu 50 mg metantelină (în studiu)"
+                },
+                {"key": "E", "text": "Este contraindicată în toate cazurile de hipertensiune"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Paragraful despre clonidină include toate aceste idei și comparația de dozaj din studiu.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "CT06_Q13",
+              "type": "complement_multiplu",
+              "stem": "Deplasarea țesuturilor gingivale (evicțiunea) este necesară pentru:",
+              "options": [
+                {"key": "A", "text": "A obține acces adecvat la dintele preparat"},
+                {"key": "B", "text": "A expune suprafețele preparate și nepreparate relevante"},
+                {
+                  "key": "C",
+                  "text": "A crea spațiu suficient pentru grosimea materialului de amprentare când marginile sunt subgingivale"
+                },
+                {"key": "D", "text": "A pune în pericol sănătatea parodontală pentru vizibilitate maximă"},
+                {"key": "E", "text": "A permite acces vizual și fizic la margini subgingivale"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Textul descrie scopurile evicțiunii și avertizează că nu trebuie compromisă sănătatea parodontală.",
+              "source": {"pdf_pages": [1, 4]}
+            },
+            {
+              "id": "CT06_Q14",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, deplasarea țesuturilor poate fi realizată prin:",
+              "options": [
+                {"key": "A", "text": "Mijloace mecanice (ex. fir de evicțiune)"},
+                {"key": "B", "text": "Mijloace chimice (astringenți/vasoconstrictori)"},
+                {"key": "C", "text": "Mijloace chirurgicale (chiuretaj, bisturiu, electrochirurgie, laser)"},
+                {"key": "D", "text": "Doar prin presiune ocluzală, fără niciun alt instrument"},
+                {"key": "E", "text": "Sisteme cu spumă/pastă, uneori cu presiune direcționată"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul enumeră explicit mecanic/chimic/chirurgical și alternative cu spumă/pastă + presiune.",
+              "source": {"pdf_pages": [4, 8, 9, 11]}
+            },
+            {
+              "id": "CT06_Q15",
+              "type": "complement_multiplu",
+              "stem": "Despre firele de evicțiune, cursul precizează că plasarea este adesea mai ușoară dacă se utilizează:",
+              "options": [
+                {"key": "A", "text": "Fir împletit (ex. GingiBRAID)"},
+                {"key": "B", "text": "Cordon tricotat (ex. Ultrapak)"},
+                {
+                  "key": "C",
+                  "text": "Cordoane împletite foarte groase (preferate, se dublează pentru stabilitate)"
+                },
+                {"key": "D", "text": "Fire asemănătoare lânii (aplatizabile) în șanțuri extrem de înguste"},
+                {"key": "E", "text": "Orice fir este identic ca manipulare, indiferent de anatomie"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Sunt menționate firul împletit/tricotat și firele tip lână pentru situații de îngustare extremă; se avertizează să se evite mărimile mari.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "CT06_Q16",
+              "type": "complement_multiplu",
+              "stem": "Substanțele/agenții chimici pentru evicțiune și controlul fluidului gingival menționați includ:",
+              "options": [
+                {"key": "A", "text": "Clorură de aluminiu (AlCl3)"},
+                {"key": "B", "text": "Sulfat feric (Fe2(SO4)3)"},
+                {"key": "C", "text": "Epinefrină (preimpregnată în unele șnururi)"},
+                {
+                  "key": "D",
+                  "text": "Tetrahidrozolină HCl 0,05% (soluție oftalmologică) ca alternativă demonstrată"
+                },
+                {"key": "E", "text": "Oximetazolină 0,05% (decongestionant nazal) ca alternativă demonstrată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Textul enumeră AlCl3, Fe2(SO4)3, epinefrina și alternativele tetrahidrozolină/oximetazolină.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "CT06_Q17",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, epinefrina în evicțiune trebuie utilizată cu precauție deoarece:",
+              "options": [
+                {"key": "A", "text": "Poate provoca tahicardie, mai ales pe țesut lacerat"},
+                {"key": "B", "text": "Controlul dozei este o problemă potențială"},
+                {
+                  "key": "C",
+                  "text": "S-a raportat că nu s-a detectat avantaj clar față de alte opțiuni într-un studiu"
+                },
+                {"key": "D", "text": "Este complet lipsită de efect sistemic și deci preferată universal"},
+                {"key": "E", "text": "Este listată ca fiind lipsită de orice risc biologic"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Paragraful despre epinefrină menționează tahicardie, dozaj și lipsa avantajului într-un studiu.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "CT06_Q18",
+              "type": "complement_multiplu",
+              "stem": "În procedura pas-cu-pas pentru plasarea firului, sunt menționate:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Uscarea zonei, dar evitarea uscării excesive (risc sensibilitate postoperatorie)"
+                },
+                {
+                  "key": "B",
+                  "text": "Tăierea unei bucăți de fir suficient de lungă pentru a înconjura dintele"
+                },
+                {"key": "C", "text": "Înmuierea firului în astringent și exprimarea excesului cu tifon"},
+                {
+                  "key": "D",
+                  "text": "Umezirea ușoară înainte de îndepărtare pentru a preveni ruperea epiteliului sulcular"
+                },
+                {"key": "E", "text": "Umplerea excesivă a sulcusului pentru deplasare maximă, fără risc"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Sunt descriși pașii și avertismentul contra supra-uscării; se avertizează împotriva umplerii excesive (risc retracție).",
+              "source": {"pdf_pages": [5, 6]}
+            },
+            {
+              "id": "CT06_Q19",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, pentru inserarea firului este adesea mai ușor să se înceapă:",
+              "options": [
+                {"key": "A", "text": "Interproximal, deoarece adâncimea sulculară este mai mare"},
+                {"key": "B", "text": "Vestibular, deoarece adâncimea sulculară este cea mai mare"},
+                {
+                  "key": "C",
+                  "text": "Instrumentul se înclină ușor spre dinte pentru a împinge cordonul direct în sulcus"
+                },
+                {
+                  "key": "D",
+                  "text": "Instrumentul se înclină ușor spre cordonul introdus anterior pentru a nu-l deplasa"
+                },
+                {"key": "E", "text": "Se recomandă repetarea plasării de multe ori pentru efect cumulativ"}
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Textul descrie start interproximal și orientarea instrumentului; repetarea excesivă este descurajată (risc retracție).",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "CT06_Q20",
+              "type": "complement_multiplu",
+              "stem": "Tehnica cu două fire (fir dublu) este descrisă astfel:",
+              "options": [
+                {"key": "A", "text": "Firul subțire este plasat inferior în șanț, fără suprapunerea capetelor"},
+                {
+                  "key": "B",
+                  "text": "Firul mai gros, saturat cu astringent, se plasează deasupra și se îndepărtează înainte de amprentă"
+                },
+                {
+                  "key": "C",
+                  "text": "Firul subțire rămâne pe loc în timpul amprentei pentru a minimiza umiditatea"
+                },
+                {
+                  "key": "D",
+                  "text": "Necesită ~1 mm structură dentară intactă între marginea superioară a firului inițial și marginea preparației"
+                },
+                {
+                  "key": "E",
+                  "text": "Este recomandată aplicarea presiunii excesive pe țesut pentru a garanta succesul"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Descrierea tehnicii cu fir dublu include toate punctele A–D și avertizează împotriva presiunii excesive.",
+              "source": {"pdf_pages": [4, 6, 7]}
+            },
+            {
+              "id": "CT06_Q21",
+              "type": "complement_multiplu",
+              "stem": "La evaluarea eficienței deplasării țesutului, cursul recomandă:",
+              "options": [
+                {"key": "A", "text": "Examinarea din normă ocluzală"},
+                {"key": "B", "text": "Vizibilitatea marginii preparației pe toată circumferința"},
+                {
+                  "key": "C",
+                  "text": "Vizibilitatea unei lățimi continue de fir, fără pliuri gingivale peste el"
+                },
+                {"key": "D", "text": "Țesutul să revină imediat în contact cu preparația (<10 sec) este ideal"},
+                {"key": "E", "text": "După îndepărtarea firului, marginea să rămână accesibilă 30–60 secunde"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul indică evaluarea din normă ocluzală, vizibilitatea completă și intervalul 30–60 secunde de accesibilitate.",
+              "source": {"pdf_pages": [6, 7]}
+            },
+            {
+              "id": "CT06_Q22",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, erori/riscuri în evicțiune includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Umplerea excesivă poate rupe atașamentul gingival → retracție ireversibilă"
+                },
+                {
+                  "key": "B",
+                  "text": "Utilizarea repetată a firelor în sulcus poate produce retracție gingivală"
+                },
+                {
+                  "key": "C",
+                  "text": "Țesuturile inflamate sângerează ușor și umezeala împiedică umectarea materialului de amprentă"
+                },
+                {"key": "D", "text": "Cu cât țesutul sângerează mai mult, cu atât amprenta este mai precisă"},
+                {
+                  "key": "E",
+                  "text": "În cazuri nefavorabile, uneori e mai corect să amâni amprenta și să îmbunătățești țesuturile"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Sunt menționate retracția prin supra-evicțiune/repetare, problema inflamației și decizia de amânare în condiții nefavorabile.",
+              "source": {"pdf_pages": [6, 7, 8]}
+            },
+            {
+              "id": "CT06_Q23",
+              "type": "complement_multiplu",
+              "stem": "Controlul hemoragiei cu Dento-Infusor (Fe2(SO4)3) – afirmații corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se poate aplica Fe2(SO4)3 direct pe zona hemoragică cu un vârf tip infuzor"
+                },
+                {"key": "B", "text": "Vârful conține filamente de bumbac care ajută la controlul fluxului"},
+                {
+                  "key": "C",
+                  "text": "Se freacă ~30 secunde pe zona sângerândă cu resaturare prin injectare lentă continuă"
+                },
+                {"key": "D", "text": "Soluția este menționată ca având efect citotoxic (atenționare)"},
+                {"key": "E", "text": "Firul se scoate uscat, fără umezire, pentru a evita contaminarea"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Sunt descriși pașii tehnicii și atenționarea de citotoxicitate; cursul recomandă umezirea firului înainte de îndepărtare pentru a reduce riscul de reluare a sângerării.",
+              "source": {"pdf_pages": [7, 8]}
+            },
+            {
+              "id": "CT06_Q24",
+              "type": "complement_multiplu",
+              "stem": "Despre paste/spume de evicțiune, cursul menționează că:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Expasyl conține AlCl3 și se injectează în sulcus uscat; după 1–2 minute se îndepărtează cu apă abundentă"
+                },
+                {"key": "B", "text": "Magic FoamCord (PVS) se condensează cu un rulou gol tip Comprecap"},
+                {"key": "C", "text": "Pacientul menține presiunea ~5 minute pe ruloul de bumbac (în exemplu)"},
+                {
+                  "key": "D",
+                  "text": "Pastele produc întotdeauna deplasare mai mare decât firul, fără excepție"
+                },
+                {
+                  "key": "E",
+                  "text": "Pasta poate avea avantaj de disconfort mai mic decât firul tradițional, dar deplasare mai redusă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Sunt descrise Expasyl și Magic FoamCord + Comprecap/5 min; se menționează că pasta poate fi mai confortabilă, dar deplasează mai puțin decât firul.",
+              "source": {"pdf_pages": [8, 9]}
+            },
+            {
+              "id": "CT06_Q25",
+              "type": "complement_multiplu",
+              "stem": "Conform Tabelului 14.3, asocieri corecte material–caracteristică includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Hidrocoloid ireversibil: utilizat pentru modele diagnostice; nu este adecvat pentru modele definitive (precizie redusă)"
+                },
+                {
+                  "key": "B",
+                  "text": "Hidrocoloid reversibil: hidrofil; trebuie turnat imediat; utilizabil doar cu ghips"
+                },
+                {
+                  "key": "C",
+                  "text": "Polisulfid: rezistență ridicată la rupere; timp de priză lung (~10 min); trebuie turnat în ~1 oră"
+                },
+                {"key": "D", "text": "Silicon de condensare: hidrofob, umectare slabă; trebuie turnat imediat"},
+                {
+                  "key": "E",
+                  "text": "Polieter: foarte rigid după priză; există risc de rupere a dinților la separare; stabil în condiții uscate (imbibiție)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Tabelul 14.3 rezumă avantajele/dezavantajele/precauțiile pentru fiecare material în aceste direcții.",
+              "source": {"pdf_pages": [12]}
+            }, {
+              "id": "C07-Q001",
+              "type": "MCQ_MULTI",
+              "stem": "Conform ghidurilor ADA despre relația stomatolog–laborator, care sunt responsabilități ale medicului dentist?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Să furnizeze instrucțiuni scrise clare despre lucrările ce trebuie efectuate"
+                },
+                {
+                  "key": "B",
+                  "text": "Să furnizeze amprente/modele/înregistrări ocluzale precise și identificate"
+                },
+                {"key": "C", "text": "Să factureze direct pacientul pentru manopera de laborator"},
+                {
+                  "key": "D",
+                  "text": "Să curețe și să dezinfecteze articolele înainte de trimiterea la laborator"
+                },
+                {
+                  "key": "E",
+                  "text": "Să returneze cazul laboratorului dacă lucrarea nu se potrivește sau nuanța e incorectă"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Ghidurile menționează explicit instrucțiuni scrise, materiale clinice precise/identificate, dezinfecție înainte de trimitere și returnarea cazului când adaptarea/nuanța e incorectă.",
+              "source": {"pages_pdf": [2, 3]},
+              "tags": ["comunicare", "ADA", "responsabilitati"]
+            },
+            {
+              "id": "C07-Q002",
+              "type": "MCQ_MULTI",
+              "stem": "Conform ghidurilor ADA, care sunt responsabilități ale tehnicianului/laboratorului?",
+              "options": [
+                {"key": "A", "text": "Să fabrice proteza/aparatul conform instrucțiunilor scrise primite"},
+                {
+                  "key": "B",
+                  "text": "Să informeze medicul în max. 2 zile lucrătoare dacă nu poate continua cazul"
+                },
+                {"key": "C", "text": "Să modifice instrucțiunile scrise fără aprobarea medicului dentist"},
+                {"key": "D", "text": "Să respecte standardele de control al infecțiilor (EIP, dezinfectare)"},
+                {
+                  "key": "E",
+                  "text": "Să informeze despre materialele prezente în caz și să sugereze metode de manipulare/ajustare"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Laboratorul are obligații de conformitate cu prescripția, comunicare rapidă în caz de problemă, control al infecțiilor și informare despre materiale; modificările necesită aprobarea medicului.",
+              "source": {"pages_pdf": [3]},
+              "tags": ["comunicare", "responsabilitati", "controlul infectiilor"]
+            },
+            {
+              "id": "C07-Q003",
+              "type": "MCQ_MULTI",
+              "stem": "Ce afirmații despre marginile preparațiilor și comunicarea cu laboratorul sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Marginea trebuie să fie ușor de distins și accesibilă pe modele"},
+                {
+                  "key": "B",
+                  "text": "Dacă medicul nu vede marginea, tehnicianul poate compensa prin \"modelare din ochi\""
+                },
+                {
+                  "key": "C",
+                  "text": "Este nerealist să ceri restaurare fără prag pe o margine shoulder bizotat"
+                },
+                {
+                  "key": "D",
+                  "text": "Este nerealist să ceri coroană din disilicat pe linie de finisare îngustă (narrow chamfer)"
+                },
+                {
+                  "key": "E",
+                  "text": "Comunicarea la timp despre abateri de la criteriile ideale previne neînțelegeri"
+                }
+              ],
+              "answer_keys": ["A", "C", "D", "E"],
+              "rationale": "Textul subliniază vizibilitatea marginilor pe model și exemple de cerințe nerealiste (fără prag / disilicat pe chamfer îngust) + importanța comunicării timpurii.",
+              "source": {"pages_pdf": [4]},
+              "tags": ["margini", "preparatie", "comunicare"]
+            },
+            {
+              "id": "C07-Q004",
+              "type": "MCQ_MULTI",
+              "stem": "Ce ar trebui să includă un formular de autorizare a lucrării (în plus față de informații generale impuse legal)?",
+              "options": [
+                {"key": "A", "text": "Descrierea generală a restaurării"},
+                {"key": "B", "text": "Specificațiile materialelor"},
+                {"key": "C", "text": "Proiectarea conectorului pentru proteze fixe"},
+                {"key": "D", "text": "Marca/stilul/dimensiunea platformei implantului (dacă e cazul)"},
+                {"key": "E", "text": "CNP-ul pacientului obligatoriu în toate cazurile"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Lista din curs include aceste elemente; nu menționează obligativitatea CNP-ului în toate cazurile.",
+              "source": {"pages_pdf": [4]},
+              "tags": ["autorizare", "prescriptie", "laborator"]
+            },
+            {
+              "id": "C07-Q005",
+              "type": "MCQ_MULTI",
+              "stem": "Ce alte elemente sunt menționate ca parte a autorizării lucrării?",
+              "options": [
+                {"key": "A", "text": "Schema ocluzală dorită"},
+                {
+                  "key": "B",
+                  "text": "Proiectarea punții, inclusiv specificații pentru contactul cu țesuturile"
+                },
+                {"key": "C", "text": "Proiectarea substructurii"},
+                {
+                  "key": "D",
+                  "text": "Informații despre alegerea nuanței + nuanțe gingivale dacă se imită gingia"
+                },
+                {"key": "E", "text": "Obligativitatea folosirii unui singur material preferat de laborator"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul enumeră explicit schema ocluzală, proiectarea punții, substructura și informații de nuanță/gingival; nu impune \"un singur material\".",
+              "source": {"pages_pdf": [4]},
+              "tags": ["autorizare", "ocluzie", "nuanta"]
+            },
+            {
+              "id": "C07-Q006",
+              "type": "MCQ_MULTI",
+              "stem": "Definiția din GPT pentru modelarea diagnostică cu ceară (diagnostic wax-up) implică:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Modelarea cu ceară a contururilor restauratorii preconizate pe modele dentare"
+                },
+                {"key": "B", "text": "Scopul: evaluare și planificare a restaurărilor"},
+                {"key": "C", "text": "O replică din ceară a unui plan de tratament propus"},
+                {"key": "D", "text": "Este folosită exclusiv pentru proteze mobilizabile"},
+                {"key": "E", "text": "Nu are rol în comunicarea cu laboratorul"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Definiția citată include exact aceste componente; nu este limitată la mobilizabile și are rol important în planificare/comunicare.",
+              "source": {"pages_pdf": [4]},
+              "tags": ["wax-up", "planificare", "GPT"]
+            },
+            {
+              "id": "C07-Q007",
+              "type": "MCQ_MULTI",
+              "stem": "Ce afirmații despre montarea modelelor și verificarea înregistrărilor ocluzale sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Montarea modelelor este adesea delegată tehnicianului și trebuie făcută cu atenție și precizie"
+                },
+                {
+                  "key": "B",
+                  "text": "Primul pas recomandat: curățarea modelelor de defecte ocluzale/goluri/bule cu bisturiu"
+                },
+                {
+                  "key": "C",
+                  "text": "Modelul maxilar al provizoriilor se montează cu transfer cu arc facial pe articulator semi-adaptabil"
+                },
+                {
+                  "key": "D",
+                  "text": "Înregistrarea RC pentru montarea finală trebuie păstrată cu material în exces, fără decupări"
+                },
+                {
+                  "key": "E",
+                  "text": "Se recomandă decuparea de ferestre pentru confirmarea vizuală a poziționării înregistrării pe modele"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul descrie pașii: curățare, montare cu arc facial, pregătire RC și decupare ferestre; nu se recomandă păstrarea excesului.",
+              "source": {"pages_pdf": [5, 6]},
+              "tags": ["montare", "RC", "articulator"]
+            },
+            {
+              "id": "C07-Q008",
+              "type": "MCQ_MULTI",
+              "stem": "Despre precizia modelelor în funcție de materialul de amprentă:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Modelele din polivinilsiloxan sunt menționate ca fiind mai precise decât cele din alginat"
+                },
+                {
+                  "key": "B",
+                  "text": "Modelele din polieter sunt menționate ca fiind mai precise decât cele din alginat"
+                },
+                {
+                  "key": "C",
+                  "text": "Alginatul este prezentat ca standardul cel mai precis pentru model definitiv"
+                },
+                {"key": "D", "text": "Diferențele de model pot afecta adaptarea înregistrării ocluzale"},
+                {
+                  "key": "E",
+                  "text": "Precizia modelului este irelevantă dacă laboratorul ajustează ocluzia ulterior"
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Textul compară explicit PVS/polieter cu alginat și ilustrează adaptare precisă vs deficitară; precizia nu devine irelevantă.",
+              "source": {"pages_pdf": [5, 6, 7]},
+              "tags": ["amprenta", "precizie", "modele"]
+            },
+            {
+              "id": "C07-Q009",
+              "type": "MCQ_MULTI",
+              "stem": "Indicatorul de poziție mandibulară (MPI) pentru articulatorul SAM 3 poate fi utilizat pentru:",
+              "options": [
+                {"key": "A", "text": "Verificarea înregistrărilor ocluzale"},
+                {
+                  "key": "B",
+                  "text": "Vizualizarea discrepanțelor dintre relația centrică și poziția intercuspidală maximă"
+                },
+                {"key": "C", "text": "Determinarea nuanței de bază a dinților"},
+                {
+                  "key": "D",
+                  "text": "Generarea amprentelor pe hârtie milimetrică prin contact cu cuburile glisante"
+                },
+                {
+                  "key": "E",
+                  "text": "Confirmarea repetabilității prin suprapunerea amprentelor din două seturi RC"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Cursul descrie utilizările MPI: verificare, evidențiere discrepanțe RC–MIP și procedura cu hârtie milimetrică + două seturi RC.",
+              "source": {"pages_pdf": [7]},
+              "tags": ["MPI", "SAM", "RC"]
+            },
+            {
+              "id": "C07-Q010",
+              "type": "MCQ_MULTI",
+              "stem": "În procedura de verificare cu MPI, ce este considerat un semn de înregistrări RC identice și repetabile?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Amprentele stânga/dreapta din setul 1 marchează același punct ca amprentele setului 2"
+                },
+                {
+                  "key": "B",
+                  "text": "Amprentele sunt făcute cu hârtie de articulare de culori diferite pentru cele două seturi"
+                },
+                {"key": "C", "text": "Modelele sunt obligatoriu din alginat pentru a valida metoda"},
+                {
+                  "key": "D",
+                  "text": "Dacă punctele nu coincid, cauzele pot fi multifactoriale (montare, modele deformate, înregistrări inexacte)"
+                },
+                {
+                  "key": "E",
+                  "text": "Dacă punctele nu coincid, singura cauză posibilă este o eroare de laborator"
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Cursul precizează criteriul de coincidență și menționează cauze multiple posibile; nu impune alginat și nu blamează exclusiv laboratorul.",
+              "source": {"pages_pdf": [7]},
+              "tags": ["MPI", "verificare", "erori"]
+            },
+            {
+              "id": "C07-Q011",
+              "type": "MCQ_MULTI",
+              "stem": "Despre proteza provizorie ca „model” pentru restaurarea definitivă, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Poate reprezenta schița fizică aprobată de medic și pacient pentru restaurarea definitivă"
+                },
+                {"key": "B", "text": "Modificările/ajustările provizoriului trebuie comunicate tehnicianului"},
+                {
+                  "key": "C",
+                  "text": "Fotografia provizoriului in situ cu note/desen corectiv ajută comunicarea"
+                },
+                {
+                  "key": "D",
+                  "text": "Tiparele de uzură din provizoriu pot oferi indicii pentru ghidarea anterioară"
+                },
+                {"key": "E", "text": "Provizoriul nu are relevanță în zona estetică"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul subliniază rolul provizoriului în transferul designului și comunicarea estetică/funcțională.",
+              "source": {"pages_pdf": [7]},
+              "tags": ["provizoriu", "estetica", "comunicare"]
+            },
+            {
+              "id": "C07-Q012",
+              "type": "MCQ_MULTI",
+              "stem": "Tabla ghid incizală personalizată (fabricată din rășină autopolimerizabilă) este utilizată pentru:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Transferul învelișului funcțional stabilit de la provizorii la definitive"
+                },
+                {"key": "B", "text": "Luarea amprentelor de alginat cu precizie crescută"},
+                {
+                  "key": "C",
+                  "text": "Luarea în considerare a tiparelor de uzură apărute în timpul funcționării"
+                },
+                {"key": "D", "text": "Obținerea unei ghidări anterioare optime"},
+                {"key": "E", "text": "Înlocuirea completă a înregistrărilor RC"}
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Textul explică scopul tablei ghid: transfer funcțional + uzură + ghidare anterioară; nu înlocuiește RC și nu ține de amprentare alginat.",
+              "source": {"pages_pdf": [7, 8]},
+              "tags": ["tabla ghid", "ocluzie", "provizoriu"]
+            },
+            {
+              "id": "C07-Q013",
+              "type": "MCQ_MULTI",
+              "stem": "Care dintre următoarele sunt menționate ca instrumente/indici din silicon pentru a copia parametri ai provizoriului spre definitiv?",
+              "options": [
+                {"key": "A", "text": "Indice ocluzopalatal (pentru lungime, formă, linie mediană, dispunere)"},
+                {
+                  "key": "B",
+                  "text": "Matrice bucolinguală (vizualizează spațiul disponibil pe fața labială/bucală)"
+                },
+                {"key": "C", "text": "Matrice vestibulară pentru controlul spațiului fațetării"},
+                {"key": "D", "text": "Indice incizal pentru verificarea suportului substructurii"},
+                {"key": "E", "text": "Fotografie alb-negru obligatorie pentru orice restaurare provizorie"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie indici/matrice (ocluzopalatal, bucolingual/vestibular, incizal) pentru copiere și control spațiu/substructură.",
+              "source": {"pages_pdf": [7, 8]},
+              "tags": ["indici", "silicon", "transfer design"]
+            },
+            {
+              "id": "C07-Q014",
+              "type": "MCQ_MULTI",
+              "stem": "Înregistrarea nuanței: care sunt principii fundamentale corecte (din lista cursului)?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Dinții trebuie să fie curați; uneori e utilă o ședință de igienizare înainte"
+                },
+                {"key": "B", "text": "Se preferă fundal/mediu de culoare neutră"},
+                {"key": "C", "text": "Se preferă evaluarea doar la lumina directă a soarelui"},
+                {
+                  "key": "D",
+                  "text": "Se recomandă examinarea sub surse diferite de lumină (naturală și artificială)"
+                },
+                {
+                  "key": "E",
+                  "text": "Lumina artificială ar trebui corectată cromatic în intervalul ~5000K–7500K"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Cursul menționează curățarea dinților, fundal neutru, surse multiple de lumină și intervalul de temperatură de culoare; nu recomandă soarele direct.",
+              "source": {"pages_pdf": [8]},
+              "tags": ["nuanta", "estetica", "lumina"]
+            },
+            {
+              "id": "C07-Q015",
+              "type": "MCQ_MULTI",
+              "stem": "În registrarea nuanței, care afirmații despre deshidratare și momentul alegerii sunt corecte?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Selectarea nuanței ar trebui făcută la începutul programării, nu după preparare și amprentare"
+                },
+                {"key": "B", "text": "Smalțul uscat pare opac și albicios, riscând o potrivire defectuoasă"},
+                {"key": "C", "text": "Unii dinți se deshidratează în câteva secunde"},
+                {"key": "D", "text": "Pacientul poate menține dinții umezi cu ajutorul limbii"},
+                {"key": "E", "text": "Deshidratarea îmbunătățește aprecierea translucenței"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul avertizează că deshidratarea duce la aspect opac/albicios și recomandă alegerea la început + menținerea umezelii.",
+              "source": {"pages_pdf": [8]},
+              "tags": ["nuanta", "deshidratare"]
+            },
+            {
+              "id": "C07-Q016",
+              "type": "MCQ_MULTI",
+              "stem": "Instrumente/metode de transmitere a culorii menționate în curs includ:",
+              "options": [
+                {"key": "A", "text": "Fotografie digitală"},
+                {
+                  "key": "B",
+                  "text": "Dispozitive electronice de scanare a nuanței (spectrofotometre/colorimetre)"
+                },
+                {"key": "C", "text": "Diagrame tradiționale de mapare a nuanțelor"},
+                {"key": "D", "text": "Exclusiv alegerea vizuală cu un singur tab standard"},
+                {"key": "E", "text": "Tab-uri individuale de nuanțe din sistemul de porțelan folosit"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul enumeră fotografia, dispozitive electronice, diagrame și tab-uri din sistemul de porțelan; nu spune că e exclusiv un singur tab standard.",
+              "source": {"pages_pdf": [7, 8]},
+              "tags": ["nuanta", "comunicare", "instrumente"]
+            },
+            {
+              "id": "C07-Q017",
+              "type": "MCQ_MULTI",
+              "stem": "Despre odihna ochilor și fotografiere la alegerea nuanței, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se recomandă odihna ochilor după ~8 secunde din cauza oboselii oculare"},
+                {"key": "B", "text": "Se recomandă fotografierea tab-urilor lângă dinți din unghiuri diferite"},
+                {
+                  "key": "C",
+                  "text": "Fotografiile digitale de înaltă rezoluție sunt importante pentru a imita distribuția nuanței"
+                },
+                {
+                  "key": "D",
+                  "text": "Fotografierea este contraindicată deoarece distorsionează întotdeauna nuanța"
+                },
+                {"key": "E", "text": "Poziționarea probei lângă dintele natural este parte din protocol"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Toate sunt menționate ca pași; fotografia este prezentată ca utilă, nu contraindicată.",
+              "source": {"pages_pdf": [8]},
+              "tags": ["nuanta", "fotografie"]
+            },
+            {
+              "id": "C07-Q018",
+              "type": "MCQ_MULTI",
+              "stem": "Care afirmații despre translucență/opacitate și „valoare” (luminozitate) sunt corecte?",
+              "options": [
+                {"key": "A", "text": "Trebuie determinate zonele translucide și/sau opace"},
+                {
+                  "key": "B",
+                  "text": "Dinții foarte translucizi tind să aibă valoare mai mică (absorb mai multă lumină)"
+                },
+                {
+                  "key": "C",
+                  "text": "Dinții opaci tind să aibă valoare mai mare (reflexie mai mare a luminii)"
+                },
+                {"key": "D", "text": "Valoarea se apreciază cel mai bine doar cu filtre roșii"},
+                {"key": "E", "text": "Fotografiile alb-negru pot ajuta la evaluarea valorii"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul explică relația translucență–valoare și recomandă fotografii alb-negru pentru evaluarea valorii.",
+              "source": {"pages_pdf": [7, 8]},
+              "tags": ["nuanta", "valoare", "translucenta"]
+            },
+            {
+              "id": "C07-Q019",
+              "type": "MCQ_MULTI",
+              "stem": "Ce condiții trebuie să îndeplinească un model solid (model master) pentru o restaurare fixă?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Să reproducă toate detaliile capturate în amprentă și să fie lipsit de defecte"
+                },
+                {"key": "B", "text": "Dinții nepregătiți adiacenți imediat să fie fără lipsuri"},
+                {
+                  "key": "C",
+                  "text": "Suprafețele implicate în ghidarea anterioară și ocluzalele dinților nepregătiți să permită articulare precisă"
+                },
+                {"key": "D", "text": "Să excludă reproducerea țesuturilor moi relevante"},
+                {
+                  "key": "E",
+                  "text": "Să includă țesuturile moi relevante, spațiile edentate și contururile crestei reziduale implicate"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul listează aceste cerințe pentru model; țesuturile moi relevante trebuie reproduse, nu excluse.",
+              "source": {"pages_pdf": [13]},
+              "tags": ["model master", "cerinte", "PF"]
+            },
+            {
+              "id": "C07-Q020",
+              "type": "MCQ_MULTI",
+              "stem": "Cerințe pentru macheta/bontul unui dinte preparat includ:",
+              "options": [
+                {"key": "A", "text": "Reproducere exactă a dintelui preparat"},
+                {"key": "B", "text": "Suprafețe reproduse fără bule sau goluri"},
+                {
+                  "key": "C",
+                  "text": "0,5–1 mm structură nepreparată vizibilă cervical de linia de finisare (preferabil)"
+                },
+                {"key": "D", "text": "Acces adecvat la margini este imperativ"},
+                {
+                  "key": "E",
+                  "text": "E preferabil ca linia de finisare să fie complet acoperită de ghips pentru „protecție”"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul cere vizibilitate cervicală 0,5–1 mm și acces la margini; nu se recomandă acoperirea completă a liniei de finisare.",
+              "source": {"pages_pdf": [13]},
+              "tags": ["bont", "margini", "cerinte"]
+            },
+            {
+              "id": "C07-Q021",
+              "type": "MCQ_MULTI",
+              "stem": "Despre ghips: care afirmații sunt corecte conform cursului?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Ghipsul poate oferi precizie dimensională și rezistență la abraziune adecvate pentru modele"
+                },
+                {
+                  "key": "B",
+                  "text": "Există tipuri ADA I–V (amprentă, modelaj, ghips dentar, înaltă rezistență etc.)"
+                },
+                {"key": "C", "text": "Diferențele dintre tipuri se datorează procesului de calcinare"},
+                {"key": "D", "text": "Reacția de priză rezultă din hidratarea sulfatului de calciu hemihidrat"},
+                {"key": "E", "text": "Componentele chimice ale ghipsului diferă complet între tipuri"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie tipurile ADA și faptul că sunt chimic identice, diferențele fiind din calcinare; priza e hidratarea hemihidratului.",
+              "source": {"pages_pdf": [14]},
+              "tags": ["ghips", "ADA", "materiale"]
+            },
+            {
+              "id": "C07-Q022",
+              "type": "MCQ_MULTI",
+              "stem": "Raporturi apă/pulbere (menționate orientativ în curs) sunt corecte pentru:",
+              "options": [
+                {"key": "A", "text": "100 g ghips de modelaj: ~45–50 ml apă"},
+                {"key": "B", "text": "100 g ghips dentar: ~30–35 ml apă"},
+                {"key": "C", "text": "Ghips pentru bonturi: ~20–25 ml apă / 100 g (în funcție de marcă)"},
+                {
+                  "key": "D",
+                  "text": "Cantitatea stoichiometrică teoretică de apă pentru priza ghipsului: ~18,6 ml"
+                },
+                {"key": "E", "text": "Cu cât pui mai multă apă, cu atât crește rezistența la abraziune"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul dă aceste valori și subliniază importanța proporționării; excesul de apă nu crește rezistența, dimpotrivă.",
+              "source": {"pages_pdf": [14, 15]},
+              "tags": ["ghips", "proportii", "bonturi"]
+            },
+            {
+              "id": "C07-Q023",
+              "type": "MCQ_MULTI",
+              "stem": "Despre amestecarea ghipsului și timpul de repaus al turnărilor:",
+              "options": [
+                {"key": "A", "text": "Amestecarea mecanică în vid reduce porozitatea și crește rezistența"},
+                {
+                  "key": "B",
+                  "text": "Rezultate mai bune pot apărea după doar ~15 secunde de amestecare mecanică în vid"
+                },
+                {"key": "C", "text": "Turnările proaspete trebuie lăsate în repaus cel puțin ~30 minute"},
+                {
+                  "key": "D",
+                  "text": "Rezultate superioare se obțin după ~1 oră (deși timpul de priză variază)"
+                },
+                {"key": "E", "text": "Repausul este inutil dacă se folosește ghips tip IV"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul menționează explicit beneficiile vidului și timpii de repaus; nu spune că repausul devine inutil.",
+              "source": {"pages_pdf": [15]},
+              "tags": ["ghips", "amestecare", "vid"]
+            },
+            {
+              "id": "C07-Q024",
+              "type": "MCQ_MULTI",
+              "stem": "Despre reproducerea detaliilor și compatibilități, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Ghipsurile tip IV și V pot reproduce o linie de ~20 μm (spec. ADA nr. 19)"
+                },
+                {
+                  "key": "B",
+                  "text": "Nu toate mărcile de ghips sunt compatibile cu toate mărcile de materiale de amprentă"
+                },
+                {
+                  "key": "C",
+                  "text": "Înmuierea modelului din ghips în apă poate distruge lent detaliile suprafeței"
+                },
+                {
+                  "key": "D",
+                  "text": "Dacă detaliile sunt slabe, folosirea unui produs alternativ poate rezolva problema"
+                },
+                {
+                  "key": "E",
+                  "text": "Modelele din ghips sunt complet insolubile și nu își pierd niciodată detaliile în apă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul precizează limitarea compatibilității și faptul că ghipsul se dizolvă lent în apă, afectând detaliile.",
+              "source": {"pages_pdf": [15]},
+              "tags": ["detalii", "compatibilitate", "ghips"]
+            },
+            {
+              "id": "C07-Q025",
+              "type": "MCQ_MULTI",
+              "stem": "Avantaje ale fluxului de lucru digital (modele/bonturi digitale) menționate în curs includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Bonturile digitale nu se uzează și nu se deteriorează în timpul fabricării"
+                },
+                {
+                  "key": "B",
+                  "text": "Calibrarea periodică poate rezolva probleme de expansiune/contracție ale materialelor tradiționale"
+                },
+                {
+                  "key": "C",
+                  "text": "Fișierul digital poate fi reutilizat fără duplicare și partajat instantaneu între dentist și tehnician"
+                },
+                {
+                  "key": "D",
+                  "text": "Este întotdeauna mai precis pentru arcade complete decât fluxul analogic"
+                },
+                {
+                  "key": "E",
+                  "text": "Poate fi mai puțin sensibil la tehnică și mai ușor de învățat decât tehnica tradițională"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul listează avantajele A–C–E; precizează însă limitări de precizie pentru situații mai complexe (nu „întotdeauna mai precis”).",
+              "source": {"pages_pdf": [16]},
+              "tags": ["digital", "workflow", "CADCAM"]
+            },
+            {
+              "id": "C07-Q026",
+              "type": "MCQ_MULTI",
+              "stem": "Despre scanarea și fișierul STL, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Scanerele intraorale și de laborator obțin o imagine 3D în format STL"},
+                {
+                  "key": "B",
+                  "text": "STL este definit ca fișier digital utilizat în afișare și imprimare stereolitografică"
+                },
+                {"key": "C", "text": "Suprafața 3D este interpretată printr-o serie de triunghiuri"},
+                {
+                  "key": "D",
+                  "text": "După obținerea STL începe etapa CAD/CAM (software de proiectare/fabricație)"
+                },
+                {
+                  "key": "E",
+                  "text": "STL stochează culoarea și translucența dinților în mod nativ, obligatoriu"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul definește STL prin triangulare și îl plasează în flux CAD/CAM; nu afirmă că include obligatoriu informații de culoare/translucență.",
+              "source": {"pages_pdf": []},
+              "tags": ["STL", "scanare", "CADCAM"]
+            },
+            {
+              "id": "C07-Q027",
+              "type": "MCQ_MULTI",
+              "stem": "Despre precizia scanării (intraorală/desktop) vs flux analogic, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Pentru scopuri diagnostice, scanarea poate fi o alternativă acceptabilă la fluxul analogic"
+                },
+                {
+                  "key": "B",
+                  "text": "Pentru restaurări cu acoperire completă, scanerele intraorale pot fi comparabile ca precizie/reproductibilitate cu analogicul"
+                },
+                {
+                  "key": "C",
+                  "text": "Pentru restaurări fixe pe arcadă completă, scanerele intraorale oferă în prezent același nivel de precizie ca analogicul"
+                },
+                {
+                  "key": "D",
+                  "text": "În amprenta implantului, capele de amprentare convenționale sunt încă considerate standard"
+                },
+                {
+                  "key": "E",
+                  "text": "Scanarea intraorală cu scan-body poate fi alternativă acceptabilă pentru coroane pe un singur implant și PPF-uri cu întindere redusă"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Cursul precizează acceptabilitatea în diagnostic și full coverage, dar menționează limitări pentru arcadă completă și standardul convențional la implant; scan-body e ok în cazuri scurte.",
+              "source": {"pages_pdf": []},
+              "tags": ["scanare", "precizie", "implant"]
+            },
+            {
+              "id": "C07-Q028",
+              "type": "MCQ_MULTI",
+              "stem": "Despre rășini ca materiale pentru bonturi, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Rășinile (mai ales epoxidice) pot compensa rezistența redusă la abraziune a ghipsului"
+                },
+                {
+                  "key": "B",
+                  "text": "Rășina epoxidică este mai rezistentă la abraziune decât ghipsul, dar mai scumpă"
+                },
+                {
+                  "key": "C",
+                  "text": "Rășina epoxidică are contracție la polimerizare (aprox. comparabilă cu expansiunea ghipsului)"
+                },
+                {
+                  "key": "D",
+                  "text": "Anumite materiale de amprentă (ex: polisulfură/hidrocoloid) nu sunt compatibile cu rășina"
+                },
+                {"key": "E", "text": "Rășina nu poate fi polimerizată la temperatura camerei"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie avantajele și limitările rășinilor pentru bonturi, inclusiv contracția și compatibilitățile.",
+              "source": {"pages_pdf": [15, 16]},
+              "tags": ["rasina", "bonturi", "materiale"]
+            },
+            {
+              "id": "PF08_Q01",
+              "type": "complement_multiplu",
+              "stem": "Conform introducerii despre CAD/CAM, beneficiile proiectării digitale pentru restaurările protetice fixe includ:",
+              "options": [
+                {"key": "A", "text": "Comunicare mai eficientă dentist–laborator"},
+                {"key": "B", "text": "Precizie și predictibilitate crescute ale proiectării"},
+                {"key": "C", "text": "Eliminarea completă a oricărei erori umane în toate etapele"},
+                {"key": "D", "text": "Flux digital ce poate include scanare, proiectare și fabricație"},
+                {"key": "E", "text": "Posibilitatea de a arhiva și replica designul"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Cursul descrie evoluția CAD/CAM, avantajele de comunicare, precizie/predictibilitate și integrarea într-un flux complet digital.",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "PF08_Q02",
+              "type": "complement_multiplu",
+              "stem": "În procesul digital ilustrat, etape/elemente frecvent menționate sunt:",
+              "options": [
+                {"key": "A", "text": "Scanare intraorală de diagnostic înainte de proiectare și preparație"},
+                {
+                  "key": "B",
+                  "text": "Scanarea dinților preparați și selectarea bibliotecilor de forme dentare"
+                },
+                {"key": "C", "text": "Articulator virtual pentru optimizarea proiectării"},
+                {"key": "D", "text": "Turnare prin ceară pierdută ca etapă obligatorie în fluxul digital"},
+                {"key": "E", "text": "Model virtual completat (arcade / ocluzie) pentru evaluare"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.4–18.6 și 18.11 arată scanarea preoperatorie, scanarea preparațiilor, biblioteci și articulator virtual + model virtual complet.",
+              "source": {"pdf_pages": [3, 4, 7]}
+            },
+            {
+              "id": "PF08_Q03",
+              "type": "complement_multiplu",
+              "stem": "Conform figurilor despre proiectarea digitală a unei restaurări posterioare unice, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se evaluează anatomia ocluzală în vedere ocluzală"},
+                {"key": "B", "text": "Se evaluează ocluzia și în vedere bucală"},
+                {"key": "C", "text": "Se proiectează obligatoriu doar coroane metalo-ceramice"},
+                {"key": "D", "text": "Designul poate fi ajustat pentru ocluzie optimă"},
+                {"key": "E", "text": "Nu există evaluare a contactelor ocluzale în fluxul digital"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 18.3 arată vederea ocluzală și bucală pentru ocluzie optimă în proiectare.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "PF08_Q04",
+              "type": "complement_multiplu",
+              "stem": "Despre bibliotecile de dinți în CAD (forme dentare), cursul sugerează că:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Bibliotecile oferă o gamă largă de forme pentru a satisface așteptările pacienților"
+                },
+                {
+                  "key": "B",
+                  "text": "Formele din bibliotecă pot fi personalizate cu instrumente virtuale (sculptare/modelare)"
+                },
+                {
+                  "key": "C",
+                  "text": "Bibliotecile exclud dinții naturali și includ doar forme standardizate artificiale"
+                },
+                {"key": "D", "text": "Selectarea bibliotecii este parte a fluxului de proiectare"},
+                {"key": "E", "text": "Personalizarea nu influențează estetica/funcția finală"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 18.9, 18.16 și 18.17 prezintă selecția bibliotecii și personalizarea cu unelte virtuale.",
+              "source": {"pdf_pages": [6, 13]}
+            },
+            {
+              "id": "PF08_Q05",
+              "type": "complement_multiplu",
+              "stem": "Conform figurilor despre clonarea dinților, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se poate clona un dinte anterior contralateral pentru restaurarea dintelui omolog"
+                },
+                {"key": "B", "text": "Clonarea implică marcarea conturului dintelui ce va fi clonat"},
+                {"key": "C", "text": "Rezultatul poate fi o replică „în oglindă” a contralateralului"},
+                {"key": "D", "text": "Clonarea se aplică doar anterior, nu și posterior"},
+                {"key": "E", "text": "Se poate clona și un dinte posterior contralateral"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.12 și 18.13 ilustrează clonarea anteriorului și posteriorului contralateral (marcare + imagine în oglindă).",
+              "source": {"pdf_pages": [9, 10]}
+            },
+            {
+              "id": "PF08_Q06",
+              "type": "complement_multiplu",
+              "stem": "În proiectarea digitală 3D a zâmbetului, cursul menționează ca parametri importanți:",
+              "options": [
+                {"key": "A", "text": "Poziția marginii incizale maxilare"},
+                {"key": "B", "text": "Linia mediană"},
+                {"key": "C", "text": "Doar culoarea (nuanța), fără a considera forma"},
+                {"key": "D", "text": "Integrarea cu scanări și date digitale ale arcadelor"},
+                {"key": "E", "text": "Alinierea pentru aranjare previzibilă a dinților anteriori"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Pagina cu secțiunile despre DSD 3D menționează poziția marginii incizale și linia mediană; Fig. 18.18 arată alinierea cu reticul median.",
+              "source": {"pdf_pages": [8, 14]}
+            },
+            {
+              "id": "PF08_Q07",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 18.15, combinarea imaginilor 2D cu fișiere 3D urmărește:",
+              "options": [
+                {"key": "A", "text": "Crearea unei „cavități bucale virtuale”"},
+                {"key": "B", "text": "Scanarea digitală a feței"},
+                {"key": "C", "text": "Proiectarea digitală a formei dinților"},
+                {"key": "D", "text": "Înregistrarea scanării feței împreună cu proiectarea dinților"},
+                {"key": "E", "text": "Înlocuirea necesității oricărei scanări intraorale"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 18.15 descrie scanarea feței, proiectarea dinților și suprapunerea pentru simulare virtuală.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "PF08_Q08",
+              "type": "complement_multiplu",
+              "stem": "În proiectarea formei dintelui (contur), cursul include ca elemente evaluate:",
+              "options": [
+                {"key": "A", "text": "Contacte proximale și forma ambrazurii vestibulare"},
+                {"key": "B", "text": "Contururi vestibulare de dezvoltare (primare)"},
+                {"key": "C", "text": "Contururi vestibulare secundare"},
+                {"key": "D", "text": "Contururi vestibulare terțiare"},
+                {"key": "E", "text": "Excluderea completă a contururilor (se modelează doar ocluzal)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Pagina cu Fig. 18.14 listează explicit aceste componente ale conturului/forme dintelui.",
+              "source": {"pdf_pages": [11]}
+            },
+            {
+              "id": "PF08_Q09",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 18.20, „contactele proximale optime” sunt evaluate prin:",
+              "options": [
+                {"key": "A", "text": "Vedere vestibulară"},
+                {"key": "B", "text": "Vedere incizală"},
+                {"key": "C", "text": "Doar din vedere ocluzală (restul nu contează)"},
+                {"key": "D", "text": "Analiza formei ambrazurilor asociate contactelor"},
+                {"key": "E", "text": "Ignorarea completă a formei ambrazurilor"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 18.20 prezintă explicit cele două vederi și ideea de evaluare a contactelor/ambrazurilor.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "PF08_Q10",
+              "type": "complement_multiplu",
+              "stem": "Articulatorul virtual și reglarea automată digitală sunt utilizate pentru:",
+              "options": [
+                {"key": "A", "text": "Optimizarea designului ocluzal în mediul virtual"},
+                {"key": "B", "text": "Evidențierea și corectarea contactelor/interferențelor ocluzale"},
+                {"key": "C", "text": "Eliminarea necesității oricărei verificări clinice ulterioare"},
+                {"key": "D", "text": "Compararea „înainte/după” reglarea automată"},
+                {"key": "E", "text": "Crearea exclusivă a nuanței (culoare) restaurării"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 18.22–18.23 arată articulatorul virtual și reglarea automată a restaurării posterioare cu comparație înainte/după.",
+              "source": {"pdf_pages": [16]}
+            },
+            {
+              "id": "PF08_Q11",
+              "type": "complement_multiplu",
+              "stem": "Conform secțiunii despre proiectarea tradițională cu machete din ceară (procedeu cu ceară pierdută), sunt etape corecte:",
+              "options": [
+                {"key": "A", "text": "Amprentă"},
+                {"key": "B", "text": "Turnare model"},
+                {"key": "C", "text": "Machetă din ceară pe bont"},
+                {"key": "D", "text": "Atașare la tipar/creuzet și turnare"},
+                {"key": "E", "text": "Restaurare aplicată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Fig. 18.29 descrie schema completă a procedeului cu ceară pierdută (A–F).",
+              "source": {"pdf_pages": [20]}
+            },
+            {
+              "id": "PF08_Q12",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 18.32, „blocarea retentivităților pe bont” poate fi realizată prin:",
+              "options": [
+                {"key": "A", "text": "Aplicare rășină fotopolimerizabilă + fotopolimerizare"},
+                {"key": "B", "text": "Rășină autopolimerizabilă"},
+                {
+                  "key": "C",
+                  "text": "Pulverizarea monomerului pentru polimerizare aproape instantanee (în exemplu)"
+                },
+                {"key": "D", "text": "Aplicare de silicon de amprentă ca material de blocare permanent"},
+                {"key": "E", "text": "Blocarea retentivităților este interzisă în machetare"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Fig. 18.32 enumeră alternativele fotopolimerizabil/autopolimerizabil și polimerizare rapidă cu monomer.",
+              "source": {"pdf_pages": [22]}
+            },
+            {
+              "id": "PF08_Q13",
+              "type": "complement_multiplu",
+              "stem": "Aplicarea lacurilor de distanțare pe bont (die spacer) – cursul subliniază că:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Sunt disponibile în culori contrastante pentru controlul numărului de straturi"
+                },
+                {"key": "B", "text": "Materialul trebuie menținut la cel puțin 1 mm de margine"},
+                {"key": "C", "text": "Se aplică obligatoriu peste margine pentru adaptare mai bună"},
+                {"key": "D", "text": "Au rol în asigurarea spațiului pentru agentul de cimentare"},
+                {"key": "E", "text": "Nu influențează deloc inserarea/fit-ul restaurării"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 18.34 arată culorile contrastante și regula „≥1 mm de margine”; pagina despre spațiul pentru cimentare evidențiază rolul spacer-ului.",
+              "source": {"pdf_pages": [23, 24]}
+            },
+            {
+              "id": "PF08_Q14",
+              "type": "complement_multiplu",
+              "stem": "Marcarea marginilor preparației pe bont – este corect că:",
+              "options": [
+                {"key": "A", "text": "Se folosește vârful unui creion colorat pentru marcarea marginii"},
+                {
+                  "key": "B",
+                  "text": "Partea laterală a vârfului creionului ajută la menținerea liniei cât mai înguste"
+                },
+                {"key": "C", "text": "Se recomandă o linie cât mai groasă, pentru vizibilitate maximă"},
+                {"key": "D", "text": "Marcarea marginilor este o etapă importantă înainte de machetare"},
+                {"key": "E", "text": "Marginile nu trebuie marcate dacă se lucrează cu ceară"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 18.35 descrie explicit folosirea creionului și partea laterală pentru linie minimă.",
+              "source": {"pdf_pages": [24]}
+            },
+            {
+              "id": "PF08_Q15",
+              "type": "complement_multiplu",
+              "stem": "Conform figurilor despre proprietățile cerii, cursul prezintă:",
+              "options": [
+                {"key": "A", "text": "Curba de curgere a cerii (în funcție de temperatură)"},
+                {"key": "B", "text": "Curba de dilatare a cerii (în funcție de temperatură)"},
+                {"key": "C", "text": "Efectul temperaturii asupra comportamentului cerii"},
+                {"key": "D", "text": "Ceara nu își modifică proprietățile în funcție de temperatură"},
+                {"key": "E", "text": "Reprezentări grafice (axe temperatură/flux/expansiune)"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.36–18.37 sunt grafice despre curgere și dilatare în funcție de temperatură.",
+              "source": {"pdf_pages": [25]}
+            },
+            {
+              "id": "PF08_Q16",
+              "type": "complement_multiplu",
+              "stem": "Pentru evaluarea conturului/profilului unui model de ceară, cursul recomandă:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Vizualizarea profilului în timp ce macheta este rotită pe un fundal contrastant"
+                },
+                {"key": "B", "text": "Evaluarea doar dintr-o singură vedere directă, fără rotație"},
+                {
+                  "key": "C",
+                  "text": "Evaluarea secvențială a profilului în timpul rotației pentru a observa conturul facial mediu"
+                },
+                {
+                  "key": "D",
+                  "text": "Folosirea unui fundal cu aceeași culoare ca ceara pentru a reduce contrastul"
+                },
+                {"key": "E", "text": "Scop: identificarea mai ușoară a conturului corect vs incorect"}
+              ],
+              "answer_keys": ["A", "C", "E"],
+              "rationale": "Fig. 18.38 descrie dificultatea vederii directe și avantajul rotației pe fundal contrastant.",
+              "source": {"pdf_pages": [26]}
+            },
+            {
+              "id": "PF08_Q17",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 18.39, instrumente/materiale pentru machetare includ:",
+              "options": [
+                {"key": "A", "text": "Arzător Bunsen"},
+                {"key": "B", "text": "Ceară pentru incrustație"},
+                {"key": "C", "text": "Creion colorat ascuțit (pentru marcaje)"},
+                {"key": "D", "text": "Pudră indicator ocluzal"},
+                {"key": "E", "text": "Scanner intraoral (obligatoriu pentru machetare manuală)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 18.39 enumeră explicit aceste elemente ca instrumentar de machetare clasic.",
+              "source": {"pdf_pages": [26]}
+            },
+            {
+              "id": "PF08_Q18",
+              "type": "complement_multiplu",
+              "stem": "La utilizarea instrumentelor PKT pentru ceară, cursul indică:",
+              "options": [
+                {"key": "A", "text": "Există instrumente PKT folosite pentru adăugare, lustruire și sculptare"},
+                {"key": "B", "text": "Spatula PKT nr. 7 este menționată pentru aplicarea cerii"},
+                {
+                  "key": "C",
+                  "text": "Este recomandat să se încălzească tija instrumentului, pentru ca ceara să curgă de pe vârf"
+                },
+                {"key": "D", "text": "Ceara trebuie aplicată rece pentru adaptare mai bună"},
+                {"key": "E", "text": "Instrumentele PKT sunt prezentate în figuri dedicate"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.40–18.41 prezintă seturile PKT și recomandarea de încălzire a tijei instrumentului.",
+              "source": {"pdf_pages": [27]}
+            },
+            {
+              "id": "PF08_Q19",
+              "type": "complement_multiplu",
+              "stem": "Conform figurilor despre imprimarea 3D a machetelor din ceară, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se pot imprima machete din ceară cu imprimantă 3D (exemplu prezentat)"},
+                {"key": "B", "text": "Suporturile de susținere stabilizează modelul în timpul imprimării"},
+                {"key": "C", "text": "Suporturile sunt eliminate înainte de turnare"},
+                {"key": "D", "text": "Imprimarea 3D exclude complet necesitatea oricărei proiectări digitale"},
+                {"key": "E", "text": "Sunt ilustrate modele imprimate pentru coroane și pentru PPF"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.31 și 18.79 prezintă imprimante, modele imprimate (coroane/PPF) și suporturile ce se îndepărtează înainte de turnare.",
+              "source": {"pdf_pages": [22, 47]}
+            },
+            {
+              "id": "PF08_Q20",
+              "type": "complement_multiplu",
+              "stem": "În machetarea ocluzală prin tehnica de adăugare secvențială a cerii, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Ceara se adaugă în cantități mici pentru contacte ocluzale precise"},
+                {"key": "B", "text": "Articulatorul se închide cât ceara adăugată este încă moale"},
+                {"key": "C", "text": "Se folosește pudră pentru a verifica poziția/dimensiunea contactului"},
+                {"key": "D", "text": "Conurile pot ajuta la determinarea poziției cuspizilor linguali"},
+                {"key": "E", "text": "Contactele ocluzale nu se marchează la final"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 18.58 descrie exact pașii A–D și arată marcarea contactelor la final.",
+              "source": {"pdf_pages": [36]}
+            },
+            {
+              "id": "PF08_Q21",
+              "type": "complement_multiplu",
+              "stem": "Conform textului și Fig. 18.61–18.62, sunt corecte afirmațiile despre scheme ocluzale și curbe:",
+              "options": [
+                {"key": "A", "text": "Există ocluzie cuspid–creastă marginală („dinte-la-doi-dinți”)"},
+                {"key": "B", "text": "Există ocluzie cuspid–fosă („dinte-la-dinte”)"},
+                {
+                  "key": "C",
+                  "text": "Conurile/vârfurile cuspizilor trebuie să urmeze curba lui Spee și curba lui Wilson"
+                },
+                {"key": "D", "text": "Curbele Spee/Wilson nu influențează poziția cuspizilor"},
+                {
+                  "key": "E",
+                  "text": "Tabelele 18.1 și 18.2 corelează poziția cuspizilor funcționali cu fose/creste antagoniste"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.61 arată cele două scheme, Fig. 18.62 curbele Spee/Wilson, iar tabelele 18.1–18.2 dau corespondențe cuspizi–antagoniști.",
+              "source": {"pdf_pages": [37, 39]}
+            },
+            {
+              "id": "PF08_Q22",
+              "type": "complement_multiplu",
+              "stem": "În evaluarea contactelor proximale și a ambrazurilor, cursul menționează:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Suprafețele proximale gingivale ale zonei de contact sunt în mod normal plate sau concave"
+                },
+                {"key": "B", "text": "Forma triunghiulară a ambrazurilor posterioare este evidențiată"},
+                {
+                  "key": "C",
+                  "text": "Poziția contactului interproximal se modifică din anterior spre posterior"
+                },
+                {"key": "D", "text": "Ambrazurile gingivale trebuie modelate astfel încât să fie simetrice"},
+                {"key": "E", "text": "Contactele proximale sunt irelevante dacă ocluzia e corectă"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 18.50–18.54 descriu forma contactelor/ambrazurilor, schimbarea poziției și cerința de simetrie.",
+              "source": {"pdf_pages": [32, 33]}
+            },
+            {
+              "id": "PF08_Q23",
+              "type": "complement_multiplu",
+              "stem": "În context parodontal, cursul arată că conturul axial poate fi modificat pentru:",
+              "options": [
+                {"key": "A", "text": "A îmbunătăți accesul pentru controlul plăcii bacteriene"},
+                {"key": "B", "text": "A compensa pierderi osoase extinse (situații specifice)"},
+                {"key": "C", "text": "A reduce deliberat accesul la igienă pentru a crește retenția"},
+                {
+                  "key": "D",
+                  "text": "A schimba forma conturului fețelor ocluzale/axiale pentru un profil mai igienizabil"
+                },
+                {"key": "E", "text": "A face contururi identice cu dinții contralaterali fără excepții"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 18.55 descrie modificarea conturului axial lângă furcații și beneficiul pentru igienă la pacienți cu pierderi osoase.",
+              "source": {"pdf_pages": [34]}
+            },
+            {
+              "id": "PF08_Q24",
+              "type": "complement_multiplu",
+              "stem": "Conform Fig. 18.69–18.70, retopirea (reflow) marginilor are ca obiective:",
+              "options": [
+                {"key": "A", "text": "Corectarea discrepanței marginale apărute după machetare"},
+                {"key": "B", "text": "Crearea unei zone bine adaptate de aproximativ 1 mm"},
+                {"key": "C", "text": "Prevenirea dizolvării cimentului prin adaptare marginală bună"},
+                {
+                  "key": "D",
+                  "text": "Menținerea intenționată a unei depresiuni marginale pentru „spațiu de ciment”"
+                },
+                {
+                  "key": "E",
+                  "text": "Finisarea prin topire completă, apoi completare cu ceară și îndepărtarea excesului după răcire"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.69–18.70 descriu discrepanța marginală, zona de 1 mm, prevenirea dizolvării cimentului și pașii de retopire/finisare.",
+              "source": {"pdf_pages": [41, 42]}
+            },
+            {
+              "id": "PF08_Q25",
+              "type": "complement_multiplu",
+              "stem": "Considerații privind amplasarea conectorului anterior (Fig. 18.78) – sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Mecanic: conectorul trebuie cât mai mare posibil pentru rezistență"},
+                {
+                  "key": "B",
+                  "text": "Biologic: conectorul se amplasează cel mai eficient în jumătatea incizală a peretelui proximal"
+                },
+                {
+                  "key": "C",
+                  "text": "Estetic: conectorul se amplasează în jumătatea linguală/palatală a peretelui proximal"
+                },
+                {
+                  "key": "D",
+                  "text": "Biologic: conectorul se amplasează ideal în jumătatea gingivală a peretelui proximal"
+                },
+                {"key": "E", "text": "Figura separă explicit raționamentele mecanic/biologic/estetic"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 18.78 enunță direct cele trei perspective și recomandările de poziționare.",
+              "source": {"pdf_pages": [47]},
+            },
+            {
+              "id": "PF09_Q01",
+              "type": "complement_multiplu",
+              "stem": "Pentru un design optim al unei punți (conform schemei biologic–mecanic–estetic), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Biologic: suprafața tisulară ușor de curățat"},
+                {"key": "B", "text": "Biologic: acces la dinții de sprijin"},
+                {"key": "C", "text": "Biologic: fără presiune asupra crestei"},
+                {"key": "D", "text": "Mecanic: rigiditate pentru a rezista deformării"},
+                {"key": "E", "text": "Estetic: spațiu suficient pentru porțelan"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Diagrama despre designul optim al punții include explicit cerințe biologice, mecanice și estetice.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "PF09_Q02",
+              "type": "complement_multiplu",
+              "stem": "Defectele crestei reziduale după clasificarea Siebert pot fi:",
+              "options": [
+                {"key": "A", "text": "Clasa 0: fără defecte"},
+                {"key": "B", "text": "Clasa I: pierdere orizontală"},
+                {"key": "C", "text": "Clasa II: pierdere verticală"},
+                {"key": "D", "text": "Clasa III: pierdere orizontală și verticală"},
+                {"key": "E", "text": "Clasa IV: pierdere transversală izolată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura și tabelul despre Siebert enumeră clasele 0–III cu descrierile lor.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "PF09_Q03",
+              "type": "complement_multiplu",
+              "stem": "Tehnicile ilustrate pentru augmentarea țesutului moale al crestei includ:",
+              "options": [
+                {"key": "A", "text": "Tehnica de rulare (roll technique)"},
+                {"key": "B", "text": "Tehnica pungii (pouch technique)"},
+                {"key": "C", "text": "Grefă interpozițională pentru lățime și înălțime"},
+                {"key": "D", "text": "Grefă onlay pentru lățime și înălțime"},
+                {"key": "E", "text": "Osteotomie segmentară obligatorie în toate cazurile"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figurile 20.6–20.9 prezintă aceste opțiuni de augmentare (roll, pouch, interpozițională, onlay).",
+              "source": {"pdf_pages": [4, 5, 6]}
+            },
+            {
+              "id": "PF09_Q04",
+              "type": "complement_multiplu",
+              "stem": "Conservarea arhitecturii alveolare (în exemplele clinice) este susținută de:",
+              "options": [
+                {"key": "A", "text": "Extracție dentară atraumatică"},
+                {"key": "B", "text": "Intermediar (pontic) cu formă ovală/ovoidă în provizorat"},
+                {"key": "C", "text": "Extensie apicală a corpului de punte oval (exemplu: 2,5 mm)"},
+                {
+                  "key": "D",
+                  "text": "Provizoratul ar trebui să producă o ușoară albire a papilelor interdentare"
+                },
+                {
+                  "key": "E",
+                  "text": "Se recomandă presiune puternică și constantă pe mucoasă pentru stabilizare"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Figura despre conservarea arhitecturii alveolare descrie pașii și criteriile de evaluare ale provizoratului cu pontic ovoidal.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "PF09_Q05",
+              "type": "complement_multiplu",
+              "stem": "Clasificarea designului intermediarilor (corpurilor de punte) include:",
+              "options": [
+                {"key": "A", "text": "Ridge-lap (șa) cu contact cu mucoasa"},
+                {"key": "B", "text": "Oval/ovoid"},
+                {"key": "C", "text": "Conic"},
+                {"key": "D", "text": "Sanitar/igienic (fără contact cu mucoasa)"},
+                {"key": "E", "text": "Pivotant (telescopat) ca tip standard de corp de punte"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Caseta de clasificare listează aceste tipuri majore de intermediari.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "PF09_Q06",
+              "type": "complement_multiplu",
+              "stem": "Despre corpul de punte sanitar/igienic, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Este recomandat frecvent în mandibula posterioară"},
+                {"key": "B", "text": "Oferă acces facil pentru igiena orală"},
+                {"key": "C", "text": "Are dezavantaj estetic important"},
+                {"key": "D", "text": "Necesită dimensiune verticală minimă"},
+                {"key": "E", "text": "Este indicat în zone unde estetica este foarte importantă"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul de proiectare al corpului de punte enumeră locația, avantaje/dezavantaje și indicații/contraindicații.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "PF09_Q07",
+              "type": "complement_multiplu",
+              "stem": "Despre corpul de punte ridge-lap (suprafață gingivală concavă) și consecințe tisulare:",
+              "options": [
+                {"key": "A", "text": "Poate produce ulcerare tisulară"},
+                {"key": "B", "text": "Este ușor de curățat datorită concavității"},
+                {
+                  "key": "C",
+                  "text": "Poate fi remodelat și utilizat ca provizorat în timpul realizării definitivei"
+                },
+                {"key": "D", "text": "Vindecarea ulcerației poate apărea după corecția designului"},
+                {"key": "E", "text": "Este recomandat ca design standard în zone estetice"}
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Figura despre PPF cu suprafață gingivală concavă arată ulcerația și vindecarea după remodelare.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "PF09_Q08",
+              "type": "complement_multiplu",
+              "stem": "Pentru un pontic biologic favorabil, sunt menționate ca principii/corectitudini:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Convexitate maximă și un singur punct de contact cu țesutul (ușor de curățat)"
+                },
+                {
+                  "key": "B",
+                  "text": "Contur excesiv de plat într-una dintre zonele evaluate este considerat mai puțin bun"
+                },
+                {
+                  "key": "C",
+                  "text": "Forma cu convexitate echilibrată este considerată cea mai bună dintre variantele comparate"
+                },
+                {"key": "D", "text": "Convexitatea nu influențează igienizarea suprafeței tisulare"},
+                {"key": "E", "text": "Ponticul conic este prezentat ca exemplu posibil pentru molar mandibular"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura despre contururi (1–3) compară formele și subliniază varianta optimă; este prezentat și un exemplu de pontic conic.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "PF09_Q09",
+              "type": "complement_multiplu",
+              "stem": "Referitor la corpurile de punte conice și retenția alimentelor:",
+              "options": [
+                {"key": "A", "text": "Pot favoriza retenția alimentelor pe creste reziduale largi"},
+                {"key": "B", "text": "Forma sanitară poate fi alternativă mai bună în astfel de cazuri"},
+                {
+                  "key": "C",
+                  "text": "Ponticul conic este întotdeauna superior estetic celui ridge-lap modificat"
+                },
+                {
+                  "key": "D",
+                  "text": "Ponticul conic are acces bun pentru igienă, dar estetică mai slabă (în tabel)"
+                },
+                {"key": "E", "text": "Ponticul conic este contraindicat în toate zonele posterioare"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Figura 20.20 discută retenția alimentelor și alternativa sanitară; tabelul menționează profilul conicului (igienă bună / estetică slabă).",
+              "source": {"pdf_pages": [10, 14]}
+            },
+            {
+              "id": "PF09_Q10",
+              "type": "complement_multiplu",
+              "stem": "Despre contactul ponticului cu creasta și țesuturile moi, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Presiunea asupra mucoasei duce inevitabil la ulcerații"},
+                {"key": "B", "text": "Albirea țesutului moale la evaluare indică presiunea ponticului"},
+                {"key": "C", "text": "Ponticul trebuie să apese ferm pentru a reduce inflamația"},
+                {"key": "D", "text": "Se recomandă evitare presiunii pe țesut în proiectare"},
+                {"key": "E", "text": "Aceste observații sunt prezentate explicit în figuri dedicate"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Fig. 20.23–20.24 tratează presiunea și albirea ca semn clinic de compresie.",
+              "source": {"pdf_pages": [14, 15]}
+            },
+            {
+              "id": "PF09_Q11",
+              "type": "complement_multiplu",
+              "stem": "Designul ponticului oval (ovate) și variantele sale – sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Ponticul ovate este indicat în special pentru estetici foarte ridicate (incisivi/canini/premolari)"
+                },
+                {"key": "B", "text": "Necesită pregătire chirurgicală (în tabel)"},
+                {"key": "C", "text": "Nu este indicat pentru defecte ale crestei reziduale (în tabel)"},
+                {
+                  "key": "D",
+                  "text": "Ponticul oval modificat poate fi indicat când lățimea crestei orizontale nu permite un ovate convențional"
+                },
+                {
+                  "key": "E",
+                  "text": "Ponticul ovate este recomandat când pacientul refuză orice intervenție chirurgicală"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul 20.2 prezintă indicații/contraindicații pentru ovate și oval modificat.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "PF09_Q12",
+              "type": "complement_multiplu",
+              "stem": "Pentru un ridge-lap modificat (semi-șa), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Este indicat în zone cu cerințe estetice ridicate (anterior/premolari; uneori molari maxilari)"
+                },
+                {"key": "B", "text": "Este descris ca fiind ușor de curățat (față de ridge-lap clasic)"},
+                {
+                  "key": "C",
+                  "text": "Este recomandat explicit „nu se recomandă” (ca în tabel) pentru orice situație"
+                },
+                {"key": "D", "text": "În exemplu, suprafața linguală poate fi convexă pentru controlul plăcii"},
+                {
+                  "key": "E",
+                  "text": "Suprafața facială este modelată pentru a simula dintele lipsă (în exemplu)"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Tabelul 20.2 și figura clinică arată compromisul estetic/igienic: lingual convex pentru igienă, facială pentru estetică.",
+              "source": {"pdf_pages": [10, 12]}
+            },
+            {
+              "id": "PF09_Q13",
+              "type": "complement_multiplu",
+              "stem": "Materialele pentru corpuri de punte (tabel) – sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Metalo-ceramică: estetică + biocompatibilitate, utilizare în majoritatea situațiilor"
+                },
+                {"key": "B", "text": "Metal: rezistență, procedură simplă; neestetic"},
+                {"key": "C", "text": "Ceramică: estetică optimă, biocompatibilitate; risc de fractură"},
+                {"key": "D", "text": "Ceramica „poate fi secționată și reconectată ușor” (în tabel)"},
+                {"key": "E", "text": "Pentru ceramică sunt necesari conectori mari (în tabel)"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Tabelul 20.3 compară materialele și menționează explicit limitările ceramicii (fractură, conectori mari, imposibilitate de secționare/reconectare).",
+              "source": {"pdf_pages": [24]}
+            },
+            {
+              "id": "PF09_Q14",
+              "type": "complement_multiplu",
+              "stem": "Conform micrografiilor electronice, suprafețe analizate sunt:",
+              "options": [
+                {"key": "A", "text": "Porțelan glazurat"},
+                {"key": "B", "text": "Aur lustruit"},
+                {"key": "C", "text": "Rășină acrilică lustruită"},
+                {"key": "D", "text": "Zirconiu presinterizat"},
+                {"key": "E", "text": "Email natural (secțiune) ca etalon în aceeași figură"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Figura 20.26 prezintă cele trei micrografii: porțelan glazurat, aur lustruit, rășină acrilică lustruită.",
+              "source": {"pdf_pages": [16]}
+            },
+            {
+              "id": "PF09_Q15",
+              "type": "complement_multiplu",
+              "stem": "Considerații mecanice privind spațiul vertical minim și rezistența punții (modelul cu substructură metalică):",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Rezistența scade odată cu reducerea diametrului secțiunii transversale a substructurii metalice"
+                },
+                {
+                  "key": "B",
+                  "text": "În spațiu vertical minim, un design cu mult porțelan și acoperire ocluzal poate fi contraindicat"
+                },
+                {"key": "C", "text": "Toate modelele au aceeași rezistență, indiferent de secțiune"},
+                {"key": "D", "text": "Figura prezintă patru modele în ordine descrescătoare a rezistenței"},
+                {"key": "E", "text": "Concluzia principală este strict estetică, nu mecanică"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Figura 20.27 compară patru modele și le ordonează după rezistență în funcție de secțiunea substructurii metalice.",
+              "source": {"pdf_pages": [16]}
+            },
+            {
+              "id": "PF09_Q16",
+              "type": "complement_multiplu",
+              "stem": "Eșecuri/defecte descrise în zona corpului de punte includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Eșecul unei PPF metalo-ceramice cu deschidere lungă supusă solicitărilor intense"
+                },
+                {"key": "B", "text": "Defect al corpului de punte prin tehnică de laborator necorespunzătoare"},
+                {"key": "C", "text": "Eșecul porțelanului gingival nesusținut"},
+                {
+                  "key": "D",
+                  "text": "Fractura porțelanului cauzată de contact ocluzal la joncțiunea metalo-ceramică"
+                },
+                {
+                  "key": "E",
+                  "text": "Toate eșecurile sunt atribuite exclusiv igienei deficitare, fără alte cauze"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 20.28–20.32 prezintă aceste tipuri de eșecuri/defecte și mecanisme asociate.",
+              "source": {"pdf_pages": [17, 18]}
+            },
+            {
+              "id": "PF09_Q17",
+              "type": "complement_multiplu",
+              "stem": "În proiectarea estetică, sunt corecte următoarele idei:",
+              "options": [
+                {"key": "A", "text": "Înălțimea incizogingivală corectă este esențială"},
+                {"key": "B", "text": "Puntea trebuie interpretată ca „ieșind” din țesutul gingival"},
+                {"key": "C", "text": "Umbrele din jurul suprafeței gingivale pot strica iluzia estetică"},
+                {
+                  "key": "D",
+                  "text": "Modelarea greșită poate face ponticii să pară prea lungi sau prea scurți"
+                },
+                {"key": "E", "text": "Umbrele și lungimea incizogingivală nu influențează estetica"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 20.33–20.36 discută explicit lungimea incizogingivală, iluzia de emergență și rolul umbrelor/conturului cervical.",
+              "source": {"pdf_pages": [18, 19, 20]}
+            },
+            {
+              "id": "PF09_Q18",
+              "type": "complement_multiplu",
+              "stem": "În fabricarea substructurii metalice pentru un corp de punte metalo-ceramic, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Modelarea cu ceară a conturului anatomic + reducerea controlată este descrisă ca metodă foarte fiabilă"
+                },
+                {
+                  "key": "B",
+                  "text": "Reducerea controlată urmărește obținerea spațiului adecvat pentru ceramică"
+                },
+                {"key": "C", "text": "Se recomandă evitarea completă a cerii în modelare"},
+                {
+                  "key": "D",
+                  "text": "Figura compară conturul anatomic înainte/după reducere și rezultatul substructurii"
+                },
+                {"key": "E", "text": "Metoda este prezentată ca inferioară tuturor alternativelor digitale"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Figura 20.31 afirmă că modelarea anatomică în ceară și reducerea controlată sunt cele mai fiabile pentru o substructură satisfăcătoare.",
+              "source": {"pdf_pages": [18]}
+            },
+            {
+              "id": "PF09_Q19",
+              "type": "complement_multiplu",
+              "stem": "Despre conectorii rigizi vs ne-rigizi în PPF, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Conector rigid turnat poate conecta stâlpul anterior de punte, iar un alt stâlp poate fi fabricat separat și lipit"
+                },
+                {
+                  "key": "B",
+                  "text": "Conectorii ne-rigizi includ componente tip matrice/patrice (feminin/masculin) în exemplul prezentat"
+                },
+                {
+                  "key": "C",
+                  "text": "Conectorii ne-rigizi pot permite realizarea unei PPF extinse cu bonturi cu traiectorii divergente"
+                },
+                {"key": "D", "text": "Conectorii ne-rigizi sunt interziși când există divergențe de inserție"},
+                {"key": "E", "text": "Exemplele sunt ilustrate în figuri dedicate conectorilor"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 27.1–27.2 prezintă exemplele de conector rigid și ne-rigid și indicația privind traiectoriile divergente.",
+              "source": {"pdf_pages": [31]}
+            },
+            {
+              "id": "PF09_Q20",
+              "type": "complement_multiplu",
+              "stem": "Procesul de lipire (soldering) pentru segmentele unei PPF include:",
+              "options": [
+                {"key": "A", "text": "Fabricarea unui index de lipire ocluzal"},
+                {"key": "B", "text": "Ambalarea componentelor PPF"},
+                {"key": "C", "text": "Lipire cu o sursă de căldură"},
+                {"key": "D", "text": "Evaluare clinică după lipire"},
+                {"key": "E", "text": "Este descrisă ca procedură imposibilă în laboratorul protetic"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 27.3 listează pașii procesului de lipire.",
+              "source": {"pdf_pages": [32]}
+            },
+            {
+              "id": "PF09_Q21",
+              "type": "complement_multiplu",
+              "stem": "Despre conectori și implicații biologice/estetice, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Un conector incisocervical excesiv de mare poate compromite controlul plăcii și poate contribui la deteriorare parodontală"
+                },
+                {
+                  "key": "B",
+                  "text": "Un conector cu metal expus poate fi acceptabil biologic/mecanic, dar inacceptabil estetic"
+                },
+                {
+                  "key": "C",
+                  "text": "Conectorii anteriori trebuie plasați spre ambrazura linguală pentru a preveni expunerea excesivă a metalului"
+                },
+                {
+                  "key": "D",
+                  "text": "Conectorii trebuie modelați concav gingival pentru a reține placa (stabilitate)"
+                },
+                {
+                  "key": "E",
+                  "text": "Convexitatea suprafeței gingivale a conectorilor este menționată în secțiuni transversale"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 27.5–27.6 discută dimensiunea conectorului, metalul expus și recomandările de poziționare/anatomie (convexitate).",
+              "source": {"pdf_pages": [32, 33]}
+            },
+            {
+              "id": "PF09_Q22",
+              "type": "complement_multiplu",
+              "stem": "Proiectarea conectorului (după secționarea modelului din ceară) – sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se poate utiliza un ferăstrău cu bandă pentru secționarea modelului din ceară"
+                },
+                {"key": "B", "text": "Suprafața secționată trebuie să fie plană"},
+                {
+                  "key": "C",
+                  "text": "Suprafața trebuie poziționată suficient de departe incisiv și lingual pentru igienă și estetică"
+                },
+                {"key": "D", "text": "Este evidențiată lățimea uniformă a spațiului (în structură)"},
+                {"key": "E", "text": "Se recomandă poziționarea cât mai gingivală pentru a masca metalul"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 27.7 descrie explicit aceste cerințe (secționare, planitate, poziționare, spațiu uniform).",
+              "source": {"pdf_pages": [34]}
+            },
+            {
+              "id": "PF09_Q23",
+              "type": "complement_multiplu",
+              "stem": "Indicații pentru conectori ne-rigizi (ilustrații) includ situații precum:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Depășirea problemelor cu bonturi intermediare/pivotante (pier abutments)"
+                },
+                {"key": "B", "text": "Alinierea dificilă a bonturilor"},
+                {"key": "C", "text": "Obținerea unei singure piese monolitice fără posibilitate de segmentare"},
+                {"key": "D", "text": "Divergențe ale traiectoriilor de inserție (extindere)"},
+                {
+                  "key": "E",
+                  "text": "Sunt prezentate și modele prefabricate din plastic pentru încorporare în ceară"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Fig. 27.2, 27.8 și 27.9 prezintă indicațiile și exemplele (inclusiv pattern-uri prefabricate).",
+              "source": {"pdf_pages": [31, 34]}
+            },
+            {
+              "id": "PF09_Q24",
+              "type": "complement_multiplu",
+              "stem": "Instrucțiunile legate de igiena orală la nivelul ponticului includ (conform exemplului cu ața dentară):",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Pacientul trebuie instruit cum să curețe suprafața gingivală a unui corp de punte tip șa"
+                },
+                {
+                  "key": "B",
+                  "text": "Curățarea se poate face cu mijloace dedicate (exemplu: ață specială/super floss)"
+                },
+                {"key": "C", "text": "Igiena este irelevantă dacă ponticul e metalo-ceramic"},
+                {"key": "D", "text": "Figura ilustrează explicit o metodă de curățare"},
+                {"key": "E", "text": "Se recomandă interzicerea igienizării pentru a evita sângerarea"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 20.25 prezintă necesitatea instruirii și modul de curățare a suprafeței gingivale a ponticului.",
+              "source": {"pdf_pages": [15]}
+            }, {
+              "id": "C10_Q01",
+              "type": "complement_multiplu",
+              "stem": "În sistemul Munsell, cele trei atribute primare ale culorii sunt:",
+              "options": [
+                {"key": "A", "text": "Nuanța (Hue)"},
+                {"key": "B", "text": "Saturația / Croma (Chroma)"},
+                {"key": "C", "text": "Luminozitatea / Valoarea (Value)"},
+                {"key": "D", "text": "Opalescența"},
+                {"key": "E", "text": "Fluorescența"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Munsell descrie culoarea prin nuanță, saturație/croma și luminozitate/valoare.",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "C10_Q02",
+              "type": "complement_multiplu",
+              "stem": "Despre NUANȚĂ (Hue) în Munsell, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Este varietatea particulară a unei culori (ex. roșu, verde, galben)"},
+                {"key": "B", "text": "Este determinată de lungimea de undă a luminii reflectate/transmise"},
+                {"key": "C", "text": "Lungimi de undă mai scurte tind spre violet; mai lungi spre roșu"},
+                {"key": "D", "text": "În Munsell, nuanțele sunt aranjate pe o roată a nuanțelor"},
+                {"key": "E", "text": "Este sinonim cu valoarea (Value)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Definiția și relația cu lungimea de undă + roata nuanțelor sunt explicate în curs.",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "C10_Q03",
+              "type": "complement_multiplu",
+              "stem": "Despre SATURAȚIE/CROMĂ (Chroma), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Reprezintă intensitatea unei nuanțe / concentrația pigmentului"},
+                {
+                  "key": "B",
+                  "text": "Termenii „saturație” și „cromă” sunt folosiți interschimbabil în literatura de stomatologie"
+                },
+                {
+                  "key": "C",
+                  "text": "În Munsell, cromaticitatea e mai intensă la marginea exterioară decât spre centru"
+                },
+                {"key": "D", "text": "Este determinată exclusiv de iluminare, nu de obiect"},
+                {
+                  "key": "E",
+                  "text": "Exemplul „picături de cerneală în apă” ilustrează creșterea cromaticității"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul definește croma/saturația și dă analogia cu cerneala în apă; explică și poziționarea în roata Munsell.",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "C10_Q04",
+              "type": "complement_multiplu",
+              "stem": "Despre LUMINOSITATE/VALOARE (Value), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Este luminozitatea sau întunecimea relativă a unei culori"},
+                {"key": "B", "text": "Depinde de cantitatea de energie luminoasă reflectată/transmisă"},
+                {
+                  "key": "C",
+                  "text": "Două nuanțe diferite pot avea aceeași valoare (ex. verde vs albastru în alb-negru)"
+                },
+                {
+                  "key": "D",
+                  "text": "O restaurare cu valoare prea mare (prea strălucitoare) e ușor detectabilă clinic"
+                },
+                {"key": "E", "text": "Valoarea este sinonimă cu coordonata b* din CIELab"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul explică valoarea și dă exemple clinice și perceptuale.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "C10_Q05",
+              "type": "complement_multiplu",
+              "stem": "În sistemul CIELab, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Spațiul de culoare este definit de coordonatele L*, a*, b*"},
+                {"key": "B", "text": "L* descrie luminozitatea (achromatic), similar cu valoarea din Munsell"},
+                {"key": "C", "text": "a* și b* descriu caracteristicile cromatice (nuanță/cromă) ale culorii"},
+                {
+                  "key": "D",
+                  "text": "Distanțe egale în spațiul CIELab corespund aproximativ pașilor egali în percepția umană"
+                },
+                {"key": "E", "text": "CIELab este greu de interpretat clinic, spre deosebire de Munsell"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "CIELab este prezentat ca sistem cantitativ, ușor de interpretat clinic datorită uniformității perceptuale aproximative.",
+              "source": {"pdf_pages": [1, 2, 3]}
+            },
+            {
+              "id": "C10_Q06",
+              "type": "complement_multiplu",
+              "stem": "Formula clasică pentru diferența de culoare în CIELab (ΔEab) implică:",
+              "options": [
+                {"key": "A", "text": "ΔL*"},
+                {"key": "B", "text": "Δa*"},
+                {"key": "C", "text": "Δb*"},
+                {"key": "D", "text": "Suma pătratelor diferențelor, urmată de rădăcina pătrată"},
+                {"key": "E", "text": "Doar L*, fără a* și b*"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul dă explicit ecuația ΔEab bazată pe ΔL*, Δa*, Δb*.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "C10_Q07",
+              "type": "complement_multiplu",
+              "stem": "Despre CIEDE2000, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "A fost adoptată în 2001 ca formulă CIE de diferență cromatică"},
+                {"key": "B", "text": "Se bazează pe CIELab"},
+                {
+                  "key": "C",
+                  "text": "Include funcții de ponderare pentru luminozitate, cromaticitate și nuanță"
+                },
+                {
+                  "key": "D",
+                  "text": "Include un termen interactiv între diferențele de nuanță și cromaticitate (pentru îmbunătățiri specifice)"
+                },
+                {"key": "E", "text": "Este identică cu ΔEab (nu adaugă nimic)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie motivul apariției formulei CIEDE2000 și componentele ei de corecție/ponderare.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "C10_Q08",
+              "type": "complement_multiplu",
+              "stem": "Procesul de reproducere a culorii pentru restaurări fixe include:",
+              "options": [
+                {"key": "A", "text": "Faza de alegere a nuanței (în cabinet)"},
+                {"key": "B", "text": "Faza de duplicare a nuanței (în laborator)"},
+                {"key": "C", "text": "Alegerea nuanței poate fi vizuală sau instrumentală"},
+                {
+                  "key": "D",
+                  "text": "Dacă există diferențe, medicul poate aplica pigmenți pe suprafața restaurării pentru ajustare"
+                },
+                {"key": "E", "text": "Procesul exclude complet comunicarea cu laboratorul"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul împarte clar procesul în cele două faze și menționează opțiunile de alegere + ajustări finale.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "C10_Q09",
+              "type": "complement_multiplu",
+              "stem": "Despre iluminare în alegerea vizuală a nuanței, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Lumina naturală NU este recomandată ca standard, fiind inconstantă"},
+                {"key": "B", "text": "O sursă ideală ar trebui să fie difuză și confortabilă pentru ochi"},
+                {
+                  "key": "C",
+                  "text": "Iluminarea controlată, stabilă, constantă, cu spectru complet poate îmbunătăți alegerea nuanței"
+                },
+                {"key": "D", "text": "Culoarea luminii naturale rămâne constantă pe parcursul zilei"},
+                {
+                  "key": "E",
+                  "text": "Calitatea și cantitatea sursei de lumină influențează rezultatul potrivirii vizuale"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul contrastează lumina naturală cu iluminarea standardizată și subliniază cerințele unei surse adecvate.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "C10_Q10",
+              "type": "complement_multiplu",
+              "stem": "Spectrul vizibil pentru ochiul uman este (conform cursului):",
+              "options": [
+                {"key": "A", "text": "Aproximativ 380–750 nm"},
+                {"key": "B", "text": "Sub 380 nm se află UV (și apoi raze X, gamma)"},
+                {"key": "C", "text": "Peste 750 nm se află infraroșu (și apoi microunde/radio)"},
+                {"key": "D", "text": "Ochiul este sensibil la întreg spectrul electromagnetic"},
+                {"key": "E", "text": "Lungimea de undă se măsoară în nanometri"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul definește clar domeniul vizibil și poziția UV/IR în raport cu acesta.",
+              "source": {"pdf_pages": [4, 5]}
+            },
+            {
+              "id": "C10_Q11",
+              "type": "complement_multiplu",
+              "stem": "Pentru o sursă de lumină adecvată în alegerea nuanțelor, sunt menționate ca importante:",
+              "options": [
+                {"key": "A", "text": "Temperatura de culoare"},
+                {"key": "B", "text": "Distribuția spectrală a energiei"},
+                {"key": "C", "text": "Indicele de redare a culorilor (CRI)"},
+                {"key": "D", "text": "Doar intensitatea (lux), fără calitatea luminii"},
+                {"key": "E", "text": "Un CRI recomandat > 90 pentru alegerea nuanțelor"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul subliniază temperatura de culoare + distribuția spectrală + CRI, recomandând CRI > 90.",
+              "source": {"pdf_pages": [4, 5]}
+            },
+            {
+              "id": "C10_Q12",
+              "type": "complement_multiplu",
+              "stem": "Despre temperatura de culoare (Kelvin), sunt corecte exemplele din curs:",
+              "options": [
+                {"key": "A", "text": "1000 K este roșu"},
+                {"key": "B", "text": "2000 K este galben"},
+                {"key": "C", "text": "≈5555 K este alb"},
+                {"key": "D", "text": "8000 K este albastru pal"},
+                {"key": "E", "text": "Temperatura de culoare se exprimă în grade Celsius (°C)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul dă explicit aceste repere în Kelvin.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "C10_Q13",
+              "type": "complement_multiplu",
+              "stem": "Despre D65, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Este considerată temperatura reală a culorii luminii albe percepută de observatori umani"
+                },
+                {
+                  "key": "B",
+                  "text": "Este folosită frecvent ca iluminare standard pentru alegerea nuanțelor dentare"
+                },
+                {
+                  "key": "C",
+                  "text": "Are distribuție spectrală relativ echilibrată (în comparații de tip Fig. 23.8)"
+                },
+                {"key": "D", "text": "Este echivalentă cu iluminantul A (tungsten)"},
+                {"key": "E", "text": "Este folosită doar în laborator, nu și clinic"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul descrie D65 ca standard și o arată ca iluminant relativ echilibrat.",
+              "source": {"pdf_pages": [4, 5]}
+            },
+            {
+              "id": "C10_Q14",
+              "type": "complement_multiplu",
+              "stem": "Cantitatea recomandată de lumină (intensitate) menționată în curs este:",
+              "options": [
+                {"key": "A", "text": "2000–3200 lux pentru cabinetul stomatologic"},
+                {"key": "B", "text": "28 lux pentru laboratorul stomatologic"},
+                {"key": "C", "text": "0–100 lux pentru cabinet este ideal"},
+                {"key": "D", "text": "Lux este 1 lumen pe metru pătrat"},
+                {
+                  "key": "E",
+                  "text": "Intensitatea este crucială în orice interval; nu contează stabilitatea/qualitatea"
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Cursul oferă intervalele de lux și definește luxul ca unitate.",
+              "source": {"pdf_pages": [5]}
+            },
+            {
+              "id": "C10_Q15",
+              "type": "complement_multiplu",
+              "stem": "Despre iluminarea auxiliară pentru alegerea nuanțelor, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Este recomandată dacă iluminarea ambientală nu e ideală (calitate/cantitate)"
+                },
+                {
+                  "key": "B",
+                  "text": "Trebuie să fie suficient de intensă încât să depășească influența luminii ambientale"
+                },
+                {
+                  "key": "C",
+                  "text": "Raportul lumină de lucru : lumină ambientală nu ar trebui să depășească 3:1"
+                },
+                {
+                  "key": "D",
+                  "text": "O intensitate prea mare poate reduce discriminarea diferențelor mici de culoare"
+                },
+                {"key": "E", "text": "Filtrul polarizant poate fi folosit pentru a reduce reflexia speculară"}
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Cursul menționează explicit raportul 3:1 și rolul filtrului polarizant (ex. Smile Lite).",
+              "source": {"pdf_pages": [5, 6]}
+            },
+            {
+              "id": "C10_Q16",
+              "type": "complement_multiplu",
+              "stem": "Pentru controlul culorilor mediului (cabinet) în alegerea nuanțelor, sunt corecte recomandările:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Pereții/îmbrăcămintea/baveta ar trebui să aibă cromatică Munsell ≤ 4 (tonuri pastel/gri neutru)"
+                },
+                {"key": "B", "text": "Tavanul este recomandat la valoare Munsell 9"},
+                {
+                  "key": "C",
+                  "text": "Pereții/dulapurile ar trebui să aibă valoare Munsell ≥ 7 și cromatică ≤ 4"
+                },
+                {
+                  "key": "D",
+                  "text": "Blaturile din afara zonei de lucru pot avea cromatică până la 6, dar valoare ≥ 7"
+                },
+                {"key": "E", "text": "Culorile vii (haine, ruj) nu influențează percepția culorii dinților"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul explică influența mediului și dă valori/limite Munsell recomandate.",
+              "source": {"pdf_pages": [5, 6]}
+            },
+            {
+              "id": "C10_Q17",
+              "type": "complement_multiplu",
+              "stem": "Despre vederea umană, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Bastonașele sunt active în lumină slabă (vedere scotopică) și nu oferă percepție de culoare"
+                },
+                {"key": "B", "text": "Conurile sunt responsabile de vederea culorilor (vedere fotopică)"},
+                {"key": "C", "text": "Adaptarea la întuneric (fotopic → scotopic) durează ~40 minute"},
+                {
+                  "key": "D",
+                  "text": "Centrul retinei are multe conuri și nu are bastonașe (câmp central mai receptiv la culori)"
+                },
+                {"key": "E", "text": "Bastonașele predomină în centru, conurile la periferie"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie clar rolul bastonașelor/conurilor și distribuția lor retinală.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "C10_Q18",
+              "type": "complement_multiplu",
+              "stem": "Despre adaptarea/oboseala la culoare și percepția influențată de context, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Privitul fix reduce rapid percepția culorii (pare mai puțin saturată, spre gri)"
+                },
+                {
+                  "key": "B",
+                  "text": "Culorile din jur, mai ales complementarele, pot intensifica aparent cromatica"
+                },
+                {"key": "C", "text": "Hainele/rujul în culori vii pot influența culoarea percepută a dinților"},
+                {"key": "D", "text": "Discul Benham demonstrează că percepția culorii poate fi „păcălită”"},
+                {"key": "E", "text": "Contextul vizual nu are niciun efect asupra potrivirii culorii"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul insistă pe subiectivitatea percepției și efectele contextului/oboselii.",
+              "source": {"pdf_pages": [6, 7]}
+            },
+            {
+              "id": "C10_Q19",
+              "type": "complement_multiplu",
+              "stem": "Metamerismul se referă la situația în care:",
+              "options": [
+                {"key": "A", "text": "Două culori par să se potrivească sub o iluminare, dar nu și sub alta"},
+                {
+                  "key": "B",
+                  "text": "Două obiecte au reflexie spectrală diferită, deși par identice în anumite condiții"
+                },
+                {"key": "C", "text": "Se recomandă confirmarea nuanței în condiții de iluminare diferite"},
+                {"key": "D", "text": "Este același lucru cu opalescența"},
+                {"key": "E", "text": "Apare doar la materiale complet opace"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul definește metamerismul și recomandă verificări în iluminări diferite.",
+              "source": {"pdf_pages": [7, 8]}
+            },
+            {
+              "id": "C10_Q20",
+              "type": "complement_multiplu",
+              "stem": "Despre fluorescență și opalescență, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Fluorescența: reemisie la frecvență mai mică decât cea absorbită (ex. UV → vizibil)"
+                },
+                {
+                  "key": "B",
+                  "text": "În practică, fluorescența nu joacă un rol semnificativ în alegerea culorii restaurărilor"
+                },
+                {
+                  "key": "C",
+                  "text": "Opalescența: efect de dispersie al luminii, mai ales la marginile incizale, cu aspect alb-albăstrui"
+                },
+                {
+                  "key": "D",
+                  "text": "Producătorii de porțelanuri încearcă să reproducă efectul de opalescență"
+                },
+                {"key": "E", "text": "Opalescența este definită ca diferență de culoare ΔE"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie ambele fenomene și relevanța lor clinică.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "C10_Q21",
+              "type": "complement_multiplu",
+              "stem": "Despre daltonism (defecte de vedere a culorilor), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Afectează aproximativ 8% din populația masculină"},
+                {"key": "B", "text": "Achromatismul înseamnă lipsa completă a sensibilității la nuanțe"},
+                {
+                  "key": "C",
+                  "text": "Dicromatismul: sensibilitate la doar două nuanțe primare (de obicei roșu sau verde nu sunt percepute)"
+                },
+                {
+                  "key": "D",
+                  "text": "Tricromatismul anormal: deficiență/anomalie a unuia dintre pigmenții primari"
+                },
+                {
+                  "key": "E",
+                  "text": "Nu are relevanță practică; medicul nu trebuie să își testeze percepția culorilor"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul prezintă prevalența și tipurile + recomandarea de testare.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "C10_Q22",
+              "type": "complement_multiplu",
+              "stem": "Despre ghidul de nuanțe VITA clasic (Lumin Vacuum), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Grupul A: maro-roșiatic (A1–A4 etc.)"},
+                {"key": "B", "text": "Grupul B: galben-roșiatic"},
+                {"key": "C", "text": "Grupul C: cenușiu"},
+                {"key": "D", "text": "Grupul D: gri-roșiatic"},
+                {"key": "E", "text": "Toate nuanțele sunt distribuite uniform în spațiu cromatic (ΔE constant)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie grupurile A/B/C/D și caracterul lor cromatic.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "C10_Q23",
+              "type": "complement_multiplu",
+              "stem": "În alegerea nuanței cu VITA clasic, sunt corecte recomandările:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Determinarea nuanței se face inițial folosind regiunea cu cromaticitate mare (cervical canin)"
+                },
+                {
+                  "key": "B",
+                  "text": "După nuanță, se selectează cromaticitatea în interiorul grupului (ex. B1–B4)"
+                },
+                {"key": "C", "text": "Luminozitatea poate fi verificată cu un ghid ordonat după valoare"},
+                {"key": "D", "text": "Privirea pe un obiect gri ajută la odihnirea ochilor între comparații"},
+                {
+                  "key": "E",
+                  "text": "Nu se recomandă nicio comparație repetată; o singură privire e suficientă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie succesiunea: nuanță → cromă → valoare și măsuri anti-oboseală oculară.",
+              "source": {"pdf_pages": [8, 10]}
+            },
+            {
+              "id": "C10_Q24",
+              "type": "complement_multiplu",
+              "stem": "Despre selectarea LUMINOSITĂȚII (valoare) în clinică, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se poate evalua mai eficient de la distanță, strângând ușor ochii"},
+                {
+                  "key": "B",
+                  "text": "Dacă valoarea aleasă este mai mică decât necesar, de obicei e nevoie de schimbarea eșantionului"
+                },
+                {
+                  "key": "C",
+                  "text": "Nu se poate crește valoarea prin colorare extrinsecă; aceasta reduce valoarea"
+                },
+                {
+                  "key": "D",
+                  "text": "Dacă valoarea e mai mare decât necesar, uneori poate fi compensată prin caracterizare internă/suprafață"
+                },
+                {
+                  "key": "E",
+                  "text": "Valoarea se stabilește după nuanță, dar poate să nu coincidă perfect cu selecțiile de nuanță/cromă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Cursul explică metoda cu „strângerea ochilor” și consecințele ajustărilor pentru valoare.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "C10_Q25",
+              "type": "complement_multiplu",
+              "stem": "Despre VITA Toothguide 3D-MASTER, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Mostrele sunt grupate pe niveluri de luminozitate, cu variații de cromaticitate și nuanță"
+                },
+                {"key": "B", "text": "Producătorul recomandă selecția: luminozitate → cromaticitate → nuanță"},
+                {"key": "C", "text": "Este descris ca acoperind spațiul cromatic natural al dinților"},
+                {"key": "D", "text": "În acest sistem, luminozitatea nu se selectează niciodată prima"},
+                {"key": "E", "text": "Există și o dispunere liniară (Linearguide) cu proces mai simplificat"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul prezintă organizarea 3D-MASTER și recomandările de selecție + varianta liniară.",
+              "source": {"pdf_pages": [11, 12]}
+            },
+            {
+              "id": "C10_Q26",
+              "type": "complement_multiplu",
+              "stem": "Reguli/sinteză pentru alegerea vizuală a nuanțelor (din lista cursului) includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Alegerea la începutul vizitei; dinții se modifică cromatic când se usucă (mai ales cu diga)"
+                },
+                {
+                  "key": "B",
+                  "text": "Acoperirea elementelor care influențează (haine vii), îndepărtarea rujului"
+                },
+                {
+                  "key": "C",
+                  "text": "Distanța de lucru ~25 cm și comparații rapide (sub 5 secunde) cu tab-ul lângă dinte"
+                },
+                {
+                  "key": "D",
+                  "text": "Odihnirea ochilor pe gri neutru; cartela albastră nu mai este recomandată"
+                },
+                {
+                  "key": "E",
+                  "text": "Se recomandă uscarea completă a dinților înainte de alegere pentru acuratețe maximă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Lista de reguli din curs include explicit aceste recomandări practice.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "C10_Q27",
+              "type": "complement_multiplu",
+              "stem": "Dacă nu se poate face o alegere exactă a nuanței, cursul recomandă:",
+              "options": [
+                {"key": "A", "text": "Selectarea unei nuanțe cu saturație mai scăzută"},
+                {"key": "B", "text": "Selectarea unei nuanțe cu luminozitate mai mare"},
+                {
+                  "key": "C",
+                  "text": "Folosirea caracterizării extrinseci pentru a crește saturația și/sau a reduce luminozitatea"
+                },
+                {"key": "D", "text": "Alegerea celei mai închise (valoare minimă) nuanțe, ca să fie „sigur”"},
+                {"key": "E", "text": "Ignorarea completă a caracterizărilor, deoarece nu pot modifica nimic"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul precizează explicit strategia când potrivirea exactă e dificilă.",
+              "source": {"pdf_pages": [14, 15]}
+            },
+            {
+              "id": "C10_Q28",
+              "type": "complement_multiplu",
+              "stem": "Pentru descrierea policromiei și a caracteristicilor individuale ale dintelui, sunt corecte metodele recomandate:",
+              "options": [
+                {"key": "A", "text": "Diagramă de distribuție a nuanțelor (cervical–mijloc–incizal)"},
+                {"key": "B", "text": "Imagine digitală cu tab-ul de nuanță lângă dinte"},
+                {
+                  "key": "C",
+                  "text": "Colorarea extrinsecă a tab-ului apropiat cu coloranți pentru rășini compozite"
+                },
+                {
+                  "key": "D",
+                  "text": "Evitarea completă a notării fisurilor/hipocalcificărilor/translucidității incizale"
+                },
+                {
+                  "key": "E",
+                  "text": "Marcarea caracteristicilor individuale (fisuri fine, hipocalcificări, discromii) pentru tehnician"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul oferă explicit aceste opțiuni de comunicare și importanța caracteristicilor individuale.",
+              "source": {"pdf_pages": [14, 15]}
+            },
+            {
+              "id": "C10_Q29",
+              "type": "complement_multiplu",
+              "stem": "Despre instrumentele de analiză instrumentală a culorii, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "În industrie se folosesc spectrofotometre, spectroradiometre și colorimetre"
+                },
+                {
+                  "key": "B",
+                  "text": "Spectrofotometrele/spectroradiometrele măsoară reflexia luminii la intervale de lungime de undă în spectrul vizibil"
+                },
+                {
+                  "key": "C",
+                  "text": "Colorimetrele pot furniza direct coordonate de culoare prin eșantionare cu trei filtre care simulează conurile"
+                },
+                {
+                  "key": "D",
+                  "text": "Analiza instrumentală este imposibilă pentru obiecte translucide (dinți/porțelan)"
+                },
+                {"key": "E", "text": "Există dispozitive clinice care pot afișa hărți de nuanțe ale dinților"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul descrie tipurile de instrumente și principiile lor + exemple clinice de mapare.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "C10_Q30",
+              "type": "complement_multiplu",
+              "stem": "Despre „pierderea marginală” (edge-loss) la măsurarea culorii, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Apare la instrumente cu diafragmă între obiect translucid, sursa de lumină și senzor"
+                },
+                {
+                  "key": "B",
+                  "text": "Este un fenomen în care lumina dispersată (pe care ochiul ar vedea-o) nu este măsurată de instrument"
+                },
+                {"key": "C", "text": "Poate duce la coordonate de culoare incorecte pentru dinți/porțelan"},
+                {
+                  "key": "D",
+                  "text": "Se poate evita printr-o combinație: sursă externă de lumină fără umbre + spectroradiometru"
+                },
+                {"key": "E", "text": "Este independentă de lungimea de undă"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul explică mecanismul edge-loss și soluția recomandată pentru obiecte translucide.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "PC26_Q01",
+              "type": "complement_multiplu",
+              "stem": "Conform generalităților, despre PPF colate (PC) sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Au devenit populare după descrierea lui Rochette (1973) a unei structuri metalice turnate perforate"
+                },
+                {
+                  "key": "B",
+                  "text": "Pot avea performanță clinică comparabilă cu RPF convenționale (în studii menționate)"
+                },
+                {"key": "C", "text": "Evită riscurile procedurilor chirurgicale asociate implanturilor"},
+                {
+                  "key": "D",
+                  "text": "Necesită întotdeauna preparații agresive, similare punților metalo-ceramice clasice"
+                },
+                {
+                  "key": "E",
+                  "text": "Sunt alternative conservatoare mai ales când dinții limitanți sunt indemni"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Introducerea prezintă originea Rochette, caracterul conservator și comparații cu alte soluții + evitarea riscurilor chirurgicale.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "PC26_Q02",
+              "type": "complement_multiplu",
+              "stem": "Structura tipică a unei PC (descriere generală) include:",
+              "options": [
+                {"key": "A", "text": "Unul sau doi intermediari (corp de punte)"},
+                {"key": "B", "text": "Elemente de agregare subțiri (metalice sau mai recent ceramice)"},
+                {
+                  "key": "C",
+                  "text": "Cimentare adezivă la smalț pe fețele linguale și proximale ale dinților stâlpi"
+                },
+                {
+                  "key": "D",
+                  "text": "Condiționare obligatorie prin gravare acidă electrolitică pentru toate materialele"
+                },
+                {
+                  "key": "E",
+                  "text": "Succesul depinde inclusiv de calitatea adeziunii și de precizia adaptării în elemente geometrice cheie"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Definiția PC + factorii de succes sunt descriși în generalități.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "PC26_Q03",
+              "type": "complement_multiplu",
+              "stem": "Despre primele variante de „dinți intermediari colați” (istoric), sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se foloseau dinți naturali extrași sau dinți prefabricați acrilici"},
+                {
+                  "key": "B",
+                  "text": "Erau colați cu rășini compozite pe fețele proximale și linguale ale dinților stâlpi"
+                },
+                {
+                  "key": "C",
+                  "text": "Conectorii din compozit trebuiau armați (sârmă/plasă/polietilenă) pentru reducerea fracturii fragile"
+                },
+                {"key": "D", "text": "Erau soluții cu caracter definitiv pentru breșe mari"},
+                {
+                  "key": "E",
+                  "text": "Se foloseau mai ales pentru breșe frontale reduse, cu caracter provizoriu"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Istoricul descrie aceste soluții ca provizorii, pentru breșe frontale reduse, cu armare a compozitului.",
+              "source": {"pdf_pages": [1]}
+            },
+            {
+              "id": "PC26_Q04",
+              "type": "complement_multiplu",
+              "stem": "Despre PC cu elemente de agregare perforate (retenții mecanice tip Rochette), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Au perforații retentive (tronconice) și au fost folosite inițial ca sisteme de imobilizare parodontală"
+                },
+                {
+                  "key": "B",
+                  "text": "Perforațiile pot afecta negativ rezistența elementelor metalice de agregare"
+                },
+                {"key": "C", "text": "Eșecul uzual este decimentarea"},
+                {
+                  "key": "D",
+                  "text": "Îndepărtarea completă a PC este relativ simplă, iar recondiționarea și recimentarea sunt posibile"
+                },
+                {
+                  "key": "E",
+                  "text": "Decimentarea nu are relevanță pentru carii secundare, deoarece metalul protejează smalțul"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Secțiunea despre Rochette menționează perforațiile, impactul lor, eșecul tipic și ușurința reintervenției.",
+              "source": {"pdf_pages": [1, 3]}
+            },
+            {
+              "id": "PC26_Q05",
+              "type": "complement_multiplu",
+              "stem": "Despre PC cu elemente de agregare gravate („Puntea Maryland”), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Tehnica folosește retenții micromecanice obținute prin gravare acidă electrolitică a metalelor nenobile"
+                },
+                {
+                  "key": "B",
+                  "text": "În comparație cu perforațiile, retenția este ameliorată și elementele de agregare pot fi realizate mai subțiri"
+                },
+                {"key": "C", "text": "Finisarea extradosului poate reduce depunerea de placă"},
+                {
+                  "key": "D",
+                  "text": "Gravarea acidă electrolitică este singura metodă validă; sablarea nu are niciun rol"
+                },
+                {
+                  "key": "E",
+                  "text": "Nerespectarea strictă a protocolului poate duce la electrolustruire sau contaminare a suprafețelor"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul descrie mecanismul Maryland, avantajele față de perforații și riscurile de protocol.",
+              "source": {"pdf_pages": [3]}
+            },
+            {
+              "id": "PC26_Q06",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, despre comportamentul adeziunii la metal în timp, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "În timp, rezistența adezivă scade în mediu umed"},
+                {
+                  "key": "B",
+                  "text": "Simpla sablare poate da rezistență inițial mare, dar poate scădea aproape la 0 în timp (menționat)"
+                },
+                {
+                  "key": "C",
+                  "text": "Rezistența adezivă crește întotdeauna cu trecerea timpului, datorită maturării rășinii"
+                },
+                {
+                  "key": "D",
+                  "text": "Au fost raportate rezultate inegale între laboratoare folosind același aliaj"
+                },
+                {
+                  "key": "E",
+                  "text": "Sistemele adezive moderne la metal pot elimina obligativitatea gravării acide"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Textul menționează scăderea în timp, limitările sablării, variabilitatea între laboratoare și rolul adezivilor moderni.",
+              "source": {"pdf_pages": [3, 4]}
+            },
+            {
+              "id": "PC26_Q07",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, comparația designurilor cu un singur element de agregare (în extensie) vs două elemente de agregare include:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Longevitate mai bună raportată pentru PC cu un singur element de agregare, în studiu randomizat menționat"
+                },
+                {"key": "B", "text": "Durată medie de funcționare ~216,5 ± 20,8 luni (menționată)"},
+                {
+                  "key": "C",
+                  "text": "Igienizare mai bună pentru pacient în varianta cu un singur element de agregare"
+                },
+                {"key": "D", "text": "PC cu două elemente de agregare nu pot decimenta niciodată parțial"},
+                {
+                  "key": "E",
+                  "text": "La două elemente de agregare, decimentarea poate favoriza carii secundare dacă rămâne parțial fixată"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Sunt prezentate avantajele clinice ale cantileverului și riscul particular al designului cu două retenții (decimentare parțială).",
+              "source": {"pdf_pages": [4, 12, 17]}
+            },
+            {
+              "id": "PC26_Q08",
+              "type": "complement_multiplu",
+              "stem": "Despre PC ceramice (zirconia) în extensie, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Folosesc ceramică cu rezistență mare, de regulă ZrO (zirconia)"},
+                {"key": "B", "text": "Pot avea estetică ameliorată față de elementele de agregare metalice"},
+                {"key": "C", "text": "Pot modifica estetica dinților stâlpi translucizi (menționat)"},
+                {
+                  "key": "D",
+                  "text": "Designul a evoluat de la două la un singur element de agregare pentru facilitarea igienizării"
+                },
+                {"key": "E", "text": "Nu există date clinice menționate pentru 5–10 ani"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Secțiunea despre zirconia menționează materialul, avantaje/dezavantaje estetice și trendul către cantilever cu performanță la 5–10 ani.",
+              "source": {"pdf_pages": [5]}
+            },
+            {
+              "id": "PC26_Q09",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, adeziunea chimică la zirconia pentru PC utilizează:",
+              "options": [
+                {"key": "A", "text": "Primer-i/rășini compozite care conțin 10-MDP"},
+                {"key": "B", "text": "Rășini de cimentare cu priză duală"},
+                {"key": "C", "text": "Panavia (Kuraray Dental) menționată ca exemplu cu MDP"},
+                {"key": "D", "text": "Gravare cu acid fluorhidric a zirconiei ca metodă standard recomandată"},
+                {
+                  "key": "E",
+                  "text": "Sablarea prealabilă cu alumina de 50 μm ca etapă de creștere a suprafeței de cimentare"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Textul descrie MDP, dual-cure, Panavia și sablarea cu alumina pentru suprafață/legare.",
+              "source": {"pdf_pages": [5, 6]}
+            },
+            {
+              "id": "PC26_Q10",
+              "type": "complement_multiplu",
+              "stem": "Despre sistemul tribochimic de silicatizare (Rocatec) descris, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Particulele includ alumina și silicat (amestec), iar silicatul se depune tribochimic pe metal"
+                },
+                {
+                  "key": "B",
+                  "text": "Silicatul reacționează cu primer-ul silanic și susține adeziunea rășinii compozite la metal"
+                },
+                {
+                  "key": "C",
+                  "text": "Protocolul descrie sablare cu alumina de 120 μm urmată de depunere tribochimică de silice și apoi silan"
+                },
+                {"key": "D", "text": "Silanul este inutil după silicatizare tribochimică (conform cursului)"},
+                {
+                  "key": "E",
+                  "text": "Combinarea pretratamentului tribochimic + silanizare + materiale cu MDP poate da rezultate optime (menționat)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul explică mecanismul Rocatec, rolul silanului și faptul că asocierea cu MDP poate fi optimă.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "PC26_Q11",
+              "type": "complement_multiplu",
+              "stem": "Principiul fundamental de design și selecție a cazurilor pentru PC este:",
+              "options": [
+                {"key": "A", "text": "Acoperirea maximă a smalțului restant"},
+                {"key": "B", "text": "Reducerea suprafețelor de colaj pentru minimă invazivitate"},
+                {
+                  "key": "C",
+                  "text": "Eșec până la 50% la 3 ani a fost raportat pentru suprafețe de colaj reduse și fără elemente retentive"
+                },
+                {
+                  "key": "D",
+                  "text": "PC au evoluat spre variante cu un singur element de agregare pentru minimă invazivitate"
+                },
+                {
+                  "key": "E",
+                  "text": "Preparația trebuie să fie întotdeauna subgingivală profund, pentru retenție"
+                }
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Secțiunea de principii accentuează acoperirea smalțului și arată consecințele colajului redus, plus evoluția către cantilever.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "PC26_Q12",
+              "type": "complement_multiplu",
+              "stem": "Cerințe de preparație pentru unicul element de agregare (cantilever) includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Încercuire pentru a rezista forțelor ocluzale și a maximiza aria de colaj"
+                },
+                {"key": "B", "text": "Asigurarea spațiului ocluzal"},
+                {"key": "C", "text": "Șanțuri și/sau casete de retenție"},
+                {
+                  "key": "D",
+                  "text": "Limită cervicală netă pentru a preveni supraconturarea și a proteja gingia"
+                },
+                {
+                  "key": "E",
+                  "text": "Eliminarea pragului/limitei cervicale pentru a crește retenția prin supracontur"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul descrie explicit aceste cerințe funcționale și parodontale pentru preparația retainer-ului unic.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "PC26_Q13",
+              "type": "complement_multiplu",
+              "stem": "Conform Box 26.1, AVANTAJE ale PC includ:",
+              "options": [
+                {"key": "A", "text": "Recimentare posibilă"},
+                {"key": "B", "text": "Sacrificiu minim de țesuturi dentare (adesea limitat la smalț)"},
+                {"key": "C", "text": "Preparație supragingivală"},
+                {"key": "D", "text": "Timp clinic redus și costuri reduse (~50% menționat)"},
+                {"key": "E", "text": "Longevitate mai mare decât PPF convenționale (ca regulă)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Box 26.1 listează avantajele și menționează inclusiv costuri reduse.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "PC26_Q14",
+              "type": "complement_multiplu",
+              "stem": "Conform Box 26.1, DEZAVANTAJE ale PC includ:",
+              "options": [
+                {"key": "A", "text": "Longevitate redusă față de PPF convenționale"},
+                {"key": "B", "text": "Necesită prepararea smalțului (ireversibil)"},
+                {"key": "C", "text": "Permite doar corecții de spațiu minore"},
+                {"key": "D", "text": "Necesită o aliniere bună a dinților stâlpi"},
+                {"key": "E", "text": "Nu poate fi recimentată niciodată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Box 26.1 enumeră dezavantajele, inclusiv limitări de spațiu și cerințe de aliniere.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "PC26_Q15",
+              "type": "complement_multiplu",
+              "stem": "Conform Box 26.1, INDICAȚII pentru PC includ:",
+              "options": [
+                {"key": "A", "text": "Overbite redus pentru zona frontală maxilară"},
+                {"key": "B", "text": "Protezarea edentațiilor frontale la copii/adolescenți"},
+                {"key": "C", "text": "Breșe edentate reduse și dinți stâlpi integri"},
+                {"key": "D", "text": "Edentații laterale unidentare și coroană clinică înaltă"},
+                {"key": "E", "text": "Parafuncție ocluzală severă ca indicație principală"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Box 26.1 listează explicit aceste indicații.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "PC26_Q16",
+              "type": "complement_multiplu",
+              "stem": "Conform Box 26.1, CONTRAINDICAȚII pentru PC includ:",
+              "options": [
+                {"key": "A", "text": "Overbite mare pentru frontalii maxilari"},
+                {"key": "B", "text": "Parafuncție ocluzală"},
+                {"key": "C", "text": "Breșe edentate lungi"},
+                {"key": "D", "text": "Smalț compromis"},
+                {"key": "E", "text": "Controlul izolării foarte bun (aceasta este contraindicație)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Box 26.1 enumeră contraindicațiile; „controlul izolării foarte bun” este de fapt o condiție favorabilă/indicație.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "PC26_Q17",
+              "type": "complement_multiplu",
+              "stem": "Despre îndepărtarea unei PC și decimentare, cursul menționează că:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "La două elemente de agregare poate exista decimentare parțială fără dezinsertie completă"
+                },
+                {
+                  "key": "B",
+                  "text": "Se pot folosi instrumente ultrasonice speciale pentru decimentare (cronofag, puteri mari)"
+                },
+                {
+                  "key": "C",
+                  "text": "Se poate ajunge la tăierea elementului rămas colat dacă există retenții suplimentare"
+                },
+                {"key": "D", "text": "Decimentarea repetată este menționată ca frecventă"},
+                {"key": "E", "text": "PC nu poate fi recimentată; singura opțiune e implantul"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Secțiunea despre decimentare descrie decimentare parțială, US, necesitatea tăierii uneori și recurența decimentării.",
+              "source": {"pdf_pages": [8, 17]}
+            },
+            {
+              "id": "PC26_Q18",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, despre preparația pe frontali pentru PC în extensie (zirconia) sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se recomandă frecvent o preparație singulară (un singur element de agregare) pentru edentația de IL"
+                },
+                {
+                  "key": "B",
+                  "text": "Alegerea extensiei mezial pe canin sau distal pe incisiv central se face după estetică și retenție"
+                },
+                {"key": "C", "text": "Principiile sunt similare cu fațetele, dar pe fața linguală"},
+                {
+                  "key": "D",
+                  "text": "Este necesară prezervarea smalțului și extensia maxim posibilă pe mezio- și disto-lingual"
+                },
+                {"key": "E", "text": "Se recomandă un prag subgingival adânc pentru a crește retenția adezivă"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul de la „Preparația dintelui stâlp” descrie aceste recomandări pentru zona frontală.",
+              "source": {"pdf_pages": [12]}
+            },
+            {
+              "id": "PC26_Q19",
+              "type": "complement_multiplu",
+              "stem": "Conform pașilor de lucru pentru preparația frontală (cantilever zirconia), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se creează spațiu interocluzal 0,7–1,0 mm; este permisă enameloplastie minoră pe antagoniști"
+                },
+                {"key": "B", "text": "Se realizează un prag gingival rotunjit, de grosime redusă"},
+                {
+                  "key": "C",
+                  "text": "Se plasează un șanț de retenție suplimentară pe fața dinspre edentație, de la gingival până spre zona incizală linguală"
+                },
+                {"key": "D", "text": "Se recomandă sacrificiu extensiv de dentină pentru rigiditate"},
+                {"key": "E", "text": "Adaptarea marginală foarte bună este critică pentru rezistența adezivă"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Lista de pași include spațiul 0,7–1,0 mm, prag gingival, șanț de retenție și importanța adaptării marginale.",
+              "source": {"pdf_pages": [12, 13]}
+            },
+            {
+              "id": "PC26_Q20",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, stopurile ocluzale provizorii sunt importante deoarece:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Migrarea dinților preparați/antagoniștilor se poate produce rapid, mai ales la tineri"
+                },
+                {
+                  "key": "B",
+                  "text": "Se pot adăuga mici cantități de compozit pe antagoniști în unele situații"
+                },
+                {
+                  "key": "C",
+                  "text": "Stopurile provizorii se îndepărtează înainte de probă/adaptare/cimentare"
+                },
+                {"key": "D", "text": "Stopurile provizorii sunt contraindicate deoarece reduc adeziunea"},
+                {
+                  "key": "E",
+                  "text": "În zona posterioară, stopuri provizorii sunt necesare mai ales la preparații întinse tip onlay"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Textul explică rapiditatea migrării și managementul cu compozit, inclusiv particularități în posterior (onlay).",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "PC26_Q21",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, structura de bază a elementelor de agregare pentru PC laterale include:",
+              "options": [
+                {"key": "A", "text": "Stop ocluzal pentru sprijin"},
+                {"key": "B", "text": "Suprafață retentivă pentru menținere"},
+                {"key": "C", "text": "Elemente de încercuire pentru stabilizare orizontală și torsională"},
+                {"key": "D", "text": "Obligatoriu: acoperire totală a ocluzalului ca la o coroană completă"},
+                {
+                  "key": "E",
+                  "text": "Extensii proximale asemănătoare planurilor de ghidaj pentru PPM (menționat anterior)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Secțiunea „PC laterale” enumeră cele 3 componente și face analogii cu PPM (planuri de ghidaj/stopuri).",
+              "source": {"pdf_pages": [6, 13]}
+            },
+            {
+              "id": "PC26_Q22",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, despre preparația proximală/linii de finisare în zona laterală, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Preparația se extinde până la circa 1 mm supragingival"},
+                {
+                  "key": "B",
+                  "text": "Pe fețele proximale se realizează FĂRĂ PRAG pentru a preveni penetrarea smalțului"
+                },
+                {
+                  "key": "C",
+                  "text": "Încercuirea >180° ajută la stabilizare și prevenirea deplasării spre lingual"
+                },
+                {"key": "D", "text": "Șanțurile suplimentare linguale pot suplimenta stabilizarea"},
+                {"key": "E", "text": "Se recomandă prag proximale adânci pentru a crește retenția mecanică"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul specifică supragingival, fără prag proximal și rolul încercuirii + șanțurilor linguale.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "PC26_Q23",
+              "type": "complement_multiplu",
+              "stem": "Proceduri de laborator pentru PC din zirconia (conform listei) includ:",
+              "options": [
+                {"key": "A", "text": "Realizarea structurii prin CAD-CAM"},
+                {"key": "B", "text": "Corpul de punte trebuie să permită placarea cu ceramică"},
+                {
+                  "key": "C",
+                  "text": "Dimensiuni minime ale elementelor de agregare: 3 mm înălțime și 2 mm lățime"
+                },
+                {"key": "D", "text": "Curățare în baie ultrasonică în alcool (5 minute) înainte de sablare"},
+                {
+                  "key": "E",
+                  "text": "Reevaluare intraorală obligatorie după silicatizare tribochimică, înainte de colare"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Lista de laborator include CAD-CAM, ceramica pe pontic, dimensiuni minime, baie US în alcool și apoi sablare/silicatizare.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "PC26_Q24",
+              "type": "complement_multiplu",
+              "stem": "Etapele generice ale cimentării adezive (conform cursului) includ:",
+              "options": [
+                {"key": "A", "text": "Curățare cu piatră ponce și apă + izolare cu diga"},
+                {"key": "B", "text": "Demineralizare cu acid fosforic 37% timp de 30 secunde"},
+                {
+                  "key": "C",
+                  "text": "Aplicarea sistemului adeziv și a compozitului de colaj cu MDP conform producătorului"
+                },
+                {
+                  "key": "D",
+                  "text": "Inserarea lucrării sub presiune și îndepărtarea excesului cu perie miniaturală"
+                },
+                {
+                  "key": "E",
+                  "text": "Realizarea adaptărilor majore cu instrumentar rotativ după colaj, pentru a crește retenția"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Lista de cimentare include curățare+izolare, acid 37%/30s, adeziv+MDP, inserare și îndepărtare exces; ajustările se recomandă înainte de colaj.",
+              "source": {"pdf_pages": [14, 15]}
+            },
+            {
+              "id": "PC26_Q25",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, managementul excesului de rășină/ciment la colaj include:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Permeabilizarea spațiilor interdentare cu fir dentar în timpul menținerii lucrării inserate"
+                },
+                {
+                  "key": "B",
+                  "text": "Fotopolimerizare parțială ~2 secunde, apoi îndepărtarea excesului cu instrument manual ascuțit"
+                },
+                {"key": "C", "text": "Aplicarea gelului de glicerină pentru a preveni inhibiția la oxigen"},
+                {"key": "D", "text": "Finalizarea fotopolimerizării pe toate suprafețele"},
+                {
+                  "key": "E",
+                  "text": "Lustruirea cu gume și pastă diamantată pentru a preveni depunerea de placă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D", "E"],
+              "rationale": "Pașii 4–8 din lista de colaj includ exact aceste manevre (floss, tack cure, glycerin gel, cure final, polishing).",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "PC26_Q26",
+              "type": "complement_multiplu",
+              "stem": "Echilibrarea ocluzală pentru PC (conform cursului) urmărește:",
+              "options": [
+                {"key": "A", "text": "Contact centric minimal pe corpul de punte"},
+                {"key": "B", "text": "Corpul de punte să nu participe la ghidaje"},
+                {"key": "C", "text": "Păstrarea contactelor ocluzale pe dinții stâlpi"},
+                {
+                  "key": "D",
+                  "text": "Contactele pe elementele de agregare ideal să exercite forțe în axul de inserție"
+                },
+                {"key": "E", "text": "Crearea de contacte puternice pe pontic în excursii pentru stabilitate"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Secțiunea „Echilibrarea ocluzală” precizează contact centric minimal pe pontic, fără ghidaje, păstrarea contactelor pe stâlpi și forțe în axul inserției.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "PC26_Q27",
+              "type": "complement_multiplu",
+              "stem": "Îngrijirea postoperatorie și dispensarizarea PC (conform cursului) includ:",
+              "options": [
+                {"key": "A", "text": "Evaluare atentă la controale regulate"},
+                {
+                  "key": "B",
+                  "text": "Dacă o PC se desprinde, pacientul trebuie văzut cât mai repede pentru recimentare înainte de migrarea dinților"
+                },
+                {"key": "C", "text": "Mișcări dentare minime pot împiedica reșezarea (re-seating) punții"},
+                {"key": "D", "text": "Rebonding-ul poate fi gestionat simplu dacă se intervine prompt"},
+                {
+                  "key": "E",
+                  "text": "Se recomandă amânarea recimentării 2–3 săptămâni pentru stabilizarea ocluziei"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul subliniază urgența recimentării pentru a preveni migrarea și dificultatea reinserării dacă apar mișcări, plus controale regulate.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "PC26_Q28",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, la PC cu două elemente de agregare, decimentarea parțială:",
+              "options": [
+                {"key": "A", "text": "Poate trece neobservată fără dezinsertie completă"},
+                {"key": "B", "text": "Se confirmă prin examinare vizuală și presiune blândă cu un explorer"},
+                {"key": "C", "text": "Este frecvent asociată cu masticația alimentelor dure (menționat)"},
+                {"key": "D", "text": "Necesită obligatoriu extracția dinților stâlpi"},
+                {"key": "E", "text": "Diagnosticul precoce poate preveni complicații semnificative"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Textul din „POSTOPERATIVE CARE” descrie explicit detectarea decimentării parțiale și importanța intervenției precoce.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "PC26_Q29",
+              "type": "complement_multiplu",
+              "stem": "Măsuri de siguranță și management la decimentare (figura cu pacientul cu PC mobilă) includ:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Pacientul trebuie prevenit să se prezinte imediat dacă observă decimentare parțială"
+                },
+                {
+                  "key": "B",
+                  "text": "Se recomandă trecerea unei anse de ață dentară peste PC pentru a preveni înghițirea/aspirarea"
+                },
+                {
+                  "key": "C",
+                  "text": "Un instrument de decimentare cu resort poate fi aplicat la nivelul conectorului, paralel cu axul lung al dintelui stâlp"
+                },
+                {
+                  "key": "D",
+                  "text": "Decimentarea se face ideal prin forțe laterale mari, perpendicular pe axul dintelui stâlp"
+                },
+                {"key": "E", "text": "Figura prezintă și PC decimentată ca rezultat final al manevrei"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Legenda Fig. 26.31 menționează avertizarea, ansa de ață dentară, aplicarea instrumentului și arată puntea decimentată.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "PC26_Q30",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, pentru a preveni pătrunderea adezivului în zone greu de curățat la recimentare se folosește:",
+              "options": [
+                {"key": "A", "text": "Ceară roșie de colet plasată în zona ambrazurilor gingivale"},
+                {"key": "B", "text": "Gravare acidă electrolitică a dinților stâlpi"},
+                {"key": "C", "text": "Glicerină pe ambrazuri înainte de inserare (în loc de ceară)"},
+                {"key": "D", "text": "Blocarea ambrazurilor cu material de amprentă siliconic"},
+                {
+                  "key": "E",
+                  "text": "Figura despre managementul recimentării menționează explicit această măsură"
+                }
+              ],
+              "answer_keys": ["A", "E"],
+              "rationale": "În continuarea Fig. 26.31 se menționează ceara roșie de colet pentru a preveni pătrunderea adezivului în spații neigienizabile.",
+              "source": {"pdf_pages": [18]}
+            }, {
+              "id": "C13_Q01",
+              "type": "complement_multiplu",
+              "stem": "În evaluarea calității (intraoral), secvența recomandată include:",
+              "options": [
+                {"key": "A", "text": "Contacte proximale"},
+                {"key": "B", "text": "Integritatea marginală"},
+                {"key": "C", "text": "Stabilitate"},
+                {"key": "D", "text": "Ocluzie"},
+                {"key": "E", "text": "Caracterizare și glazurare (înainte de ocluzie)"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Secvența recomandată începe cu contacte proximale, apoi margini, stabilitate și ocluzie; caracterizarea/glazurarea este ulterior.",
+              "source": {"pdf_pages": [8, 9]}
+            },
+            {
+              "id": "C13_Q02",
+              "type": "complement_multiplu",
+              "stem": "De ce sunt evaluate contactele proximale PRIMELE?",
+              "options": [
+                {"key": "A", "text": "Un contact prea strâns împiedică așezarea completă a restaurării"},
+                {"key": "B", "text": "Poate provoca discrepanță marginală (margini deschise)"},
+                {"key": "C", "text": "Ajustarea ocluziei este prematură dacă restaurarea nu se așează complet"},
+                {"key": "D", "text": "Contactele proximale nu influențează ocluzia"},
+                {
+                  "key": "E",
+                  "text": "Stabilitatea se poate evalua corect chiar dacă restaurarea nu e complet așezată"
+                }
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Textul explică explicit că un contact proximal excesiv de strâns blochează așezarea și duce la probleme marginale/ocluzale.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "C13_Q03",
+              "type": "complement_multiplu",
+              "stem": "Despre folosirea aței dentare la evaluarea contactelor proximale, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Ruperea aței indică doar că spațiul e mai mic decât grosimea aței"},
+                {"key": "B", "text": "Ruperea aței NU indică neapărat un contact real între dinți"},
+                {"key": "C", "text": "Dacă ața nu trece, contactul este excesiv de strâns"},
+                {"key": "D", "text": "Dacă ața trece prea ușor, poate apărea impact alimentar"},
+                {"key": "E", "text": "Ața dentară este mai fiabilă decât folia Mylar pentru contact proximal"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul diferențiază clar între trecerea/ruperea aței și existența unui contact real; Mylar e prezentat ca mai fiabil.",
+              "source": {"pdf_pages": [9]}
+            },
+            {
+              "id": "C13_Q04",
+              "type": "complement_multiplu",
+              "stem": "Folia subțire (Mylar) pentru contact proximal: afirmații corecte",
+              "options": [
+                {"key": "A", "text": "Este un indicator mai fiabil decât ața dentară"},
+                {"key": "B", "text": "Un contact pasiv permite tragerea foliei cu o ușoară rezistență"},
+                {"key": "C", "text": "Dacă folia se rupe, contactul este prea strâns"},
+                {"key": "D", "text": "Dacă folia se rupe, contactul este ideal"},
+                {"key": "E", "text": "Se recomandă folosirea Mylar doar la restaurări metalice, nu și ceramice"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul descrie exact criteriul de „ușoară rezistență” și ruptura ca semn de contact prea strâns.",
+              "source": {"pdf_pages": [9, 10]}
+            },
+            {
+              "id": "C13_Q05",
+              "type": "complement_multiplu",
+              "stem": "Dacă contactul proximal strâns împiedică așezarea unei restaurări metalice, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Ajustările se pot face cu o roată de cauciuc"},
+                {
+                  "key": "B",
+                  "text": "Finisajul mat ajută la identificarea zonelor de „lipire” prin apariția unei pete lucioase"
+                },
+                {"key": "C", "text": "Restaurarea se ajustează intraoral fără a o îndepărta"},
+                {
+                  "key": "D",
+                  "text": "Restaurarea se îndepărtează, se ajustează, apoi se reevaluează intraoral"
+                },
+                {"key": "E", "text": "Nu trebuie lăsat niciun grad de strângere în plus pentru lustruire"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Cursul descrie metoda pentru metal: roată de cauciuc, matizare + pată lucioasă, și ciclul îndepărtare–ajustare–reevaluare.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "C13_Q06",
+              "type": "complement_multiplu",
+              "stem": "Despre ajustarea contactelor proximale strânse la restaurări ceramice, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "În ceramica neglazurată/neșlefuită se ajustează ușor cu roată de ajustare a porțelanului"
+                },
+                {"key": "B", "text": "Zona de contact se poate identifica cu bandă subțire de marcare"},
+                {
+                  "key": "C",
+                  "text": "După glazurare poate apărea o ușoară modificare a contactului (curgere piroplastică)"
+                },
+                {
+                  "key": "D",
+                  "text": "Dacă se ajustează o restaurare glazurată, trebuie repolizată cu sisteme impregnate cu diamant / piatră ponce / pastă diamantată"
+                },
+                {"key": "E", "text": "După glazurare, contactele nu se modifică niciodată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Sunt menționate atât metodele de ajustare, cât și efectul glazurării asupra contactelor și necesitatea repolizării.",
+              "source": {"pdf_pages": [10]}
+            },
+            {
+              "id": "C13_Q07",
+              "type": "complement_multiplu",
+              "stem": "În îndepărtarea restaurărilor provizorii, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Un instrument (cleoid/discoidal mare sau excavator) sub margine poate ridica provizoriul prin basculare"
+                },
+                {
+                  "key": "B",
+                  "text": "Trebuie evitată forța laterală mare pe dinți delicați preparați pentru coroane complete"
+                },
+                {"key": "C", "text": "Pensa Backhaus este utilă pentru coroane din aliaj moale de staniu"},
+                {
+                  "key": "D",
+                  "text": "Resturile de ciment provizoriu trebuie îndepărtate și preparatul curățat cu clorhexidină"
+                },
+                {
+                  "key": "E",
+                  "text": "Este recomandată lustruirea întregului preparat după îndepărtarea provizoriului, pentru orice caz"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie tehnici/precauții de îndepărtare + curățare; lustruirea întregului preparat nu e dorită în mod rutinier.",
+              "source": {"pdf_pages": [7, 8]}
+            },
+            {
+              "id": "C13_Q08",
+              "type": "complement_multiplu",
+              "stem": "Dacă provizoriile au fost „lipite punctual”, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Zona mică unde au fost lipite trebuie re-preparată ușor cu o freză"},
+                {
+                  "key": "B",
+                  "text": "Chiar și o bucată foarte mică de compozit rezidual poate împiedica așezarea completă a unei restaurări ceramice"
+                },
+                {"key": "C", "text": "Restul de compozit poate crește riscul de fractură a ceramicii"},
+                {
+                  "key": "D",
+                  "text": "Deși compozitul trebuie îndepărtat complet, lustruirea întregului preparat după fabricare nu este de dorit"
+                },
+                {
+                  "key": "E",
+                  "text": "Resturile de ciment provizoriu sunt neimportante pentru cimentarea adezivă"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Sunt descrise consecințele reziduurilor (compozit/ciment) asupra așezării și riscului de fractură + evitarea modificării liniei de finisare.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "C13_Q09",
+              "type": "complement_multiplu",
+              "stem": "Evaluarea integrității marginale: afirmații corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se poate folosi un explorator ascuțit, deplasat de la restaurare la dinte și invers"
+                },
+                {"key": "B", "text": "Rezistența în ambele direcții sugerează spațiu/margine deschisă"},
+                {
+                  "key": "C",
+                  "text": "Un spațiu poate fi cauzat de contact proximal prea strâns sau ciment provizoriu rezidual ce blochează așezarea"
+                },
+                {
+                  "key": "D",
+                  "text": "O restaurare evident inexactă trebuie respinsă rapid; „a o potrivi” e un efort inutil"
+                },
+                {"key": "E", "text": "Orice proeminență marginală înseamnă obligatoriu refacerea restaurării"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie testul cu exploratorul, cauze posibile și conduita; proeminențele pot fi uneori finisate dacă accesibilitatea o permite.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "C13_Q10",
+              "type": "complement_multiplu",
+              "stem": "Finisarea marginilor: afirmații corecte",
+              "options": [
+                {"key": "A", "text": "În general se face extraoral și se confirmă intraoral"},
+                {
+                  "key": "B",
+                  "text": "După cimentare se face o lustruire intraorală la interfața restaurare–dinte"
+                },
+                {
+                  "key": "C",
+                  "text": "Marginile subgingivale/interproximale sunt greu accesibile pentru corecții intraoral"
+                },
+                {
+                  "key": "D",
+                  "text": "Finisarea pe dentină necesită atenție deosebită; expunerea tubulilor poate da sensibilitate"
+                },
+                {"key": "E", "text": "Corecțiile intraoral sunt preferate întotdeauna corecțiilor în laborator"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul recomandă corecții extraoral/laborator, mai ales pentru zone greu accesibile intraoral.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "C13_Q11",
+              "type": "complement_multiplu",
+              "stem": "Radiografia digitală pre-cimentare pentru margini: afirmații corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Poate fi justificată pentru a confirma că ce se vede pe model este identic cu ce se vede intraoral"
+                },
+                {
+                  "key": "B",
+                  "text": "Radiografiile de rutină înainte de cimentare cresc expunerea la radiații"
+                },
+                {"key": "C", "text": "Se recomandă aplicarea principiului ALARA"},
+                {
+                  "key": "D",
+                  "text": "Medicul se poate baza exclusiv pe radiografii digitale pentru potrivirea marginilor, fără evaluare intraorală"
+                },
+                {
+                  "key": "E",
+                  "text": "Tentația de a folosi mai des radiografii poate crește în fluxuri digitale fără mulaje"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul subliniază ALARA și faptul că radiografia nu înlocuiește evaluarea intraorală.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "C13_Q12",
+              "type": "complement_multiplu",
+              "stem": "Conform cercetării citate, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Coroanele metalo-ceramice pot fi evaluate eronat ca acceptabile când există margine deschisă (>80 μm)"
+                },
+                {
+                  "key": "B",
+                  "text": "Coroanele din disilicat de litiu și fluorapatită pot fi evaluate eronat ca inacceptabile când sunt acceptabile (≤80 μm)"
+                },
+                {
+                  "key": "C",
+                  "text": "Radiografia digitală este suficientă singură pentru evaluarea marginilor"
+                },
+                {
+                  "key": "D",
+                  "text": "Pragul de 80 μm este menționat ca limită în interpretarea acceptabilității în studiul citat"
+                },
+                {"key": "E", "text": "Aceste erori de evaluare nu depind de material"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Sunt menționate explicit diferențe de interpretare între metalo-ceramică vs disilicat/fluorapatită și pragul ~80 μm.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "C13_Q13",
+              "type": "complement_multiplu",
+              "stem": "Despre finisarea marginilor supragingivale ale restaurărilor din aur turnat pe smalț, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Pot fi finisate cu restaurarea așezată pe dinte"},
+                {
+                  "key": "B",
+                  "text": "Se folosesc pietre albe și discuri de sepia, rotite de la restaurare spre structura dentară"
+                },
+                {
+                  "key": "C",
+                  "text": "Dacă adaptarea e bună, marginea devine practic nedetectabilă cu explorator ascuțit"
+                },
+                {
+                  "key": "D",
+                  "text": "Marginile proximale greu accesibile sunt ușor de evaluat și finisat intraoral"
+                },
+                {
+                  "key": "E",
+                  "text": "Nu este posibilă corectarea unei piese turnate nepotrivite doar prin finisare (conform altor studii menționate)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul descrie tehnica pentru aur supragingival + limitările finisării ca soluție pentru nepotrivire.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "C13_Q14",
+              "type": "complement_multiplu",
+              "stem": "Stabilitatea restaurărilor reținute mecanic: afirmații corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Restaurările definitive nu trebuie să se balanseze sau să se rotească la aplicarea forței"
+                },
+                {"key": "B", "text": "Orice instabilitate poate cauza defectare în funcționare"},
+                {"key": "C", "text": "Dacă instabilitatea e din nodul pozitiv mic, de obicei se poate corecta"},
+                {
+                  "key": "D",
+                  "text": "Dacă instabilitatea e din distorsiune, este necesară o nouă amprentă definitivă"
+                },
+                {"key": "E", "text": "Instabilitatea nu are consecințe clinice dacă ocluzia e ajustată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Textul descrie criteriul clinic și conduita în funcție de cauza instabilității.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "C13_Q15",
+              "type": "complement_multiplu",
+              "stem": "La restaurări ceramice lipite, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Stabilitatea/ocluzia pot să nu fie evaluabile complet până la lipire"},
+                {
+                  "key": "B",
+                  "text": "Este importantă reproducerea aceleiași poziții la așezare și repoziționare"
+                },
+                {
+                  "key": "C",
+                  "text": "Dacă restaurarea nu se așează repetabil, există risc mare ca lipirea să iasă în poziție greșită"
+                },
+                {
+                  "key": "D",
+                  "text": "O discrepanță de poziție după lipire poate impune tăierea restaurării și refacerea"
+                },
+                {"key": "E", "text": "Reproductibilitatea poziției nu influențează succesul lipirii"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul subliniază necesitatea unei poziții definite și reproductibile pentru protocolul adeziv.",
+              "source": {"pdf_pages": [13, 14]}
+            },
+            {
+              "id": "C13_Q16",
+              "type": "complement_multiplu",
+              "stem": "Evaluarea ocluziei înainte/în timpul ajustării: afirmații corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Șaibele (Mylar) sunt utile pentru a identifica prezența/absența contactului ocluzal"
+                },
+                {
+                  "key": "B",
+                  "text": "Banda de articulare localizează contactul, dar după ajustare contactele trebuie re-verificate cu șaibe"
+                },
+                {"key": "C", "text": "Marcajele cu bandă pot fi interpretate greșit"},
+                {
+                  "key": "D",
+                  "text": "Restaurările fără contacte ocluzale pot fi ajustate la scaun prin adăugare de material"
+                },
+                {
+                  "key": "E",
+                  "text": "Doar restaurările în supraocluzie sunt ajustabile la scaun (conform cursului)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul recomandă șaibe pentru confirmare și precizează că lipsa contactelor ocluzale necesită corecție/refacere în laborator.",
+              "source": {"pdf_pages": [16, 17]}
+            },
+            {
+              "id": "C13_Q17",
+              "type": "complement_multiplu",
+              "stem": "Hârtia de articulare și umiditatea: afirmații corecte",
+              "options": [
+                {"key": "A", "text": "Pigmenții hârtiei de articulare sunt hidrofobi"},
+                {"key": "B", "text": "Pigmentul nu se transferă bine pe suprafețe ocluzale umede"},
+                {"key": "C", "text": "Uscarea dinților cu comprese (2×2) ajută transferul pigmentului"},
+                {"key": "D", "text": "Umezeala îmbunătățește transferul pigmentului pe ceramică glazurată"},
+                {"key": "E", "text": "Uscarea este inutilă dacă se folosește bandă de articulare groasă"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Textul explică explicit motivul (hidrofobie) și manevra practică (uscarea) pentru marcaje mai fiabile.",
+              "source": {"pdf_pages": [16, 17]}
+            },
+            {
+              "id": "C13_Q18",
+              "type": "complement_multiplu",
+              "stem": "Pentru restaurări ceramice glazurate care se marchează greu cu folie de articulare, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se poate aplica un strat subțire de vaselină pe folie"},
+                {
+                  "key": "B",
+                  "text": "Vaselina acționează ca emulgator, formând sfere de pigment transferabile"
+                },
+                {"key": "C", "text": "Rezultă o marcă mai lizibilă la ocluzie"},
+                {"key": "D", "text": "Vaselina se aplică pe suprafața ocluzală a coroanei, nu pe folie"},
+                {
+                  "key": "E",
+                  "text": "Tehnica este indicată pentru a reduce urmele false pe cuspizi înalți, împreună cu modificarea hârtiei"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul descrie aplicarea vaselinei pe folie și tehnica cu tăieturi pentru reducerea urmelor false.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q19",
+              "type": "complement_multiplu",
+              "stem": "Pentru reducerea urmelor ocluzale false (vârfuri cuspidale înalte), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se pot face mai multe tăieturi parțiale de-a lungul lungimii hârtiei articulare"
+                },
+                {
+                  "key": "B",
+                  "text": "Fâșiile subțiri se îndoaie mai ușor peste cuspizi, cu risc mai mic de urme false"
+                },
+                {"key": "C", "text": "Hârtia nemodificată produce în mod constant mai puține urme false"},
+                {"key": "D", "text": "Această modificare este menționată ca utilă în curs"},
+                {"key": "E", "text": "Această tehnică elimină nevoia verificării cu șaibe (Mylar)"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Este descrisă explicit tehnica cu tăieturi multiple și efectul ei asupra urmelor false.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q20",
+              "type": "complement_multiplu",
+              "stem": "Ajustarea interferențelor maxime între cuspizi: afirmații corecte",
+              "options": [
+                {"key": "A", "text": "Pentru ceramică se folosesc diamante sau pietre albe"},
+                {"key": "B", "text": "Pentru metal se folosesc freze de carbură de mare viteză"},
+                {
+                  "key": "C",
+                  "text": "Grosimea restaurării se verifică întotdeauna cu șubler înainte de ajustare"
+                },
+                {
+                  "key": "D",
+                  "text": "Uneori se poate prefera ajustarea cuspizilor antagonici, dar ideal se planifică din etapa de preparație"
+                },
+                {
+                  "key": "E",
+                  "text": "Nu este necesară informarea pacientului înainte de șlefuirea unui dinte opus"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul listează instrumentarul/materialele și pune accent pe verificarea grosimii și consimțământ/explicație către pacient.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q21",
+              "type": "complement_multiplu",
+              "stem": "Interpretarea marcajelor ocluzale: afirmații corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Un contact interocluzal adevărat lasă o urmă circulară (tip vârf de pix)"
+                },
+                {"key": "B", "text": "Un contact fals lasă mai degrabă o „pată”"},
+                {
+                  "key": "C",
+                  "text": "Efectul de „țintă” cu centru curat poate indica hiperocluzie la o restaurare unică"
+                },
+                {
+                  "key": "D",
+                  "text": "La o arcadă completă de coroane, contactele tip „țintă” pot fi de dorit dacă sunt distribuite uniform și bilateral"
+                },
+                {
+                  "key": "E",
+                  "text": "Marcajele tip „țintă” sunt întotdeauna de eliminat, indiferent de situație"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie diferența contact adevărat vs fals și interpretarea diferită a „țintei” la coroană unică vs arcadă completă.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q22",
+              "type": "complement_multiplu",
+              "stem": "Evaluarea ocluziei dinamice: afirmații corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se face doar după ce contactele statice sunt idealizate (MI sau ocluzie centrică)"
+                },
+                {
+                  "key": "B",
+                  "text": "Se pot folosi două culori de bandă pentru mișcări diferite (excursii vs contacte statice)"
+                },
+                {
+                  "key": "C",
+                  "text": "Interferențele excursive sunt ajustate dacă nu sunt acoperite de marcajele pentru contactele statice"
+                },
+                {"key": "D", "text": "Ocluzia dinamică se evaluează înaintea celei statice, ca regulă"},
+                {
+                  "key": "E",
+                  "text": "Șaibele sunt mai puțin fiabile decât hârtia de articulare pentru confirmarea prezenței/absenței contactului"
+                }
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Cursul descrie clar ordinea (static apoi dinamic) și metoda cu două culori + confirmare cu șaibe.",
+              "source": {"pdf_pages": [17]}
+            }, {
+              "id": "C13_Q23",
+              "type": "complement_multiplu",
+              "stem": "Despre glazurarea porțelanului (autoglazare) sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Nu se recomandă glazurarea în vid, fiindcă aerul inclus poate genera bule la suprafață"
+                },
+                {
+                  "key": "B",
+                  "text": "Gradul de glazurare depinde de temperatura cuptorului și de durata menținerii la temperatura de ardere"
+                },
+                {"key": "C", "text": "Dinții anteriori excesiv glazurați pot arăta nenatural"},
+                {"key": "D", "text": "Subglazurarea și rearderea sunt preferabile glazurării excesive"},
+                {"key": "E", "text": "O coroană uscată pare, în mod tipic, supra-glazurată"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul menționează explicit riscul bulelor în vid, controlul timp/temperatură și preferința pentru subglazurare vs exces.",
+              "source": {"pdf_pages": [32]}
+            },
+            {
+              "id": "C13_Q24",
+              "type": "complement_multiplu",
+              "stem": "În evaluarea clinică a luciului după glazurare, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Pacientul trebuie instruit să umezească restaurarea (saliva modifică aspectul)"
+                },
+                {"key": "B", "text": "O coroană uscată poate părea eronat subglazurată"},
+                {"key": "C", "text": "Dacă nu e suficient glazurată, restaurarea poate reține mai multă placă"},
+                {
+                  "key": "D",
+                  "text": "Dacă nu e suficient glazurată, restaurarea poate fi mai susceptibilă la fracturi"
+                },
+                {"key": "E", "text": "După glazurare, suprafețele metalice oxidate nu necesită relustruire"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Sunt precizate efectele salivei, „coroana uscată pare subglazurată” și riscul de placă/fracturi la subglazurare.",
+              "source": {"pdf_pages": [32]}
+            },
+            {
+              "id": "C13_Q25",
+              "type": "complement_multiplu",
+              "stem": "Alternativa la glazurare prezentată în curs este lustruirea porțelanului. Sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Oferă control mai bun al luciului și distribuției luciului decât glazurarea"
+                },
+                {"key": "B", "text": "Permite obținerea unui luciu mai mare cervical și mai redus incizal"},
+                {
+                  "key": "C",
+                  "text": "Este recomandată ca metodă rapidă de restaurare a luciului după ajustări prin șlefuire"
+                },
+                {
+                  "key": "D",
+                  "text": "Kiturile de lustruire funcționează corect dacă nu se omit granulațiile din ce în ce mai fine"
+                },
+                {"key": "E", "text": "Lustruirea nu poate produce suprafețe netede, doar glazurarea poate"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul subliniază avantajul lustruirii (control, distribuție, kituri pe granulații progresive).",
+              "source": {"pdf_pages": [32]}
+            },
+            {
+              "id": "C13_Q26",
+              "type": "complement_multiplu",
+              "stem": "Despre metodele/pașii de obținere a unei suprafețe netede la ceramică, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Discuri de finisare urmate de piatră ponce pot fi satisfăcătoare"},
+                {
+                  "key": "B",
+                  "text": "Omiterea granulațiilor fine dintr-un kit de lustruire scade calitatea suprafeței"
+                },
+                {
+                  "key": "C",
+                  "text": "Lustruirea poate fi preferată glazurării pentru controlul precis al luciului"
+                },
+                {"key": "D", "text": "Lustruirea este imposibilă după ajustări prin șlefuire"},
+                {
+                  "key": "E",
+                  "text": "Cursul recomandă lustruirea ca metodă de îmbunătățire a controlului luciului"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Sunt menționate explicit kiturile, secvența de granulații și alternativa discuri + ponce.",
+              "source": {"pdf_pages": [32]}
+            },
+            {
+              "id": "C13_Q27",
+              "type": "complement_multiplu",
+              "stem": "Despre caracterizarea texturii de suprafață (micro/macro-textură) sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Perikymata și defecte similare pot fi simulate prin șlefuire cu piatră diamantată de textură adecvată"
+                },
+                {"key": "B", "text": "Zonele plate/concave reflectă lumina caracteristic, producând reflexii"},
+                {
+                  "key": "C",
+                  "text": "Texturile ar trebui să urmeze curbele principale ale formei anatomice normale"
+                },
+                {"key": "D", "text": "Supracaracterizarea este o eroare frecventă și trebuie evitată"},
+                {"key": "E", "text": "Texturarea nu influențează dimensiunea aparentă a restaurării"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie instrumentarul și principiile de generare a texturilor + avertismentul despre supracaracterizare.",
+              "source": {"pdf_pages": [31]}
+            },
+            {
+              "id": "C13_Q28",
+              "type": "complement_multiplu",
+              "stem": "Conform cursului, efectul texturii asupra dimensiunii percepute este:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Un dinte neted poate părea mai mare decât unul identic ca dimensiuni, dar cu textură intensă"
+                },
+                {"key": "B", "text": "Textura nu schimbă niciodată percepția volumului"},
+                {
+                  "key": "C",
+                  "text": "Texturarea poate fi folosită pentru a modifica dimensiunea aparentă a unei restaurări"
+                },
+                {
+                  "key": "D",
+                  "text": "Reflexiile generate de zonele plate/concave contribuie la efectul vizual"
+                },
+                {"key": "E", "text": "Cursul recomandă accentuarea excesivă a perikymata pentru efect maxim"}
+              ],
+              "answer_keys": ["A", "C", "D"],
+              "rationale": "Este menționat explicit că un dinte neted pare mai mare și că textura poate modifica dimensiunea aparentă.",
+              "source": {"pdf_pages": [31]}
+            },
+            {
+              "id": "C13_Q29",
+              "type": "complement_multiplu",
+              "stem": "Evaluarea extraorală a texturii/anatomiei cu „praf argintiu” (silver powder): sunt corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Poate fi aplicat pe suprafețe ceramice pentru evaluarea extraorală a texturii"
+                },
+                {
+                  "key": "B",
+                  "text": "Poate fi aplicat și pe restaurări posterioare pentru evaluarea anatomiei ocluzale"
+                },
+                {
+                  "key": "C",
+                  "text": "E util pentru evidențierea șanțurilor ocluzale secundare cu aspect organic"
+                },
+                {"key": "D", "text": "Este contraindicat în orice evaluare a restaurărilor ceramice"},
+                {"key": "E", "text": "În curs este prezentat ca metodă de evaluare a adaptării marginale"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Figura menționează explicit praful argintiu pentru textură și anatomie ocluzală, nu pentru margini.",
+              "source": {"pdf_pages": [31]}
+            },
+            {
+              "id": "C13_Q30",
+              "type": "complement_multiplu",
+              "stem": "Despre coloranții de suprafață (stains) și personalizarea culorii la scaun, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Caracterizarea se recomandă a fi făcută concomitent cu glazurarea finală"
+                },
+                {
+                  "key": "B",
+                  "text": "Restaurările se recomandă a fi încercate în stadiul biscuit (conturate, neglazurate)"
+                },
+                {
+                  "key": "C",
+                  "text": "Coloranții de suprafață sunt pigmentați și conțin o cantitate mică de sticlă pentru contopire cu porțelanul"
+                },
+                {
+                  "key": "D",
+                  "text": "Coloranții pot fi amestecați între ei, iar intensitatea poate fi atenuată cu porțelan incolor"
+                },
+                {
+                  "key": "E",
+                  "text": "Aplicarea coloranților în clinică este imposibilă; doar tehnicianul îi poate aplica"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul descrie încercarea în stadiul biscuit și posibilitatea personalizării culorii inclusiv în clinică.",
+              "source": {"pdf_pages": [33]}
+            },
+            {
+              "id": "C13_Q31",
+              "type": "complement_multiplu",
+              "stem": "Despre avantajele aplicării coloranților de suprafață în prezența pacientului, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Permite modificarea nuanței după finalizarea restaurării, în prezența pacientului"
+                },
+                {
+                  "key": "B",
+                  "text": "Poate îmbunătăți integrarea restaurării cu dinții adiacenți prin modificări simple la scaun"
+                },
+                {
+                  "key": "C",
+                  "text": "Necesită obligatoriu un cuptor mic de porțelan (cu ardere cu aer) în cabinet"
+                },
+                {"key": "D", "text": "Elimină complet necesitatea glazurării"},
+                {
+                  "key": "E",
+                  "text": "Este recomandat ca restaurările să fie glazurate înainte de orice probă intraorală"
+                }
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Textul menționează îmbunătățirea potrivirii prin caracterizare la scaun și menționează cuptorul mic de glazurare în cabinet.",
+              "source": {"pdf_pages": [33]}
+            },
+            {
+              "id": "C13_Q32",
+              "type": "complement_multiplu",
+              "stem": "Evaluare și ajustare ocluzală (principii din curs): sunt corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Restaurările fără contacte ocluzale trebuie returnate tehnicianului pentru corecție/refacere"
+                },
+                {"key": "B", "text": "Numai restaurările în supraocluzie pot fi ajustate la scaun"},
+                {
+                  "key": "C",
+                  "text": "Restaurările ceramice lipite pot avea ocluzia finalizată doar după cimentare"
+                },
+                {
+                  "key": "D",
+                  "text": "În cazul amprentelor cu gura închisă, ajustarea contactelor excentrice este adesea necesară"
+                },
+                {
+                  "key": "E",
+                  "text": "Restaurările adezive au întotdeauna stabilitate suficientă pentru a evalua complet ocluzia înainte de cimentare"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Cursul spune explicit că doar supraocluzia se ajustează chairside; lipsa contactelor = laborator; la lipite ocluzia finală poate fi post-cimentare.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "C13_Q33",
+              "type": "complement_multiplu",
+              "stem": "Metoda cu șaibă Mylar pentru identificarea prezenței/absenței contactelor ocluzale: sunt corecte",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se poate folosi o bandă îngustă de Mylar ținută cu hemostat/forceps între dinții opuși"
+                },
+                {"key": "B", "text": "O rezistență simțită pe bandă indică existența contactului ocluzal"},
+                {"key": "C", "text": "Contactul ar trebui distribuit cât mai uniform posibil"},
+                {"key": "D", "text": "Metoda este recomandată după fixarea definitivă, nu înainte"},
+                {
+                  "key": "E",
+                  "text": "Ca referință se folosește contactul ocluzal al pacientului care ține banda de Mylar"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Procedura descrie exact folosirea benzii Mylar, interpretarea rezistenței și utilizarea ca referință clinică.",
+              "source": {"pdf_pages": [16]}
+            },
+            {
+              "id": "C13_Q34",
+              "type": "complement_multiplu",
+              "stem": "Despre marcarea contactelor ocluzale și verificarea după ajustare, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "După ajustare, contactele trebuie verificate întotdeauna cu șaibe (Mylar)"
+                },
+                {"key": "B", "text": "Marcajele cu bandă/panglică pot fi interpretate greșit"},
+                {"key": "C", "text": "Banda de articulare este folosită pentru localizarea contactului"},
+                {"key": "D", "text": "Șaibele sunt inutile dacă s-a folosit hârtie de articulare"},
+                {
+                  "key": "E",
+                  "text": "Cursul recomandă testarea inițială cu șaibe pentru prezență/absență contact"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura/pașii indică re-verificarea cu Mylar după ajustare și faptul că banda poate induce interpretări greșite.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q35",
+              "type": "complement_multiplu",
+              "stem": "Hârtia de articulare și umiditatea: sunt corecte",
+              "options": [
+                {"key": "A", "text": "Pigmenții din hârtia de articulare sunt hidrofobi"},
+                {"key": "B", "text": "Pigmentul nu se transferă bine pe suprafețe ocluzale umede"},
+                {"key": "C", "text": "Uscarea cu comprese 2×2 ajută transferul pigmentului"},
+                {"key": "D", "text": "Umezeala îmbunătățește transferul pe ceramică glazurată"},
+                {"key": "E", "text": "Cursul recomandă uscarea înainte de marcarea contactelor"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Textul explică direct mecanismul (hidrofobie) și manevra practică (uscare).",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q36",
+              "type": "complement_multiplu",
+              "stem": "Pentru restaurări ceramice glazurate care se marchează dificil cu folia de articulare, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se aplică un strat subțire de vaselină pe folie"},
+                {"key": "B", "text": "Vaselina acționează ca emulgator, creând sfere de pigment transferabile"},
+                {"key": "C", "text": "Rezultatul este o marcă ocluzală mai lizibilă"},
+                {"key": "D", "text": "Vaselina se aplică pe dinte/ceramică, nu pe folie"},
+                {"key": "E", "text": "Cursul descrie această tehnică explicit pentru a remedia marcarea slabă"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Pașii din curs menționează aplicarea vaselinei pe folie și efectul de „sfere de pigment” pentru marcaj lizibil.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q37",
+              "type": "complement_multiplu",
+              "stem": "Pentru reducerea urmelor ocluzale false în prezența cuspizilor înalți, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Se pot tăia parțial mai multe benzi de-a lungul lungimii foliei/hârtiei"},
+                {"key": "B", "text": "Tehnica este descrisă ca utilă atunci când apar multiple urme false"},
+                {"key": "C", "text": "Elimină nevoia verificării cu șaibe (Mylar)"},
+                {
+                  "key": "D",
+                  "text": "Este recomandată împreună cu tehnica vaselinei pentru restaurări glazurate"
+                },
+                {"key": "E", "text": "Cursul spune că urmele false apar doar la cuspizi scurți"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Textul menționează explicit tăieturile parțiale ca tehnică utilă în cuspizi înalți, în același flux cu vaselina.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C13_Q38",
+              "type": "complement_multiplu",
+              "stem": "Finisarea marginilor supragingivale (exemplu clinic): sunt corecte",
+              "options": [
+                {"key": "A", "text": "Marginile supragingivale permit accesul pentru finisare direct pe dinte"},
+                {"key": "B", "text": "Se poate folosi piatră albă fină lubrifiată cu vaselină"},
+                {"key": "C", "text": "Se poate folosi și vârf de cauciuc pentru finisare"},
+                {"key": "D", "text": "Finisarea marginilor se face exclusiv subgingival pentru rezultate bune"},
+                {"key": "E", "text": "Exemplul din curs ilustrează restaurarea finalizată după aceste manevre"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Legenda figurii descrie exact accesul supragingival + piatră albă cu vaselină + vârf de cauciuc.",
+              "source": {"pdf_pages": [14]}
+            },
+            {
+              "id": "C13_Q39",
+              "type": "complement_multiplu",
+              "stem": "Restaurări ceramice care depind de adeziune (ex. disilicat de litiu) – sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Pot să nu aibă stabilitatea clasică pentru a rezista la contacte ocluzale fără lipire"
+                },
+                {
+                  "key": "B",
+                  "text": "Totuși pot avea un loc definit și reproductibil, important pentru protocolul de lipire"
+                },
+                {
+                  "key": "C",
+                  "text": "Lipsa stabilității clasice poate fi observată ca o deschidere la interfața restaurare–dinte în probă"
+                },
+                {
+                  "key": "D",
+                  "text": "Cursul recomandă finalizarea ocluziei exclusiv înainte de cimentare pentru toate restaurările lipite"
+                },
+                {
+                  "key": "E",
+                  "text": "Păstrarea structurii cervicale poate fi folosită pentru a maximiza durabilitatea bontului când există smalț circumferențial"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figura/descrierea explică lipsa stabilității clasice, necesitatea unui „seat” reproductibil și rațiunea păstrării structurii cervicale.",
+              "source": {"pdf_pages": [14, 15]}
+            },
+            {
+              "id": "C13_Q40",
+              "type": "complement_multiplu",
+              "stem": "Despre evaluarea pacientului și ordinea recomandată, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Pacientul NU este recomandat să evalueze proteza extraoral (pe bancă)"},
+                {
+                  "key": "B",
+                  "text": "Pacientul poate dezvolta o prejudecată înainte să își vadă dinții intraoral"
+                },
+                {
+                  "key": "C",
+                  "text": "Se recomandă ca evaluarea pacientului să aibă loc după ce medicul a finalizat și aprobat restaurarea intraoral"
+                },
+                {
+                  "key": "D",
+                  "text": "Cursul recomandă ca pacientul să decidă primul dacă restaurarea e acceptabilă, înaintea medicului"
+                },
+                {"key": "E", "text": "Este menționată evaluarea în două etape ca recomandare"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Cursul avertizează împotriva evaluării extraorale de către pacient și recomandă evaluarea după aprobarea medicului (două etape).",
+              "source": {"pdf_pages": [9]}
+            }, {
+              "id": "C03_Q01",
+              "type": "complement_multiplu",
+              "stem": "În planificarea tratamentului protetic fix, la „considerații privind pacientul” sunt incluse:",
+              "options": [
+                {"key": "A", "text": "Personalitatea pacientului"},
+                {"key": "B", "text": "Starea generală de sănătate a pacientului"},
+                {"key": "C", "text": "Deschiderea gurii și sănătatea ATM"},
+                {"key": "D", "text": "Alegerea cuptorului de glazurare din laborator"},
+                {"key": "E", "text": "Bruxismul"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Lista de pe începutul capitolului include explicit personalitatea, starea generală, deschiderea gurii/ATM și bruxismul.",
+              "source": {"pdf_pages": [1, 2]}
+            },
+            {
+              "id": "C03_Q02",
+              "type": "complement_multiplu",
+              "stem": "Conform figurilor, sunt contraindicații/condiții nefavorabile pentru protetica fixă:",
+              "options": [
+                {"key": "A", "text": "Carii generalizate datorate xerostomiei"},
+                {"key": "B", "text": "Carii dentare generalizate (independent de xerostomie)"},
+                {"key": "C", "text": "Igienă orală extrem de precară la pacient necooperant"},
+                {"key": "D", "text": "Linie a zâmbetului joasă"},
+                {
+                  "key": "E",
+                  "text": "Trismus/deschidere limitată a gurii (necesită terapie înainte de tratament)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Figurile 3.1, 3.5, 3.4 și 3.2 prezintă aceste situații ca dificultăți/contraindicații pentru PF.",
+              "source": {"pdf_pages": [2, 3]}
+            },
+            {
+              "id": "C03_Q03",
+              "type": "complement_multiplu",
+              "stem": "Bruxismul, conform exemplului clinic din curs, se poate asocia cu:",
+              "options": [
+                {"key": "A", "text": "Înălțime redusă a coroanelor anterioare"},
+                {"key": "B", "text": "Suprapunere verticală redusă din cauza uzurii semnificative"},
+                {"key": "C", "text": "Creșterea spontană a înălțimii coroanei clinice"},
+                {"key": "D", "text": "Uzură dentară semnificativă"},
+                {"key": "E", "text": "Necesitatea planificării materialelor/ocluziei cu atenție"}
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Fig. 3.3 descrie semnele clasice (coroane scurte, overbite redus, uzură) și implică o planificare atentă.",
+              "source": {"pdf_pages": [2]}
+            },
+            {
+              "id": "C03_Q04",
+              "type": "complement_multiplu",
+              "stem": "Despre statusul parodontal și bonturile pentru proteze fixe, sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Boala parodontală severă cu igienă deficitară compromite prognosticul PF"
+                },
+                {"key": "B", "text": "Dinți deplasați cu mobilitate pot fi stâlpi deficitari pentru PF"},
+                {
+                  "key": "C",
+                  "text": "Parodonțiul nu influențează alegerea stâlpilor, dacă materialul e zirconiu"
+                },
+                {
+                  "key": "D",
+                  "text": "Un singur dinte lipsă într-o arcadă altfel intactă nu exclude automat boala parodontală"
+                },
+                {
+                  "key": "E",
+                  "text": "Figura arată explicit exemple de dinți stâlpi deficitari din motive parodontale"
+                }
+              ],
+              "answer_keys": ["A", "B", "D", "E"],
+              "rationale": "Fig. 3.6 prezintă boala parodontală și dinți deplasați/mobili ca stâlpi deficitari; contextul arată că situațiile pot coexista.",
+              "source": {"pdf_pages": [4]}
+            },
+            {
+              "id": "C03_Q05",
+              "type": "complement_multiplu",
+              "stem": "Linia zâmbetului în planificarea PF: sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Linia de zâmbet înaltă poate face cazul dificil de tratat estetic"},
+                {"key": "B", "text": "În exemplu, s-a ales extracția + implant pentru incisivul central drept"},
+                {"key": "C", "text": "În exemplu, s-a realizat și o nouă coroană pe incisivul central stâng"},
+                {"key": "D", "text": "Linia de zâmbet nu influențează deloc planul de tratament"},
+                {"key": "E", "text": "Figura evidențiază rolul țesuturilor moi în rezultat"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 3.7 descrie dificultatea zâmbetului înalt și soluția aleasă (implant + coroană) cu impact pe țesuturile moi/estetică.",
+              "source": {"pdf_pages": [4, 16]}
+            },
+            {
+              "id": "C03_Q06",
+              "type": "complement_multiplu",
+              "stem": "„Considerații preprotetic” enumerate în curs includ:",
+              "options": [
+                {"key": "A", "text": "Radiologie orală"},
+                {"key": "B", "text": "Anestezia dentară"},
+                {"key": "C", "text": "Endodonție"},
+                {"key": "D", "text": "Gingivectomie/alungirea coroanei (când este indicat)"},
+                {"key": "E", "text": "Excluderea completă a ortodonției din planificare"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Lista „Considerații preprotetic” include radiologie, anestezie, endodonție și specialități/terapii asociate (ex. parodontologie).",
+              "source": {"pdf_pages": [4, 5, 8]}
+            },
+            {
+              "id": "C03_Q07",
+              "type": "complement_multiplu",
+              "stem": "Ortodonția pre-protetică este utilă, conform exemplului din curs, pentru:",
+              "options": [
+                {"key": "A", "text": "Corectarea supraerupției și obținerea spațiului de restaurare"},
+                {"key": "B", "text": "Corectarea migrației mezial-distale care compromite estetica și spațiul"},
+                {"key": "C", "text": "Refacerea planului ocluzal"},
+                {"key": "D", "text": "Înlocuirea obligatorie a tuturor dinților cu implanturi"},
+                {
+                  "key": "E",
+                  "text": "Pregătirea pacientului pentru tratament protetic fix final (coroane/PPF/implant)"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 3.8 evidențiază supraerupția, migrarea, plan ocluzal modificat și rolul ortodonției preprotetic.",
+              "source": {"pdf_pages": [6]}
+            },
+            {
+              "id": "C03_Q08",
+              "type": "complement_multiplu",
+              "stem": "În situația bonturilor înclinate/rotite pentru PPF, cursul recomandă/arată:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Pregătire de probă (simulate) pe modele diagnostice înainte de prepararea intraorală"
+                },
+                {"key": "B", "text": "Incorporarea unei caneluri bucale pentru a ajuta paralelismul"},
+                {"key": "C", "text": "Verificarea paralelismului cu instrument de paralelograf"},
+                {"key": "D", "text": "Evitarea oricărei forme de ghidaj/retentie suplimentară"},
+                {
+                  "key": "E",
+                  "text": "Modelul de lucru poate arăta preparațiile definitive după corectarea axelor"
+                }
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 3.9 descrie rotații/înclinări, pregătirea pe modele, caneluri bucale și verificarea cu paralelograf.",
+              "source": {"pdf_pages": [7]}
+            },
+            {
+              "id": "C03_Q09",
+              "type": "complement_multiplu",
+              "stem": "În unele cazuri, dinții naturali simptomatici dar malpoziționați pot fi extrași pentru:",
+              "options": [
+                {"key": "A", "text": "A crea loc pentru implanturi"},
+                {"key": "B", "text": "A facilita tratamentul protetic"},
+                {"key": "C", "text": "A evita complet orice restaurare protetică"},
+                {"key": "D", "text": "A permite proteză fixă completă susținută de implanturi (în exemplu)"},
+                {"key": "E", "text": "A elimina necesitatea radiologiei"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 3.10 menționează extracția unor dinți malpoziționați pentru a obține situri implantare și a facilita PF.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "C03_Q10",
+              "type": "complement_multiplu",
+              "stem": "Alungirea coroanei/gingivectomia pre-protetică este indicată, conform exemplului, când:",
+              "options": [
+                {"key": "A", "text": "Există erupție pasivă modificată"},
+                {"key": "B", "text": "Coroanele clinice sunt scurte (ex. prin uzură)"},
+                {
+                  "key": "C",
+                  "text": "Este nevoie de ghidaj prin modelare diagnostică (wax-up) pentru poziția țesuturilor"
+                },
+                {"key": "D", "text": "Scopul este reducerea înălțimii coroanei clinice"},
+                {"key": "E", "text": "Poate ajuta la restaurarea planului ocluzal/înălțimii coroanei clinice"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 3.11 descrie pacientul cu coroane scurte, alungirea coroanei ghidată de wax-up și rezultatul asupra înălțimii/planului ocluzal.",
+              "source": {"pdf_pages": [8]}
+            },
+            {
+              "id": "C03_Q11",
+              "type": "complement_multiplu",
+              "stem": "În „considerații biomateriale”, cursul enumeră explicit categorii de restaurări precum:",
+              "options": [
+                {"key": "A", "text": "Restaurări integral metalice"},
+                {"key": "B", "text": "Metalo-ceramică"},
+                {"key": "C", "text": "Ceramică"},
+                {"key": "D", "text": "Rășini acrilice ca material standard definitiv pentru coroane"},
+                {"key": "E", "text": "Alte materiale"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Secțiunea biomateriale listează restaurări integral metalice, metalo-ceramică, ceramică și „alte materiale”.",
+              "source": {"pdf_pages": [8, 10]}
+            },
+            {
+              "id": "C03_Q12",
+              "type": "complement_multiplu",
+              "stem": "În reabilitările pentru bruxism (exemplul din curs), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se pot utiliza suprafețe ocluzale metalice pentru a gestiona solicitările"
+                },
+                {"key": "B", "text": "Se pot folosi coroane din aur pe molari"},
+                {
+                  "key": "C",
+                  "text": "Zirconiul monolitic este prezentat ca opțiune pentru rezistență crescută și estetică bună"
+                },
+                {"key": "D", "text": "RCR din aur turnat poate crește înălțimea bontului în sens coronal"},
+                {"key": "E", "text": "Bruxismul nu influențează alegerea materialelor"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 3.12, 3.15 și 3.25 menționează soluții pentru bruxism: metal ocluzal, aur, zirconiu monolitic, RCR aur turnat pentru înălțime de bont.",
+              "source": {"pdf_pages": [9, 11, 18]}
+            },
+            {
+              "id": "C03_Q13",
+              "type": "complement_multiplu",
+              "stem": "Potrivirea culorii unui singur incisiv central (comparat cu contralateralul) este descrisă ca:",
+              "options": [
+                {"key": "A", "text": "Una dintre cele mai dificile proceduri în protetica fixă"},
+                {"key": "B", "text": "Mai ușoară cu materiale complet ceramice (ex. disilicat de litiu)"},
+                {"key": "C", "text": "Imposibilă cu orice material"},
+                {"key": "D", "text": "Un motiv pentru alegerea disilicatului de litiu pentru avantaj estetic"},
+                {"key": "E", "text": "Fără legătură cu alegerea materialului"}
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 3.14 subliniază dificultatea și avantajele estetice ale disilicatului de litiu.",
+              "source": {"pdf_pages": [11]}
+            },
+            {
+              "id": "C03_Q14",
+              "type": "complement_multiplu",
+              "stem": "Zirconiul monolitic este prezentat în curs ca alegere pentru:",
+              "options": [
+                {"key": "A", "text": "Rezistență crescută"},
+                {"key": "B", "text": "Estetică bună"},
+                {
+                  "key": "C",
+                  "text": "Restaurarea tuturor dinților maxilari și mandibulari în caz de bruxism (exemplu)"
+                },
+                {
+                  "key": "D",
+                  "text": "Acoperire minimă cu porțelan doar pe anumite restaurări incisale (exemplu)"
+                },
+                {"key": "E", "text": "Indicație exclusivă pentru inlay-uri"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 3.15 descrie reabilitarea cu zirconiu monolitic, cu placare minimă doar unde este necesar estetic.",
+              "source": {"pdf_pages": [11]}
+            },
+            {
+              "id": "C03_Q15",
+              "type": "complement_multiplu",
+              "stem": "În curs, incrustațiile ceramice colate (ex. disilicat de litiu) sunt prezentate ca:",
+              "options": [
+                {"key": "A", "text": "Alternativă conservatoare la coroane, dacă sunt alese cu atenție"},
+                {"key": "B", "text": "Indicate când cerințele estetice sunt ridicate"},
+                {"key": "C", "text": "Obligatorii pentru orice molar cu restaurare veche"},
+                {"key": "D", "text": "Realizabile ca inlay/onlay ceramice colate"},
+                {
+                  "key": "E",
+                  "text": "Întotdeauna inferioare coroanelor din punct de vedere al conservării țesuturilor"
+                }
+              ],
+              "answer_keys": ["A", "B", "D"],
+              "rationale": "Fig. 3.16–3.17 prezintă inlay-uri ceramice colate (disilicat) ca opțiuni conservatoare, alese în context estetic.",
+              "source": {"pdf_pages": [12, 13]}
+            },
+            {
+              "id": "C03_Q16",
+              "type": "complement_multiplu",
+              "stem": "Fațetele ceramice colate, conform exemplului din curs, se caracterizează prin:",
+              "options": [
+                {"key": "A", "text": "Preparații limitate la smalț și conservatoare"},
+                {"key": "B", "text": "Rezultat durabil și estetic pe termen lung (în exemplu)"},
+                {"key": "C", "text": "Menținerea intactă a suprafețelor palatine (în exemplu)"},
+                {
+                  "key": "D",
+                  "text": "Necesitatea obligatorie a preparației subgingivale adânci pe toate fețele"
+                },
+                {"key": "E", "text": "Indicație exclusivă pentru molari"}
+              ],
+              "answer_keys": ["A", "B", "C"],
+              "rationale": "Fig. 3.18 arată preparații în smalț, rezultat estetic/durabil și păstrarea palatinalului.",
+              "source": {"pdf_pages": [13]}
+            },
+            {
+              "id": "C03_Q17",
+              "type": "complement_multiplu",
+              "stem": "Tipuri de restaurări protetice menționate explicit în curs includ:",
+              "options": [
+                {"key": "A", "text": "Coroane"},
+                {"key": "B", "text": "Proteze parțiale fixe (PPF)"},
+                {"key": "C", "text": "Restaurări susținute de implanturi"},
+                {"key": "D", "text": "Proteze parțiale mobile și proteze complete"},
+                {"key": "E", "text": "Obturatori palatini ca restaurare fixă standard"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Pagina despre tipuri de restaurări enumeră coroane, PPF, implanturi, PPM și proteze complete.",
+              "source": {"pdf_pages": [14, 16]}
+            },
+            {
+              "id": "C03_Q18",
+              "type": "complement_multiplu",
+              "stem": "Într-un caz cu pierdere de țesuturi dure și moi la incisivii centrali, cursul exemplifică faptul că pacientul poate alege PPF pentru a:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Evita reconstrucția pre-protetică semnificativă necesară înainte de implant"
+                },
+                {"key": "B", "text": "Obține o punte din zirconiu cu fațetă ceramică"},
+                {"key": "C", "text": "Restaura estetica și funcționalitatea"},
+                {"key": "D", "text": "Evita orice tratament protetic (doar extracție)"},
+                {"key": "E", "text": "Asigura un corp de punte cu formă netedă și convexă (în exemplu)"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 3.20 descrie alegerea PPF vs implant (pentru a evita reconstrucții), materialul și forma ponticului + rezultat estetic/funcțional.",
+              "source": {"pdf_pages": [15]}
+            },
+            {
+              "id": "C03_Q19",
+              "type": "complement_multiplu",
+              "stem": "În considerentele biomecanice (Tabelul 3.1), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Primul molar maxilar are o suprafață radiculară mai mare decât incisivul lateral maxilar"
+                },
+                {
+                  "key": "B",
+                  "text": "Incisivul central mandibular are o suprafață radiculară mai mică decât caninul mandibular"
+                },
+                {
+                  "key": "C",
+                  "text": "Al doilea molar mandibular are o suprafață radiculară de ordinul sutelor (≈426)"
+                },
+                {
+                  "key": "D",
+                  "text": "Caninul maxilar are procent de suprafață radiculară în cadran mai mare decât incisivul lateral maxilar"
+                },
+                {"key": "E", "text": "Tabelul 3.1 nu include deloc molarii"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Tabelul 3.1 listează valorile/ponderile suprafețelor radiculare pentru incisivi, canini, premolari și molari maxilar/mandibular.",
+              "source": {"pdf_pages": [17]}
+            },
+            {
+              "id": "C03_Q20",
+              "type": "complement_multiplu",
+              "stem": "Despre lungimea breșei și deformarea unei PPF, sunt corecte:",
+              "options": [
+                {"key": "A", "text": "Deformarea unei proteze fixe este proporțională cu cubul lungimii"},
+                {
+                  "key": "B",
+                  "text": "La aceeași forță, 2 pontice se deformează de 8 ori mai mult decât 1 pontic (8D)"
+                },
+                {
+                  "key": "C",
+                  "text": "La aceeași forță, 3 pontice se deformează de 27 ori mai mult decât 1 pontic (27D)"
+                },
+                {
+                  "key": "D",
+                  "text": "Lungimea excesivă a distanței este menționată ca o contraindicație frecventă pentru PF"
+                },
+                {"key": "E", "text": "Deformarea scade exponențial când crește numărul de pontice"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Fig. 3.26 explică relația cubică și exemplele 1/2/3 pontice (D/8D/27D) și notează contraindicația pentru distanțe excesive.",
+              "source": {"pdf_pages": [19]}
+            },
+            {
+              "id": "C03_Q21",
+              "type": "complement_multiplu",
+              "stem": "Pentru PPF cu întindere mare, cursul evidențiază:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Necesitatea planificării atente și a unei tehnici meticuloase de fabricare"
+                },
+                {
+                  "key": "B",
+                  "text": "Posibilitatea realizării structurii metalice în două piese separate, cu culise"
+                },
+                {
+                  "key": "C",
+                  "text": "Utilizarea suprafețelor ocluzale metalice în context de bruxism (exemplu)"
+                },
+                {"key": "D", "text": "Imposibilitatea obținerii unei adaptări/fixări precise la cimentare"},
+                {"key": "E", "text": "Scopul segmentării poate fi reducerea presiunii asupra PPF"}
+              ],
+              "answer_keys": ["A", "B", "C", "E"],
+              "rationale": "Fig. 3.25 descrie PPF de 6 unități, segmentare cu culise pentru precizie/reducerea solicitărilor și metal ocluzal în bruxism.",
+              "source": {"pdf_pages": [18]}
+            },
+            {
+              "id": "C03_Q22",
+              "type": "complement_multiplu",
+              "stem": "În secvența tratamentului protetic complex (Fig. 3.27), sunt corecte:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Se fac amprente diagnostice, arc facial și înregistrări de relație centrică (RC/CRR)"
+                },
+                {
+                  "key": "B",
+                  "text": "Modelele diagnostice se pot duplica și monta identic în articulator folosind arc facial și RC"
+                },
+                {
+                  "key": "C",
+                  "text": "Un set de modele poate fi cerat până la punctul final propus al tratamentului"
+                },
+                {
+                  "key": "D",
+                  "text": "Se tratează câte o arcadă pe rând, lucrând către punctul final diagnosticat cu ceară"
+                },
+                {"key": "E", "text": "În această secvență nu se utilizează deloc modele definitive"}
+              ],
+              "answer_keys": ["A", "B", "C", "D"],
+              "rationale": "Legenda Fig. 3.27 descrie montarea încrucișată, wax-up-ul de diagnostic și strategia „o arcadă pe rând” către punctul final.",
+              "source": {"pdf_pages": [21]}
+            }
+]
