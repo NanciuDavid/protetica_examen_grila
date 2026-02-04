@@ -448,12 +448,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("questionsContainer");
 
     container.innerHTML = `
-      <h3>${currentQuestion + 1}. ${q.stem}</h3>
+      <h3>${currentQuestion + 1}. ${q.question}</h3>
 
-      ${q.options.map(o => `
+      ${q.options.map((o, idx) => `
         <div class="option" onclick="toggleOption(this)">
-          <input type="checkbox" value="${o.key}">
-          ${o.key}. ${o.text}
+          <input type="radio" name="answer" value="${o}">
+          ${o}
         </div>
       `).join("")}
 
@@ -469,30 +469,31 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   window.toggleOption = el => {
-    const cb = el.querySelector("input");
-    cb.checked = !cb.checked;
+    const rb = el.querySelector("input");
+    rb.checked = true;
   };
 
   window.checkAnswer = () => {
     const q = quizData[currentQuestion];
-    const selected = [...document.querySelectorAll("input:checked")].map(i => i.value);
+    const selectedRadio = document.querySelector("input[name='answer']:checked");
+    
+    if (!selectedRadio) {
+      alert("Vă rugăm să selectați un răspuns!");
+      return;
+    }
 
-    userAnswers[currentQuestion] = selected.length ? selected : [];
+    const selected = selectedRadio.value;
+    userAnswers[currentQuestion] = selected;
 
-    const correct = q.answer_keys.sort();
-    const user = selected.sort();
-
-    const isCorrect =
-      correct.length === user.length &&
-      correct.every(v => user.includes(v));
+    const isCorrect = selected === q.correct_answer;
 
     if (isCorrect) score++;
 
     document.querySelectorAll(".option").forEach(opt => {
-      const key = opt.querySelector("input").value;
-      if (correct.includes(key)) {
-        opt.classList.add(user.includes(key) ? "correct" : "missed");
-      } else if (user.includes(key)) {
+      const optionText = opt.querySelector("input").value;
+      if (optionText === q.correct_answer) {
+        opt.classList.add(selected === q.correct_answer ? "correct" : "missed");
+      } else if (optionText === selected) {
         opt.classList.add("incorrect");
       }
       opt.style.pointerEvents = "none";
@@ -500,7 +501,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const fb = document.getElementById("feedback");
     fb.className = "feedback show " + (isCorrect ? "correct" : "incorrect");
-    fb.innerHTML = q.rationale;
+    fb.innerHTML = isCorrect 
+      ? "✓ Răspuns corect!" 
+      : `✗ Răspuns greșit. Răspunsul corect este: <strong>${q.correct_answer}</strong>`;
 
     document.querySelector(".buttons").innerHTML = `
       <button class="btn btn-secondary" onclick="prevQuestion()">← Înapoi</button>
